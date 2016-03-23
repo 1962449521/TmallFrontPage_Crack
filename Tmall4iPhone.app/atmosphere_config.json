@@ -1,0 +1,21 @@
+{
+  "des": "天猫氛围配置",
+  "styles": [
+    {
+      "name": "日常",
+      "id": 1,
+      "enable": true,
+      "moduleNav": {
+        "isDark": false,
+        "textColor": "#051b28",
+        "bgColor": "#ffffff",
+        "translucent": true
+      },
+      "moduleNavBarButton": {
+        "normalColor": "#666666",
+        "highlightedColor": "#999999",
+        "disabledColor": "#66666688"
+      }
+    }
+  ]
+}

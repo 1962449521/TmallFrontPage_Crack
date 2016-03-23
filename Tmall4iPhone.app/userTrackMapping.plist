@@ -1,0 +1,261 @@
+<dict>
+    <key>class</key>
+    <string>DetailController</string>
+    <key>page</key>
+    <string>Detail</string>
+    <key>spmb</key>
+    <string></string>
+</dict>
+<dict>
+    <key>class</key>
+    <string>ShopController</string>
+    <key>page</key>
+    <string>Shop</string>
+    <key>spmb</key>
+    <string></string>
+</dict>
+<dict>
+    <key>class</key>
+    <string>TMSettingViewController</string>
+    <key>page</key>
+    <string>Settings</string>
+    <key>spmb</key>
+    <string></string>
+</dict>
+<dict>
+    <key>class</key>
+    <string>WangIMListController</string>
+    <key>page</key>
+    <string>AliWangWang</string>
+    <key>spmb</key>
+    <string></string>
+</dict>
+<dict>
+    <key>class</key>
+    <string>TMTradeDetailViewController</string>
+    <key>page</key>
+    <string>OrderDetail</string>
+    <key>spmb</key>
+    <string></string>
+</dict>
+<dict>
+    <key>class</key>
+    <string>TMBagViewController</string>
+    <key>page</key>
+    <string>ShoppingCart</string>
+    <key>spmb</key>
+    <string></string>
+</dict>
+<dict>
+    <key>class</key>
+    <string>MyTmallViewController</string>
+    <key>page</key>
+    <string>MyTmall</string>
+    <key>spmb</key>
+    <string></string>
+</dict>
+<dict>
+    <key>class</key>
+    <string>PersonalCenterViewController</string>
+    <key>page</key>
+    <string>Follow</string>
+    <key>spmb</key>
+    <string></string>
+</dict>
+<dict>
+    <key>class</key>
+    <string>TMWebViewController</string>
+    <key>page</key>
+    <string>WebView</string>
+    <key>spmb</key>
+    <string></string>
+</dict>
+<dict>
+    <key>class</key>
+    <string>NewBrandListViewController</string>
+    <key>page</key>
+    <string>BrandNewAll</string>
+    <key>spmb</key>
+    <string></string>
+</dict>
+<dict>
+    <key>class</key>
+    <string>NewBrandDetailViewController</string>
+    <key>page</key>
+    <string>BrandNewDetail</string>
+    <key>spmb</key>
+    <string></string>
+</dict>
+<dict>
+    <key>class</key>
+    <string>AVReaderViewController</string>
+    <key>page</key>
+    <string>Scan</string>
+    <key>spmb</key>
+    <string></string>
+</dict>
+<dict>
+    <key>class</key>
+    <string>TMOrderViewController</string>
+    <key>page</key>
+    <string>Order</string>
+    <key>spmb</key>
+    <string></string>
+</dict>
+<dict>
+    <key>class</key>
+    <string>OrderConfirmViewController</string>
+    <key>page</key>
+    <string>OrderConfirm</string>
+    <key>spmb</key>
+    <string></string>
+</dict>
+<dict>
+    <key>class</key>
+    <string>FrontPageController</string>
+    <key>page</key>
+    <string>FrontPage</string>
+    <key>spmb</key>
+    <string></string>
+</dict>
+<dict>
+    <key>class</key>
+    <string>MyTmallLoginViewController</string>
+    <key>page</key>
+    <string>Login</string>
+    <key>spmb</key>
+    <string></string>
+</dict>
+<dict>
+    <key>class</key>
+    <string>PurchaseController</string>
+    <key>page</key>
+    <string>Sku</string>
+    <key>spmb</key>
+    <string></string>
+</dict>
+<dict>
+    <key>class</key>
+    <string>TMVideoController</string>
+    <key>page</key>
+    <string>Video</string>
+    <key>spmb</key>
+    <string></string>
+</dict>
+<dict>
+    <key>class</key>
+    <string>ItemSearchSiftViewController</string>
+    <key>page</key>
+    <string>SearchSift</string>
+    <key>spmb</key>
+    <string></string>
+</dict>
+<dict>
+    <key>class</key>
+    <string>SearchResultListController</string>
+    <key>page</key>
+    <string>SearchResult</string>
+    <key>spmb</key>
+    <string></string>
+</dict>
+<dict>
+    <key>class</key>
+    <string>ShopItemListController</string>
+    <key>page</key>
+    <string>ShopSearchResult</string>
+    <key>spmb</key>
+    <string></string>
+</dict>
+<dict>
+    <key>class</key>
+    <string>XinShuiViewController</string>
+    <key>page</key>
+    <string>XinShui</string>
+    <key>spmb</key>
+    <string></string>
+</dict>
+<dict>
+    <key>class</key>
+    <string>XiuyixiuViewController</string>
+    <key>page</key>
+    <string>SuperMarketSonic</string>
+    <key>spmb</key>
+    <string></string>
+</dict>
+<dict>
+    <key>class</key>
+    <string>DetailMobileDescViewController</string>
+    <key>page</key>
+    <string>itemSimpleGraphicDetail</string>
+    <key>spmb</key>
+    <string></string>
+</dict>
+<dict>
+    <key>class</key>
+    <string>DetailWebController</string>
+    <key>page</key>
+    <string>itemWapGraphicDetail</string>
+    <key>spmb</key>
+    <string></string>
+</dict>
+<dict>
+    <key>class</key>
+    <string>MessageCenterController</string>
+    <key>page</key>
+    <string>MessageCenter</string>
+    <key>spmb</key>
+    <string></string>
+</dict>
+<dict>
+    <key>class</key>
+    <string>MessageRecommendController</string>
+    <key>page</key>
+    <string>TmallRecommend</string>
+    <key>spmb</key>
+    <string></string>
+</dict>
+<dict>
+    <key>class</key>
+    <string>MyStreetMainPageController</string>
+    <key>page</key>
+    <string>MyStreetMain</string>
+    <key>spmb</key>
+    <string></string>
+</dict>
+<dict>
+    <key>class</key>
+    <string>MyStreetDetailPageController</string>
+    <key>page</key>
+    <string>MyStreetBrand</string>
+    <key>spmb</key>
+    <string></string>
+</dict>
+<dict>
+    <key>class</key>
+    <string>MyStreetOfficialController</string>
+    <key>page</key>
+    <string>MyStreetOfficial</string>
+    <key>spmb</key>
+    <string></string>
+</dict>
+<dict>
+    <key>class</key>
+    <string>MyStreetShopLIstController</string>
+    <key>page</key>
+    <string>MyStreetShopList</string>
+    <key>spmb</key>
+    <string></string>
+</dict>
+<dict>
+    <key>class</key>
+    <string>MystreetFollowListController</string>
+    <key>page</key>
+    <string>MystreetFollowList</string>
+    <key>spmb</key>
+    <string></string>
+</dict>
+<dict>
+    <key>class</key>
+    <string>FlashSalesViewController</string>
+    <key>page</key>
+    <string>pinpaitemai</string>

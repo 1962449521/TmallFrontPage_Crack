@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>url_handler_list</key>
+	<array>
+		<dict>
+			<key>exact_url</key>
+			<string>push</string>
+			<key>object</key>
+			<string>AUSNavigationURLHandler</string>
+		</dict>
+		<dict>
+			<key>exact_url</key>
+			<string>present</string>
+			<key>object</key>
+			<string>AUSNavigationURLHandler</string>
+		</dict>
+		<dict>
+			<key>exact_url</key>
+			<string>tab.switch/home</string>
+			<key>object</key>
+			<string>AUSTabSwitchURLHandler</string>
+		</dict>
+		<dict>
+			<key>exact_url</key>
+			<string>tab.switch/myStreet</string>
+			<key>object</key>
+			<string>AUSTabSwitchURLHandler</string>
+		</dict>
+		<dict>
+			<key>exact_url</key>
+			<string>tab.switch/fun</string>
+			<key>object</key>
+			<string>AUSTabSwitchURLHandler</string>
+		</dict>
+		<dict>
+			<key>exact_url</key>
+			<string>tab.switch/cart</string>
+			<key>object</key>
+			<string>AUSTabSwitchURLHandler</string>
+		</dict>
+		<dict>
+			<key>exact_url</key>
+			<string>tab.switch/myTmall</string>
+			<key>object</key>
+			<string>AUSTabSwitchURLHandler</string>
+		</dict>
+		<dict>
+			<key>exact_url</key>
+			<string>service.tm/uiskeleton</string>
+			<key>object</key>
+			<string>AUSServiceURLHandler</string>
+		</dict>
+	</array>
+</dict>
+</plist>

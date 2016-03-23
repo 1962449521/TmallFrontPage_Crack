@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>brand</key>
+	<dict>
+		<key>style_000002</key>
+		<string>brandStyle1</string>
+		<key>style_000003</key>
+		<string>brandStyle2</string>
+		<key>style_000004</key>
+		<string>brandStyle3</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>Assets.car</key>
+		<data>
+		OlltVEoYDKta+9sMIn3s9ZAbik8=
+		</data>
+		<key>Info.plist</key>
+		<data>
+		a/NqpeyFxUCAFd5iUGOCxQwg6l8=
+		</data>
+		<key>Tmall4iPhone WatchKit 1 App.app/AppIcon24x24@2x.png</key>
+		<data>
+		0gu7JHPEKUDqzw8ZdkYevgLO5xM=
+		</data>
+		<key>Tmall4iPhone WatchKit 1 App.app/AppIcon27.5x27.5@2x.png</key>
+		<data>
+		2FDxYfhmqcC9s0JazPIRS3apIpc=
+		</data>
+		<key>Tmall4iPhone WatchKit 1 App.app/AppIcon29x29@2x.png</key>
+		<data>
+		CgBuY7AZgh4LU/OF4AgTPu8qVMc=
+		</data>
+		<key>Tmall4iPhone WatchKit 1 App.app/AppIcon29x29@3x.png</key>
+		<data>
+		OVpvGDdMBvbvBMEsCkS4Z3xbtcA=
+		</data>
+		<key>Tmall4iPhone WatchKit 1 App.app/AppIcon40x40@2x.png</key>
+		<data>
+		1DmabdtWP3IOI16u4C3y2/ptwQI=
+		</data>
+		<key>Tmall4iPhone WatchKit 1 App.app/AppIcon44x44@2x.png</key>
+		<data>
+		2NYRiijC+vD1KzHSFImFWa1pLUI=
+		</data>
+		<key>Tmall4iPhone WatchKit 1 App.app/AppIcon86x86@2x.png</key>
+		<data>
+		gRnbEQspEO+mmZBMNIJGVutFb2w=
+		</data>
+		<key>Tmall4iPhone WatchKit 1 App.app/AppIcon98x98@2x.png</key>
+		<data>
+		Ukcx6DgAkggp/AuI6POuPpHhrbQ=
+		</data>
+		<key>Tmall4iPhone WatchKit 1 App.app/Assets.car</key>
+		<data>
+		nP8Cw8TPugszXkqvz2pBbgxPL4w=
+		</data>
+		<key>Tmall4iPhone WatchKit 1 App.app/Info.plist</key>
+		<data>
+		ds7fbE7onufz2RjJ3sjauuAjU7Y=
+		</data>
+		<key>Tmall4iPhone WatchKit 1 App.app/Interface.plist</key>
+		<data>
+		ik8/ekD7PMUGK/kRMlR5PF84FRQ=
+		</data>
+		<key>Tmall4iPhone WatchKit 1 App.app/PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>Tmall4iPhone WatchKit 1 App.app/Tmall4iPhone WatchKit 1 App</key>
+		<data>
+		vKVqbe0TOgm7ihoAaRT79YNdtXo=
+		</data>
+		<key>Tmall4iPhone WatchKit 1 App.app/_CodeSignature/CodeResources</key>
+		<data>
+		XJnYqgBoGq1khIdayx4qR6fLFGk=
+		</data>
+		<key>Tmall4iPhone WatchKit 1 App.app/_WatchKitStub/WK</key>
+		<data>
+		3V96lj2+l379O2uU47WEe8h2jUE=
+		</data>
+		<key>Tmall4iPhone WatchKit 1 App.app/archived-expanded-entitlements.xcent</key>
+		<data>
+		GrzaubAi5kA3/bPkJlbuI57Zb/Q=
+		</data>
+		<key>archived-expanded-entitlements.xcent</key>
+		<data>
+		gZkqvCVbe1v4ruRr3Er6YVkkvkA=
+		</data>
+	</dict>
+	<key>files2</key>
+	<dict>
+		<key>Assets.car</key>
+		<data>
+		OlltVEoYDKta+9sMIn3s9ZAbik8=
+		</data>
+		<key>Tmall4iPhone WatchKit 1 App.app/AppIcon24x24@2x.png</key>
+		<data>
+		0gu7JHPEKUDqzw8ZdkYevgLO5xM=
+		</data>
+		<key>Tmall4iPhone WatchKit 1 App.app/AppIcon27.5x27.5@2x.png</key>
+		<data>
+		2FDxYfhmqcC9s0JazPIRS3apIpc=
+		</data>
+		<key>Tmall4iPhone WatchKit 1 App.app/AppIcon29x29@2x.png</key>
+		<data>
+		CgBuY7AZgh4LU/OF4AgTPu8qVMc=
+		</data>
+		<key>Tmall4iPhone WatchKit 1 App.app/AppIcon29x29@3x.png</key>
+		<data>
+		OVpvGDdMBvbvBMEsCkS4Z3xbtcA=
+		</data>
+		<key>Tmall4iPhone WatchKit 1 App.app/AppIcon40x40@2x.png</key>
+		<data>
+		1DmabdtWP3IOI16u4C3y2/ptwQI=
+		</data>
+		<key>Tmall4iPhone WatchKit 1 App.app/AppIcon44x44@2x.png</key>
+		<data>
+		2NYRiijC+vD1KzHSFImFWa1pLUI=
+		</data>
+		<key>Tmall4iPhone WatchKit 1 App.app/AppIcon86x86@2x.png</key>
+		<data>
+		gRnbEQspEO+mmZBMNIJGVutFb2w=
+		</data>
+		<key>Tmall4iPhone WatchKit 1 App.app/AppIcon98x98@2x.png</key>
+		<data>
+		Ukcx6DgAkggp/AuI6POuPpHhrbQ=
+		</data>
+		<key>Tmall4iPhone WatchKit 1 App.app/Assets.car</key>
+		<data>
+		nP8Cw8TPugszXkqvz2pBbgxPL4w=
+		</data>
+		<key>Tmall4iPhone WatchKit 1 App.app/Info.plist</key>
+		<data>
+		ds7fbE7onufz2RjJ3sjauuAjU7Y=
+		</data>
+		<key>Tmall4iPhone WatchKit 1 App.app/Interface.plist</key>
+		<data>
+		ik8/ekD7PMUGK/kRMlR5PF84FRQ=
+		</data>
+		<key>Tmall4iPhone WatchKit 1 App.app/PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>Tmall4iPhone WatchKit 1 App.app/Tmall4iPhone WatchKit 1 App</key>
+		<data>
+		vKVqbe0TOgm7ihoAaRT79YNdtXo=
+		</data>
+		<key>Tmall4iPhone WatchKit 1 App.app/_CodeSignature/CodeResources</key>
+		<data>
+		XJnYqgBoGq1khIdayx4qR6fLFGk=
+		</data>
+		<key>Tmall4iPhone WatchKit 1 App.app/_WatchKitStub/WK</key>
+		<data>
+		3V96lj2+l379O2uU47WEe8h2jUE=
+		</data>
+		<key>Tmall4iPhone WatchKit 1 App.app/archived-expanded-entitlements.xcent</key>
+		<data>
+		GrzaubAi5kA3/bPkJlbuI57Zb/Q=
+		</data>
+		<key>archived-expanded-entitlements.xcent</key>
+		<data>
+		gZkqvCVbe1v4ruRr3Er6YVkkvkA=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>^</key>
+		<true/>
+		<key>^(Frameworks/[^/]+\.framework/|PlugIns/[^/]+\.appex/|PlugIns/[^/]+\.appex/Frameworks/[^/]+\.framework/|())SC_Info/[^/]+\.(sinf|supf|supp)$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<integer>10000</integer>
+		</dict>
+		<key>^.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^Watch/[^/]+\.app/(Frameworks/[^/]+\.framework/|PlugIns/[^/]+\.appex/|PlugIns/[^/]+\.appex/Frameworks/[^/]+\.framework/)SC_Info/[^/]+\.(sinf|supf|supp)$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<integer>10000</integer>
+		</dict>
+		<key>^version.plist$</key>
+		<true/>
+	</dict>
+	<key>rules2</key>
+	<dict>
+		<key>.*\.dSYM($|/)</key>
+		<dict>
+			<key>weight</key>
+			<real>11</real>
+		</dict>
+		<key>^</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^(.*/)?\.DS_Store$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>2000</real>
+		</dict>
+		<key>^(Frameworks/[^/]+\.framework/|PlugIns/[^/]+\.appex/|PlugIns/[^/]+\.appex/Frameworks/[^/]+\.framework/|())SC_Info/[^/]+\.(sinf|supf|supp)$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<integer>10000</integer>
+		</dict>
+		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
+		<dict>
+			<key>nested</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>^.*</key>
+		<true/>
+		<key>^.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^Info\.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^PkgInfo$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^Watch/[^/]+\.app/(Frameworks/[^/]+\.framework/|PlugIns/[^/]+\.appex/|PlugIns/[^/]+\.appex/Frameworks/[^/]+\.framework/)SC_Info/[^/]+\.(sinf|supf|supp)$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<integer>10000</integer>
+		</dict>
+		<key>^[^/]+$</key>
+		<dict>
+			<key>nested</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>^embedded\.provisionprofile$</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^version\.plist$</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+	</dict>
+</dict>
+</plist>

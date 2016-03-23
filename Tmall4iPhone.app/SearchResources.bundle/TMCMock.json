@@ -1,0 +1,307 @@
+{
+  "--cmSRPResult": {
+    "modules": [
+      {
+        "data": {
+          "action": "//subject.tmall.com/subject/subject.htm?gccpm=2999696.600.2.subject-14.60666&tailer=1&header=1&id=2163310&actId=2999696&cat=54138001&rn=442804c094d51aee5a941f05936f318b&q=%C1%AC%D2%C2%C8%B9&combo=act-album",
+          "combo": "act-qiang",
+          "gccpm": "2999696.600.2.subject-14.60666",
+          "id": 2999696,
+          "pic": "//img.alicdn.com/bao/uploaded/TB1K3OBIVXXXXbcXFXXSutbFXXX.jpg",
+          "pic_for_list": "//img.alicdn.com/bao/uploaded/TB1y.qkIVXXXXbDaXXXSutbFXXX.jpg",
+          "title": "连衣裙",
+          "type_name": "都在抢"
+        },
+        "heightList": 166,
+        "heightWaterflow": 225,
+        "moduleNameList": "weapp_list_act1111#3",
+        "moduleNameWaterflow": "weapp_wf_act1111_long#3",
+        "position": 10
+      },
+      {
+        "data": {
+          "action": "//subject.tmall.com/subject/subject.htm?gccpm=2999696.600.2.subject-14.60666&tailer=1&header=1&id=2163310&actId=2999696&cat=54138001&rn=442804c094d51aee5a941f05936f318b&q=%C1%AC%D2%C2%C8%B9&combo=act-album",
+          "combo": "act-guinness",
+          "gccpm": "2999696.600.2.subject-14.60666",
+          "id": 2999696,
+          "pic": "//img.alicdn.com/bao/uploaded/i2/TB1u0kEJXXXXXX4XpXXXXXXXXXX_!!0-item_pic.jpg_b.jpg",
+          "pic_for_list": "//img.alicdn.com/bao/uploaded/TB1y.qkIVXXXXbDaXXXSutbFXXX.jpg",
+          "title": "连衣裙",
+          "type_name": "卖的快"
+        },
+        "heightList": 166,
+        "heightWaterflow": 224,
+        "moduleNameList": "weapp_list_act1111#3",
+        "moduleNameWaterflow": "weapp_wf_act1111#3",
+        "position": 11
+      },
+      {
+        "data": {
+          "action": "//subject.tmall.com/subject/subject.htm?gccpm=2999696.600.2.subject-14.60666&tailer=1&header=1&id=2163310&actId=2999696&cat=54138001&rn=442804c094d51aee5a941f05936f318b&q=%C1%AC%D2%C2%C8%B9&combo=act-album",
+          "combo": "act-show",
+          "gccpm": "2999696.600.2.subject-14.60666",
+          "id": 2999696,
+          "pic": "http://gtms02.alicdn.com/tps/i2/TB170n3JpXXXXcJXVXXds9vIXXX-250-375.jpg",
+          "pic_for_list": "http://gtms01.alicdn.com/tps/i1/TB1Q6H.JpXXXXc0XFXXjTTK2XXX-958-496.jpg"
+        },
+        "heightList": 165,
+        "heightWaterflow": 224,
+        "moduleNameList": "weapp_list_img#3",
+        "moduleNameWaterflow": "weapp_wf_img#3",
+        "position": 11
+      }
+    ]
+  },
+  "--cmAboveSegment": {
+    "modules": [
+      {
+        "data": {
+          "contentSign": "963926",
+          "modules": [
+            {
+              "data": {
+                "action": "searchClear://cat=&q=登山&extendparam=登山^54306829^登山^false^biz:sceneguide&spos=scenenav",
+                "flag": false,
+                "pic": "https://img.alicdn.com/tps/TB1wAAYJXXXXXXmXpXXXXXXXXXX-120-20.png",
+                "sceneNav": "登山",
+                "text": "登山杖"
+              },
+              "height": 69,
+              "moduleName": "weapp_scene_navigation"
+            },
+            {
+              "data": {
+                "action": "searchClear://cat=123123&q=登山2&extendparam=登山^54306958^登山^false^biz:sceneguide&spos=scenenav",
+                "flag": false,
+                "pic": "https://img.alicdn.com/tps/TB1jogIJXXXXXX9XVXXXXXXXXXX-120-120.png",
+                "sceneNav": "登山",
+                "text": "速干裤发到付吧"
+              },
+              "height": 69,
+              "moduleName": "weapp_scene_navigation"
+            },
+            {
+              "data": {
+                "action": "searchClear://q=登山&extendparam=登山^54298197^登山^false^biz:sceneguide&spos=scenenav",
+                "flag": false,
+                "pic": "https://img.alicdn.com/tps/TB1VX7LJXXXXXc1XFXXXXXXXXXX-120-120.png",
+                "sceneNav": "登山",
+                "text": ""
+              },
+              "height": 69,
+              "moduleName": "weapp_scene_navigation"
+            },
+            {
+              "data": {
+                "action": "searchClear://q=登山&extendparam=登山^55984012^登山^false^biz:sceneguide&spos=scenenav",
+                "flag": false,
+                "pic": "https://img.alicdn.com/tps/TB1FFw0JXXXXXb_XXXXXXXXXXXX-120-120.png",
+                "sceneNav": "登山"
+              },
+              "height": 69,
+              "moduleName": "weapp_scene_navigation"
+            },
+            {
+              "data": {
+                "action": "searchClear://q=登山&extendparam=登山^54306950^登山^false^biz:sceneguide&spos=scenenav",
+                "flag": false,
+                "pic": "https://img.alicdn.com/tps/TB1kpUCJXXXXXaiaXXXXXXXXXXX-120-120.png",
+                "sceneNav": "登山",
+                "text": "冲锋裤"
+              },
+              "height": 69,
+              "moduleName": "weapp_scene_navigation"
+            },
+            {
+              "data": {
+                "action": "searchClear://q=登山&extendparam=登山^55932024^登山^false^biz:sceneguide&spos=scenenav",
+                "flag": false,
+                "pic": "https://img.alicdn.com/tps/TB1sFQ2JXXXXXbLXXXXXXXXXXXX-120-120.png",
+                "sceneNav": "登山",
+                "text": "腕表"
+              },
+              "height": 69,
+              "moduleName": "weapp_scene_navigation"
+            },
+            {
+              "data": {
+                "action": "searchClear://q=登山&extendparam=登山^54288691^登山^false^biz:sceneguide&spos=scenenav",
+                "flag": false,
+                "pic": "https://img.alicdn.com/tps/TB1wAAYJXXXXXXmXpXXXXXXXXXX-120-120.png",
+                "sceneNav": "登山",
+                "text": "运动表"
+              },
+              "height": 69,
+              "moduleName": "weapp_scene_navigation"
+            },
+            {
+              "data": {
+                "action": "searchClear://q=登山&extendparam=登山^55186009^登山^false^biz:sceneguide&spos=scenenav",
+                "flag": false,
+                "pic": "https://img.alicdn.com/tps/TB1jogIJXXXXXX9XVXXXXXXXXXX-120-120.png",
+                "sceneNav": "登山",
+                "text": "男士 腕表"
+              },
+              "height": 69,
+              "moduleName": "weapp_scene_navigation"
+            },
+            {
+              "data": {
+                "action": "searchClear://q=登山&extendparam=登山^54288702^登山^false^biz:sceneguide&spos=scenenav",
+                "flag": false,
+                "pic": "https://img.alicdn.com/tps/TB1jogIJXXXXXX9XVXXXXXXXXXX-120-120.png",
+                "sceneNav": "登山",
+                "text": "日韩 港台"
+              },
+              "height": 69,
+              "moduleName": "weapp_scene_navigation"
+            },
+            {
+              "data": {
+                "action": "searchClear://q=登山&extendparam=登山^54314061^登山^false^biz:sceneguide&spos=scenenav",
+                "flag": false,
+                "pic": "https://img.alicdn.com/tps/TB1XmEYJXXXXXc9XXXXXXXXXXXX-120-120.png",
+                "sceneNav": "登山",
+                "text": "篮球 护具"
+              },
+              "height": 69,
+              "moduleName": "weapp_scene_navigation"
+            }
+          ]
+        },
+        "height": 78,
+        "moduleName": "native_TMCHorizontalScrollView"
+      }
+    ],
+    "version": "1"
+  },
+  "--cmAboveSegment": {
+    "modules": [
+      {
+        "data": {
+          "url":"https://car.tmall.com/wow/car/act/car-quick-search?keyword=%E5%A4%A7%E4%BC%97"
+        },
+        "moduleName": "webview",
+        "height": 123
+      }
+    ],
+    "--modules": [
+      {
+        "data": {
+          "text": "点击为您挑选双十一商品",
+          "check": "searchModify://auction_tag=1111",
+          "unCheck": "searchModify://auction_tag=",
+          "selected": "true",
+          "combo": "product1111"
+        },
+        "moduleName": "weapp_1111_filter#2",
+        "height": 40
+      }
+    ]
+  },
+  "--item": [
+    {
+      "auction_tag": "907 1154 1163 1478 1483 2049 2059 3851 3915 3974 4166 4491 4555 5954 6603 11266 28353 28802 39490 44930 59842 60418 62082 72386 4107 2507 7947 1803 7371 2443 4363 2635 3019 4171 6411 5835 4811 1675 59010 15554 4614 4678 5062",
+      "auction_tags_info": [],
+      "auction_tags_info_flow": [],
+      "best_size": "",
+      "bucket_id": 2,
+      "cat_id": 50000697,
+      "comment_num": "",
+      "flowIcon": [
+        {
+          "type": "text",
+          "value": {
+            "backgroundColor": "#7f87ac",
+            "fontColor": "#ffffff",
+            "textValue": "剩下500件"
+          }
+        },
+        {
+          "type": "img",
+          "value": {
+            "height": "40",
+            "url": "//img.alicdn.com/tps/i4/TB1pZyPHVXXXXb4XFXXn_dLFpXX-141-42.jpg",
+            "width": "80"
+          }
+        },
+        {
+          "type": "text",
+          "value": {
+            "backgroundColor": "#7f87ac",
+            "fontColor": "#ffffff",
+            "textValue": "剩下500件"
+          }
+        },
+        {
+          "type": "text",
+          "value": {
+            "backgroundColor": "#7f87ac",
+            "fontColor": "#ffffff",
+            "textValue": "剩下500件"
+          }
+        }
+      ],
+      "gid": "",
+      "i2i_similar": false,
+      "img": "//img.alicdn.com/bao/uploaded/i2/TB1g7ExJXXXXXaWXFXXXXXXXXXX_!!0-item_pic.jpg",
+      "is_cod": 0,
+      "is_promotion": true,
+      "item_id": 521696719307,
+      "listIcon": [
+        {
+          "type": "img",
+          "value": {
+            "height": "40",
+            "url": "//img.alicdn.com/tps/i4/TB1pZyPHVXXXXb4XFXXn_dLFpXX-141-42.jpg",
+            "width": "80"
+          }
+        },
+        {
+          "type": "text",
+          "value": {
+            "backgroundColor": "#7f87ac",
+            "fontColor": "#ffffff",
+            "textValue": "剩下500件"
+          }
+        }
+      ],
+      "location": "广东 广州",
+      "nick": "喵喵屋旗舰店",
+      "original_price": "78.00",
+      "post_fee": "",
+      "price": "78.00",
+      "quantity": "500",
+      "real_shop_id": "113839074",
+      "recommend_description": "",
+      "seller_id": "2249066283",
+      "seller_loc": " 武汉市",
+      "shipping": -1,
+      "shop_id": "2249066283",
+      "shop_name": "喵喵屋旗舰店",
+      "sku_id": "3107938640586",
+      "sold": "0",
+      "spu_fst": "20150902",
+      "spu_id": 382758270,
+      "title": "喵喵屋2015秋装新款韩版女装复古条纹中长款针织开衫宽松毛衣外套",
+      "titlePreIconFlowList": [],
+      "titlePreIconList": [],
+      "trans1Day": "今日10人已抢",
+      "url": "//detail.tmall.com/item.htm?id=521696719307&skuId=3107938640586",
+      "user_rate": {
+        "description_match": "476",
+        "description_match_gap": "-1.99%",
+        "send_speed": "474",
+        "send_speed_gap": "-1.32%",
+        "service_quality": "474",
+        "service_quality_gap": "-1.41%",
+        "show_flag": 0
+      },
+      "vimg": "//img.alicdn.com/bao/uploaded/i2/TB1zaICJXXXXXXxXFXXXXXXXXXX_!!0-item_pic.jpg",
+      "wm_price": "",
+      "wm_title_large": "喵喵屋2015秋装新款韩版女装复古条纹中长款针织开衫宽松毛衣外套",
+      "wm_title_list": "喵喵屋2015秋装新款韩版女装复古条纹中长款针织开衫宽松毛衣外套",
+      "wm_title_small": "喵喵屋2015秋装新款韩版女装复古条纹中长款针织开衫宽松毛衣外套"
+    }
+  ]
+}

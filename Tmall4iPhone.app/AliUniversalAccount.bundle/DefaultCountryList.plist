@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>listLayout</key>
+	<array>
+		<dict>
+			<key>headerTitle</key>
+			<string>常用</string>
+			<key>countries</key>
+			<array>
+				<dict>
+					<key>domain</key>
+					<string>CN</string>
+					<key>countryCode</key>
+					<integer>86</integer>
+					<key>countryName</key>
+					<string>中国大陆</string>
+					<key>regularExp</key>
+					<string>^(86){0,1}1[3,4,5,8]\\d{9}$</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>updateTime</key>
+	<integer>0</integer>
+</dict>
+</plist>

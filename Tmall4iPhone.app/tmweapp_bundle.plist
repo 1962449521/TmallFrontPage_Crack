@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>url_handler_list</key>
+	<array>
+		<dict>
+			<key>attribute</key>
+			<array>
+				<dict>
+					<key>attr_name</key>
+					<string>pageKey</string>
+					<key>map_key</key>
+					<string>page</string>
+					<key>type</key>
+					<string>string</string>
+				</dict>
+				<dict>
+					<key>attr_name</key>
+					<string>userId</string>
+					<key>map_key</key>
+					<string>userId</string>
+					<key>type</key>
+					<string>string</string>
+				</dict>
+			</array>
+			<key>exact_url</key>
+			<string>page.tm/weapp</string>
+			<key>object</key>
+			<string>#WeAppPageController</string>
+		</dict>
+	</array>
+</dict>
+</plist>

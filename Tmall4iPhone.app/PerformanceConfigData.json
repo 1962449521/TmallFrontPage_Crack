@@ -1,0 +1,49 @@
+{
+  "data": [
+    {
+      "masterSwitch": 1,
+      "numberForPercent": 100,
+      "type": "masterSwitch"
+    },
+    {
+      "countsViaWWan": 200,
+      "countsViaWifi": 200,
+      "numberForPercent": 100,
+      "swith": 1,
+      "time": 240,
+      "type": "imageType"
+    },
+    {
+      "countsViaWWan": 100,
+      "countsViaWifi": 1000,
+      "numberForPercent": 100,
+      "swith": 1,
+      "time": 240,
+      "type": "netWorkType"
+    },
+    {
+      "countsViaWWan": 1000,
+      "countsViaWifi": 1000,
+      "numberForPercent": 100,
+      "swith": 1,
+      "time": 240,
+      "type": "pageType"
+    },
+    {
+      "countsViaWWan": 1000,
+      "countsViaWifi": 1000,
+      "numberForPercent": 100,
+      "swith": 1,
+      "time": 240,
+      "type": "launchType"
+    },
+    {
+      "countsViaWWan": 100,
+      "countsViaWifi": 100,
+      "numberForPercent": 100,
+      "swith": 0,
+      "time": 240,
+      "type": "otherType"
+    }
+  ]
+}

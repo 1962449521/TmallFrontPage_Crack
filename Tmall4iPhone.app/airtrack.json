@@ -1,0 +1,51 @@
+{
+    "name": "demo",
+    "expired": 2000000000,
+    "tree": {
+        "per": [
+                    0.5
+                    ],
+        "son": [
+                 {
+                 "per": [
+                             0.1,
+                             0.5
+                             ],
+                 "son": [
+                          {
+                          "id": "demo_grp_c",
+                          "node": 1
+                          },
+                          {
+                          "id": "demo_grp_c",
+                          "node": 3
+                          },
+                          {
+                          "id": "demo_grp_c",
+                          "node": 5
+                          }
+                          ]
+                 },
+                 {
+                 "per": [
+                             0.1,
+                             0.5
+                             ],
+                 "son": [
+                          {
+                          "id": "demo_grp_c",
+                          "node": 2
+                          },
+                          {
+                          "id": "demo_grp_c",
+                          "node": 4
+                          },
+                          {
+                          "id": "demo_grp_c",
+                          "node": 6
+                          }
+                          ]
+                 }
+                 ]
+    }
+}

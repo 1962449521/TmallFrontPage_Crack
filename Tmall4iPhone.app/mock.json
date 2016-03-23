@@ -1,0 +1,295 @@
+{
+    "cards": [
+              {
+              "type": "2",
+              "style": {
+              "hGap": "3",
+              "vGap": "3",
+              "bgColor": "#000000"
+              },
+              "items": [
+                        {
+                        "type": "300",
+                        "content": "http://img.alicdn.com/tps/i1/TB1p.F6IpXXXXcWXXXXbE2vPXXX-372-190.jpg_q50.jpg",
+                        "link": "http://www.tmall.com/wh/tmall/chaoshi/act/6yuetls-hd?spm=a3204.7152233.1996846437.2.9kDNQx&acm=2015031212.1003.2.572803&aldid=QCsNE5Ny&scm=1003.2.2015031212.OTHER_1450829100978_572803&pos=1"
+                        },
+                        {
+                        "type": "300",
+                        "content": "https://img.alicdn.com/imgextra/i4/1955345225/TB2ydtPhpXXXXaKXpXXXXXXXXXX_!!1955345225.jpg_q50.jpg",
+                        "link": "http://www.tmall.com/wh/tmall/chaoshi/act/6yuetls-hd?spm=a3204.7152233.1996846437.2.9kDNQx&acm=2015031212.1003.2.572803&aldid=QCsNE5Ny&scm=1003.2.2015031212.OTHER_1450829100978_572803&pos=1"
+                        },
+                        {
+                        "type": "300",
+                        "content": "http://img.alicdn.com/imgextra/i3/530269326/TB2NVhRhXXXXXcvXpXXXXXXXXXX_!!530269326.jpg_q50.jpg",
+                        "link": "http://www.tmall.com/wh/tmall/chaoshi/act/6yuetls-hd?spm=a3204.7152233.1996846437.2.9kDNQx&acm=2015031212.1003.2.572803&aldid=QCsNE5Ny&scm=1003.2.2015031212.OTHER_1450829100978_572803&pos=1",
+                        "style": {
+                        "aspectRatio": "1.97"
+                        }
+                        },
+                        {
+                        "type": "300",
+                        "content": "http://img.alicdn.com/imgextra/i2/725677994/TB2BxuphXXXXXXwXXXXXXXXXXXX_!!725677994.jpg_q50.jpg",
+                        "link": "http://www.tmall.com/wh/tmall/chaoshi/act/6yuetls-hd?spm=a3204.7152233.1996846437.2.9kDNQx&acm=2015031212.1003.2.572803&aldid=QCsNE5Ny&scm=1003.2.2015031212.OTHER_1450829100978_572803&pos=1"
+                        }
+                        ]
+              },
+              {
+                  "type": "1",
+                  "id": "SupMkt_title",
+                  "style": {
+                      "margin": "[9,0,1,0]"
+                  },
+              "items": [
+                            {
+                                "type": "304",
+                                "title": "热门市场",
+                                "titleIcon": "http://img.alicdn.com/tps/i2/TB1MGwpKVXXXXXjXpXXUGmYFpXX-6-72.png",
+                                "style": {
+                                    "bgColor": "#ffffff"
+                                }
+                            }
+                        ]
+              },
+              {
+              "type": "2",
+              "style": {
+                  "hGap":"1",
+                  "vGap":"1"
+              },
+              "items": [
+                        {
+                            "type": "400",
+                            "moduleName": "TMSuperMarket",
+                            "itemType": "MTK_hotMarket",
+                            "data": [
+                                     {
+                                         "id": "521060234814",
+                                         "content": "http://img.alicdn.com/tps/i1/TB1Rsq8LXXXXXb6XXXXG9MCUFXX-840-840.jpg",
+                                         "subTitle": "买一赠一",
+                                         "title": "粮油副食",
+                                         "acm": "201512250.1003.1.621877",
+                                         "tag": "",
+                                         "link": "https://pages.tmall.com/wow/chaoshi/act/hot-markets?abbucket=&acm=201512250.1003.1.621877&aldid=hUMRQOAY&abtest=&scm=1003.1.201512250.ITEM_521060234814_621877&pos=1",
+                                         "_pos_": 1,
+                                         "entityType": "ITEM",
+                                         "scm": "1003.1.201512250.ITEM_521060234814_621877"
+                                     }
+                            ],
+                            "style": {
+                                "aspectRatio": "2.0"
+                            }
+                        },
+                        {
+                            "type": "400",
+                            "moduleName": "TMSuperMarket",
+                            "itemType": "MTK_hotMarket",
+                            "data": [
+                                     {
+                                     "id": "14378758318",
+                                     "content": "//img.alicdn.com/imgextra/i2/725677994/TB2axyodpXXXXaeXpXXXXXXXXXX_!!725677994.jpg",
+                                     "subTitle": "爆款5折起",
+                                     "title": "个清美护",
+                                     "acm": "201512250.1003.1.621877",
+                                     "tag": "",
+                                     "link": "https://pages.tmall.com/wow/chaoshi/act/mrd?abbucket=&acm=201512250.1003.1.621877&aldid=hRrxxPOc&abtest=&scm=1003.1.201512250.ITEM_14378758318_621877&pos=5",
+                                     "_pos_": 5,
+                                     "entityType": "ITEM",
+                                     "scm": "1003.1.201512250.ITEM_14378758318_621877"
+                                     }
+                                    ],
+                            "style": {
+                                "aspectRatio": "2.0"
+                            }
+                        }
+                    ]
+              },
+              {
+              "type": "4",
+              "style": {
+                  "hGap":"1",
+                  "vGap":"1",
+                  "margin":[1, 0, 0, 0]
+              },
+              "items": [
+                        {
+                        "type": "400",
+                        "moduleName": "TMSuperMarket",
+                        "itemType": "MTK_hotMarket1",
+                        "data": [
+                                 {
+                                     "id": "14612426647",
+                                     "content": "https://img.alicdn.com/imgextra/i4/1588913126/TB2zjr8jXXXXXa_XpXXXXXXXXXX_!!1588913126.jpg",
+                                     "subTitle": "第二件半价",
+                                     "title": "奶制品",
+                                     "acm": "201512250.1003.1.621877",
+                                     "tag": "",
+                                     "link": "https://pages.tmall.com/wow/chaoshi/act/nzpd?abbucket=&acm=201512250.1003.1.621877&aldid=hRrxxPOc&abtest=&scm=1003.1.201512250.ITEM_14612426647_621877&pos=10",
+                                     "_pos_": 10,
+                                     "entityType": "ITEM",
+                                     "scm": "1003.1.201512250.ITEM_14612426647_621877"
+                                 }
+                        ],
+                        "style": {
+                            "aspectRatio": "0.83"
+                        }
+                        },
+                        {
+                            "type": "400",
+                            "moduleName": "TMSuperMarket",
+                            "itemType": "MTK_hotMarket1",
+                            "data": [
+                                         {
+                                         "id": "12424825277",
+                                         "content": "//img.alicdn.com/imgextra/i1/TB1oCKhFVXXXXb3XVXXXXXXXXXX_!!0-item_pic.jpg",
+                                         "subTitle": "好纸不贵",
+                                         "title": "纸制品",
+                                         "acm": "201512250.1003.1.621877",
+                                         "tag": "",
+                                         "link": "https://pages.tmall.com/wow/chaoshi/act/zpd?abbucket=&acm=201512250.1003.1.621877&aldid=hRrxxPOc&abtest=&scm=1003.1.201512250.ITEM_12424825277_621877&pos=9",
+                                         "_pos_": 9,
+                                         "entityType": "ITEM",
+                                         "scm": "1003.1.201512250.ITEM_12424825277_621877"
+                                         }
+                            ],
+                            "style": {
+                                "aspectRatio": "0.83"
+                            }
+                        },
+                        {
+                        "type": "400",
+                        "moduleName": "TMSuperMarket",
+                        "itemType": "MTK_hotMarket1",
+                        "data": [
+                                 {
+                                 "id": "20091364365",
+                                 "content": "https://img.alicdn.com/imgextra/i4/1588913126/TB2zjr8jXXXXXa_XpXXXXXXXXXX_!!1588913126.jpg",
+                                 "subTitle": "全场5折起",
+                                 "title": "日用百货",
+                                 "acm": "201512250.1003.1.621877",
+                                 "tag": "",
+                                 "link": "https://pages.tmall.com/wow/chaoshi/act/jfd?abbucket=&acm=201512250.1003.1.621877&aldid=hRrxxPOc&abtest=&scm=1003.1.201512250.ITEM_20091364365_621877&pos=3",
+                                 "_pos_": 3,
+                                 "entityType": "ITEM",
+                                 "scm": "1003.1.201512250.ITEM_20091364365_621877"
+                                 }
+                                 ],
+                        "style": {
+                        "aspectRatio": "0.83"
+                        }
+                        
+                        },
+                        {
+                        "type": "400",
+                        "moduleName": "TMSuperMarket",
+                        "itemType": "MTK_hotMarket1",
+                        "data": [
+                                 {
+                                 "id": "522638222020",
+                                 "content": "//img.alicdn.com/imgextra/i2/725677994/TB22DOPfFXXXXXMXpXXXXXXXXXX_!!725677994.jpg",
+                                 "subTitle": "爆款直降",
+                                 "title": "家清家居",
+                                 "acm": "201512250.1003.1.621877",
+                                 "tag": "",
+                                 "link": "https://pages.tmall.com/wow/chaoshi/act/jqd?abbucket=&acm=201512250.1003.1.621877&aldid=hRrxxPOc&abtest=&scm=1003.1.201512250.ITEM_522638222020_621877&pos=2",
+                                 "_pos_": 2,
+                                 "entityType": "ITEM",
+                                 "scm": "1003.1.201512250.ITEM_522638222020_621877"
+                                 }
+                                 ],
+                        "style": {
+                        "aspectRatio": "0.83"
+                        }
+                        
+                        },
+                        {
+                        "type": "400",
+                        "moduleName": "TMSuperMarket",
+                        "itemType": "MTK_hotMarket1",
+                        "data": [
+                                 {
+                                 "id": "521710025064",
+                                 "content": "//img.alicdn.com/imgextra/i3/725677994/TB2jHGHgVXXXXXbXpXXXXXXXXXX_!!725677994.jpg",
+                                 "subTitle": "正品年终大促",
+                                 "title": "酒水饮料",
+                                 "acm": "201512250.1003.1.621877",
+                                 "tag": "",
+                                 "link": "https://pages.tmall.com/wow/chaoshi/act/ysd?abbucket=&acm=201512250.1003.1.621877&aldid=hRrxxPOc&abtest=&scm=1003.1.201512250.ITEM_521710025064_621877&pos=4",
+                                 "_pos_": 4,
+                                 "entityType": "ITEM",
+                                 "scm": "1003.1.201512250.ITEM_521710025064_621877"
+                                 }
+                                 ],
+                        "style": {
+                        "aspectRatio": "0.83"
+                        }
+                        },
+                        {
+                        "type": "400",
+                        "moduleName": "TMSuperMarket",
+                        "itemType": "MTK_hotMarket1",
+                        "data": [
+                                 {
+                                 "id": "14378758318",
+                                 "content": "//img.alicdn.com/imgextra/i2/725677994/TB2axyodpXXXXaeXpXXXXXXXXXX_!!725677994.jpg",
+                                 "subTitle": "爆款5折起",
+                                 "title": "个清美护",
+                                 "acm": "201512250.1003.1.621877",
+                                 "tag": "",
+                                 "link": "https://pages.tmall.com/wow/chaoshi/act/mrd?abbucket=&acm=201512250.1003.1.621877&aldid=hRrxxPOc&abtest=&scm=1003.1.201512250.ITEM_14378758318_621877&pos=5",
+                                 "_pos_": 5,
+                                 "entityType": "ITEM",
+                                 "scm": "1003.1.201512250.ITEM_14378758318_621877"
+                                 }
+                                 ],
+                        "style": {
+                        "aspectRatio": "0.83"
+                        }
+                        },
+                        {
+                        "type": "400",
+                        "moduleName": "TMSuperMarket",
+                        "itemType": "MTK_hotMarket1",
+                        "data": [
+                                 {
+                                 "id": "13459996728",
+                                 "content": "https://img.alicdn.com/imgextra/i4/132243071/TB2HGT6jXXXXXaKXpXXXXXXXXXX_!!132243071.jpg",
+                                 "subTitle": "第二件5折",
+                                 "title": "母婴馆",
+                                 "acm": "201512250.1003.1.621877",
+                                 "tag": "",
+                                 "link": "https://pages.tmall.com/wow/chaoshi/act/myd ?abbucket=&acm=201512250.1003.1.621877&aldid=hRrxxPOc&abtest=&scm=1003.1.201512250.ITEM_13459996728_621877&pos=6",
+                                 "_pos_": 6,
+                                 "entityType": "ITEM",
+                                 "scm": "1003.1.201512250.ITEM_13459996728_621877"
+                                 }
+                                 ],
+                        "style": {
+                        "aspectRatio": "0.83"
+                        }
+                        },
+                        {
+                        "type": "400",
+                        "moduleName": "TMSuperMarket",
+                        "itemType": "MTK_hotMarket1",
+                        "data": [
+                                 {
+                                 "id": "default",
+                                 "content": "//img.alicdn.com/tps/i2/TB1VZIALXXXXXXsXFXXG9MCUFXX-840-840.jpg",
+                                 "subTitle": "年货满188",
+                                 "title": "休闲零食",
+                                 "acm": "201512250.1003.1.621877",
+                                 "tag": "",
+                                 "link": "https://pages.tmall.com/wow/chaoshi/act/xxd?abbucket=&acm=201512250.1003.1.621877&aldid=hRrxxPOc&abtest=&scm=1003.1.201512250.default_HD_休闲零食_default_621877&pos=8",
+                                 "_pos_": 8,
+                                 "entityType": "default_HD_休闲零食",
+                                 "scm": "1003.1.201512250.default_HD_休闲零食_default_621877"
+                                 }
+                                 ],
+                        "style": {
+                        "aspectRatio": "0.83"
+                        }
+                        }
+                        ]
+              }
+              ]
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>brand</key>
+	<dict>
+		<key>brandStyle1</key>
+		<dict>
+			<key>textColor</key>
+			<string>#dd2727</string>
+		</dict>
+		<key>brandStyle2</key>
+		<dict>
+			<key>textColor</key>
+			<string>#fadede</string>
+		</dict>
+		<key>brandStyle3</key>
+		<dict>
+			<key>textColor</key>
+			<string>#fef7f7</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

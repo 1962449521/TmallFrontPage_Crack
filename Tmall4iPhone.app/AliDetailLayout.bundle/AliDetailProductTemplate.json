@@ -1,0 +1,545 @@
+{
+    "ID": "detail_layout_39591411053",
+    "children": [
+                 {
+                 "ID": "division_f1",
+                 "key": "division",
+                 "params": {
+                 "bgcolor": "0xeeeeee",
+                 "height": "12",
+                 "type": "blank"
+                 },
+                 "type": "native"
+                 },
+                 {
+                 "ID": "_SL_Coupon",
+                 "children": [
+                              {
+                              "ID": "coupon_division_title1",
+                              "key": "detail_division_title",
+                              "params": {
+                              "lineColor": "0xff5000",
+                              "title": "优惠券",
+                              "titleColor": "0x051b28"
+                              },
+                              "type": "native"
+                              },
+                              {
+                              "ID": "_SL_Coupon_Component",
+                              "key": "detail_coupon",
+                              "params": {
+                              "loopStyle": "loop"
+                              },
+                              "type": "native"
+                              }
+                              ],
+                 "key": "detail_container_style2",
+                 "params": {
+                 "extraText": "无更多优惠券"
+                 },
+                 "type": "native"
+                 },
+                 {
+                 "ID": "division_b1",
+                 "key": "division",
+                 "params": {
+                 "bgcolor": "0xeeeeee",
+                 "height": "12",
+                 "type": "blank"
+                 },
+                 "type": "native"
+                 },
+                 {
+                 "ID": "detail_pic_2",
+                 "key": "detail_container_style1",
+                 "params": {
+                 "childrenStyle": "sequence",
+                 "picList": [
+                             "http://img03.taobaocdn.com/bao/uploaded/i3/TB1i2dfHFXXXXXgXXXXXXXXXXXX_!!0-item_pic.jpg"
+                             ],
+                 "size": {
+                 "height": "50",
+                 "width": "100"
+                 }
+                 },
+                 "type": "native"
+                 },
+                 {
+                 "ID": "division_f3",
+                 "key": "division",
+                 "params": {
+                 "bgcolor": "0xeeeeee",
+                 "height": "12",
+                 "type": "blank"
+                 },
+                 "type": "native"
+                 },
+                 {
+                 "ID": "SizeChart",
+                 "children": [
+                              {
+                              "ID": "sizechart_division_title3",
+                              "key": "detail_division_title",
+                              "params": {
+                              "lineColor": "0x2f5de0",
+                              "title": "尺码说明",
+                              "titleColor": "0x051b28"
+                              },
+                              "type": "native"
+                              },
+                              {
+                              "ID": "_SL_Sizechart_Component1",
+                              "key": "detail_sizechart",
+                              "params": {
+                              "data": [
+                                       {
+                                       "maxLength": 6,
+                                       "rowData": [
+                                                   "XS",
+                                                   "S",
+                                                   "M",
+                                                   "L",
+                                                   "X"
+                                                   ],
+                                       "title": "尺码"
+                                       },
+                                       {
+                                       "maxLength": 4,
+                                       "rowData": [
+                                                   "150",
+                                                   "160",
+                                                   "165",
+                                                   "170",
+                                                   "175"
+                                                   ],
+                                       "tip": "cm",
+                                       "title": "身高"
+                                       },
+                                       {
+                                       "maxLength": 4,
+                                       "rowData": [
+                                                   "73",
+                                                   "75",
+                                                   "78",
+                                                   "82",
+                                                   "84"
+                                                   ],
+                                       "tip": "kg",
+                                       "title": "体重"
+                                       },
+                                       {
+                                       "maxLength": 4,
+                                       "rowData": [
+                                                   "73",
+                                                   "75",
+                                                   "78",
+                                                   "82",
+                                                   "84"
+                                                   ],
+                                       "tip": "cm",
+                                       "title": "肩宽"
+                                       },
+                                       {
+                                       "maxLength": 4,
+                                       "rowData": [
+                                                   "73",
+                                                   "75",
+                                                   "78",
+                                                   "82",
+                                                   "84"
+                                                   ],
+                                       "tip": "cm",
+                                       "title": "肩宽"
+                                       }
+                                       ],
+                              "loopStyle": "sequence",
+                              "title": "尺码表"
+                              },
+                              "type": "native"
+                              },
+                              {
+                              "ID": "Sizechart_Component2",
+                              "key": "detail_sizechart",
+                              "params": {
+                              "data": [
+                                       {
+                                       "maxLength": 8,
+                                       "rowData": [
+                                                   "160/XS",
+                                                   "165/M",
+                                                   "170/L",
+                                                   "175/XL"
+                                                   ],
+                                       "title": "试穿尺码"
+                                       },
+                                       {
+                                       "maxLength": 8,
+                                       "rowData": [
+                                                   "shiliang",
+                                                   "xiyan",
+                                                   "suxin",
+                                                   "zhaolie"
+                                                   ],
+                                       "title": "模特"
+                                       },
+                                       {
+                                       "maxLength": 4,
+                                       "rowData": [
+                                                   "150",
+                                                   "160",
+                                                   "165",
+                                                   "170",
+                                                   "175"
+                                                   ],
+                                       "tip": "cm",
+                                       "title": "身高"
+                                       },
+                                       {
+                                       "maxLength": 4,
+                                       "rowData": [
+                                                   "73",
+                                                   "75",
+                                                   "78",
+                                                   "82",
+                                                   "84"
+                                                   ],
+                                       "tip": "kg",
+                                       "title": "体重"
+                                       },
+                                       {
+                                       "maxLength": 10,
+                                       "rowData": [
+                                                   "非常合身",
+                                                   "肩膀有点窄",
+                                                   "肩膀有点窄",
+                                                   "肩膀有点窄",
+                                                   "肩膀有点窄"
+                                                   ],
+                                       "title": "感受"
+                                       }
+                                       ],
+                              "loopStyle": "sequence",
+                              "title": "模特试穿"
+                              },
+                              "type": "native"
+                              },
+                              {
+                              "ID": "Sizechart_Component3",
+                              "key": "detail_picwithtitle",
+                              "params": {
+                              "picUrl": "http://designboard.alibaba-inc.com/u/wenbo.yangwb/56E5FAAA70/images/%E5%9B%BE%E6%96%87%E8%AF%A6%E6%83%85/u50.png",
+                              "title": "测量说明图"
+                              },
+                              "type": "native"
+                              }
+                              ],
+                 "key": "detail_container_style4",
+                 "params": {
+                 "childrenStyle": "sequence"
+                 },
+                 "type": "native"
+                 },
+                 {
+                 "ID": "division_b3",
+                 "key": "division",
+                 "params": {
+                 "bgcolor": "0xeeeeee",
+                 "height": "12",
+                 "type": "blank"
+                 },
+                 "type": "native"
+                 },
+                 {
+                 "ID": "division_f4",
+                 "key": "division",
+                 "params": {
+                 "bgcolor": "0xeeeeee",
+                 "height": "12",
+                 "type": "blank"
+                 },
+                 "type": "native"
+                 },
+                 {
+                 "ID": "ProductInfo",
+                 "children": [
+                              {
+                              "ID": "product_division_title4",
+                              "key": "detail_division_title",
+                              "params": {
+                              "lineColor": "0x2f5de0",
+                              "title": "商品信息",
+                              "titleColor": "0x051b28"
+                              },
+                              "type": "native"
+                              },
+                              {
+                              "ID": "ProductInfo__Component_1",
+                              "key": "detail_productinfo",
+                              "params": {
+                              "data": [
+                                       {
+                                       "content": "100%棉 5%氨纶、文案文案 文案 文案文案",
+                                       "name": "面料面料"
+                                       },
+                                       {
+                                       "content": "圆形",
+                                       "name": "销售渠道"
+                                       },
+                                       {
+                                       "content": "100%棉 5%氨纶、文案文案 文案 文案文案",
+                                       "name": "面料面料"
+                                       },
+                                       {
+                                       "content": "100%棉 5%氨纶、文案文案 文案 文案文案",
+                                       "name": "面料面料"
+                                       },
+                                       {
+                                       "image": [
+                                                 "http://g.wws.alicdn.com/L1/675/7201/tribe/picture/00/02/25/63/0002256368.jpg",
+                                                 "http://g.wws.alicdn.com/L1/675/7201/tribe/picture/00/02/25/63/0002256368.jpg"
+                                                 ],
+                                       "name": "吊牌图"
+                                       },
+                                       {
+                                       "content": "100%棉 5%氨纶、文案文案 文案 文案文案",
+                                       "name": "面料面料"
+                                       },
+                                       {
+                                       "content": "100%棉 5%氨纶、文案文案 文案 文案文案",
+                                       "name": "面料面料"
+                                       },
+                                       {
+                                       "content": "100%棉 5%氨纶、文案文案 文案 文案文案",
+                                       "name": "面料面料"
+                                       }
+                                       ],
+                              "loopStyle": "sequence"
+                              },
+                              "type": "native"
+                              }
+                              ],
+                 "key": "detail_container_style5",
+                 "params": {
+                 "childrenStyle": "sequence"
+                 },
+                 "type": "native"
+                 },
+                 {
+                 "ID": "division_b4",
+                 "key": "division",
+                 "params": {
+                 "bgcolor": "0xeeeeee",
+                 "height": "12",
+                 "type": "blank"
+                 },
+                 "type": "native"
+                 },
+                 {
+                 "ID": "division_f5",
+                 "key": "division",
+                 "params": {
+                 "bgcolor": "0xeeeeee",
+                 "height": "12",
+                 "type": "blank"
+                 },
+                 "type": "native"
+                 },
+                 {
+                 "ID": "_SL_Activity",
+                 "children": [
+                              {
+                              "ID": "activity_division_title5",
+                              "key": "detail_division_title",
+                              "params": {
+                              "lineColor": "0x2f5de0",
+                              "title": "店铺活动",
+                              "titleColor": "0x051b28"
+                              },
+                              "type": "native"
+                              },
+                              {
+                              "ID": "_SL_Activity_Component",
+                              "key": "detail_pic_jumper",
+                              "params": {
+                              "loopStyle": "loop"
+                              },
+                              "type": "native"
+                              }
+                              ],
+                 "key": "detail_container_style2",
+                 "params": {
+                 "childrenStyle": "sequence"
+                 },
+                 "type": "native"
+                 },
+                 {
+                 "ID": "division_b5",
+                 "key": "division",
+                 "params": {
+                 "bgcolor": "0xeeeeee",
+                 "height": "12",
+                 "type": "blank"
+                 },
+                 "type": "native"
+                 },
+                 {
+                 "ID": "division_f6",
+                 "key": "division",
+                 "params": {
+                 "bgcolor": "0xeeeeee",
+                 "height": "12",
+                 "type": "blank"
+                 },
+                 "type": "native"
+                 },
+                 {
+                 "ID": "_SL_SellerRecommend_2",
+                 "children": [
+                              {
+                              "ID": "sellerRecommend_division_title6",
+                              "key": "detail_division_title",
+                              "params": {
+                              "lineColor": "0xff5000",
+                              "title": "卖家推荐",
+                              "titleColor": "0x051b28"
+                              },
+                              "type": "native"
+                              },
+                              {
+                              "ID": "_SL_SellerRecommend_Component_2",
+                              "key": "detail_iteminfo_2",
+                              "params": {
+                              "loopStyle": "loop",
+                              "widthRatio": 0.33
+                              },
+                              "type": "native"
+                              }
+                              ],
+                 "key": "detail_container_style6",
+                 "params": {
+                 "childrenStyle": "sequence"
+                 },
+                 "type": "native"
+                 },
+                 {
+                 "ID": "division_b6",
+                 "key": "division",
+                 "params": {
+                 "bgcolor": "0xeeeeee",
+                 "height": "12",
+                 "type": "blank"
+                 },
+                 "type": "native"
+                 },
+                 {
+                 "ID": "division_f6",
+                 "key": "division",
+                 "params": {
+                 "bgcolor": "0xeeeeee",
+                 "height": "12",
+                 "type": "blank"
+                 },
+                 "type": "native"
+                 },
+                 {
+                 "ID": "GoodsMatching",
+                 "children": [
+                              {
+                              "ID": "_SL_GoodsMatching_Component_1",
+                              "key": "detail_goodsmatching",
+                              "params": {
+                              "data": {
+                              "children": [
+                                           {
+                                           "itemId": 123456789,
+                                           "jumpUrl": "//a.m.taobao.com/i123456789.htm",
+                                           "picUrl": "//gd1.alicdn.com/imgextra/i1/2174792031/TB2eAvfdXXXXXbTXpXXXXXXXXXX_!!2174792031.jpg"
+                                           },
+                                           {
+                                           "itemId": 1234567890,
+                                           "jumpUrl": "//a.m.taobao.com/i1234567890.htm",
+                                           "picUrl": "//gd1.alicdn.com/imgextra/i1/2174792031/TB2eAvfdXXXXXbTXpXXXXXXXXXX_!!2174792031.jpg"
+                                           }
+                                           ],
+                              "heightRatio": 0.6,
+                              "picUrl": "//img.alicdn.com/imgextra/i3/864227742/TB26jGhcVXXXXckXpXXXXXXXXXX_!!864227742.jpg",
+                              "title": "搭配单品",
+                              "widthRatio": 1
+                              },
+                              "loopStyle": "sequence"
+                              },
+                              "type": "native"
+                              }
+                              ],
+                 "key": "detail_container_style5",
+                 "params": {
+                 "childrenStyle": "sequence"
+                 },
+                 "type": "native"
+                 },
+                 {
+                 "ID": "division_b6",
+                 "key": "division",
+                 "params": {
+                 "bgcolor": "0xeeeeee",
+                 "height": "12",
+                 "type": "blank"
+                 },
+                 "type": "native"
+                 },
+                 {
+                 "ID": "division_f6",
+                 "key": "division",
+                 "params": {
+                 "bgcolor": "0xeeeeee",
+                 "height": "12",
+                 "type": "blank"
+                 },
+                 "type": "native"
+                 },
+                 {
+                 "ID": "_SL_SeeMore",
+                 "children": [
+                              {
+                              "ID": "seemore_division_title7",
+                              "key": "detail_division_title",
+                              "params": {
+                              "lineColor": "0xff5000",
+                              "title": "看了又看",
+                              "titleColor": "0x051b28"
+                              },
+                              "type": "native"
+                              },
+                              {
+                              "ID": "_SL_SeeMore_Component",
+                              "key": "detail_iteminfo",
+                              "params": {
+                              "loopStyle": "loop"
+                              },
+                              "type": "native"
+                              }
+                              ],
+                 "key": "detail_container_style3",
+                 "params": {
+                 "childrenStyle": "sequence"
+                 },
+                 "type": "native"
+                 },
+                 {
+                 "ID": "division_b7",
+                 "key": "division",
+                 "params": {
+                 "bgcolor": "0xeeeeee",
+                 "title": "已经到最底了",
+                 "topLine": "double",
+                 "type": "text"
+                 },
+                 "type": "native"
+                 }
+                 ],
+    "key": "sys_list",
+    "params": {
+        "requestMap": "{\"actTempletId\":\"50\",\"activity\":true,\"coupon\":true,\"recommend_2\":true,\"see_more\":true,\"srItemIds_2\":\"40739753041,520598922975,40350103659\"}"
+    },
+    "type": "native"
+}

@@ -1,0 +1,254 @@
+{
+    "ID": "normal_template",
+    "type": "native",
+    "key": "detail_home",
+    "version": "1.0.0",
+    "children": [
+                 {
+                 "ID": "navi_bar",
+                 "type": "native",
+                 "key": "navi_bar",
+                 "params": {
+                 "style": "floating"
+                 },
+                 "children": [
+                              {
+                              "ID": "navibar_left",
+                              "type": "native",
+                              "key": "navi_item",
+                              "params": {
+                              "type": "0",
+                              "title": "\ua07a",
+                              "titleSizeRatio": "0.375",
+                              "positionKey": "left"
+                              },
+                              "actions": [
+                                          {
+                                          "ID": "navibar_left_action",
+                                          "key": "go_back"
+                                          }
+                                          ]
+                              },
+                              {
+                              "ID": "navibar_center",
+                              "type": "native",
+                              "key": "navi_item",
+                              "params": {
+                              "type": "1",
+                              "titleSizeRatio": "0.375",
+                              "positionKey": "center"
+                              }
+                              },
+                              {
+                              "ID": "navibar_custom",
+                              "type": "native",
+                              "key": "navi_item_group",
+                              "params": {
+                              "positionKey": "custom"
+                              },
+                              "children": [
+                                           {
+                                           "ID": "navibar_custom_cart",
+                                           "type": "native",
+                                           "key": "navi_item",
+                                           "params": {
+                                           "type": "0",
+                                           "title": "cart",
+                                           "titleSizeRatio": "0.35"
+                                           },
+                                           "actions": [
+                                                       {
+                                                       "ID": "navibar_custom_cart_action",
+                                                       "key": "open_url",
+                                                       "params": {
+                                                       "url": "http://h5.m.taobao.com/awp/base/cart.htm",
+                                                       "urlParams": {
+                                                       "cartfrom": "detail",
+                                                       "itemId": "${ITEM_ID}"
+                                                       },
+                                                       "trackNamePre":"Button-",
+                                                       "trackName": "ShoppingCart"
+                                                       }
+                                                       }
+                                                       ]
+                                           }
+                                           ]
+                              },
+                              {
+                              "ID": "navibar_right",
+                              "type": "native",
+                              "key": "navi_item",
+                              "params": {
+                              "type": "0",
+                              "title": "\ua06a",
+                              "titleSizeRatio": "0.375",
+                              "positionKey": "right"
+                              },
+                              "actions": [
+                                          {
+                                          "ID": "navibar_right_action",
+                                          "key": "show_menu"
+                                          }
+                                          ],
+                              "children": [
+                                           {
+                                           "ID": "navibar_right_msgcenter",
+                                           "type": "native",
+                                           "key": "sys_button",
+                                           "params": {
+                                           "type": "1",
+                                           "title": "\ua08a   消息",
+                                           "titleSizeRatio": "0.375"
+                                           },
+                                           "actions": [
+                                                       {
+                                                       "ID": "navibar_right_msgcenter_action",
+                                                       "key": "open_url",
+                                                       "params": {
+                                                       "url": "http://m.taobao.com/go/msgcentercategory",
+                                                       "trackName": "MsgCenter"
+                                                       }
+                                                       }
+                                                       ]
+                                           },
+                                           {
+                                           "ID": "navibar_right_home",
+                                           "type": "native",
+                                           "key": "sys_button",
+                                           "params": {
+                                           "type": "1",
+                                           "title": "\ua01a     首页",
+                                           "titleSizeRatio": "0.375"
+                                           },
+                                           "actions": [
+                                                       {
+                                                       "ID": "navibar_right_home_action",
+                                                       "key": "open_url",
+                                                       "params": {
+                                                       "url": "http://m.taobao.com/index.htm",
+                                                       "trackName": "Home"
+                                                       }
+                                                       }
+                                                       ]
+                                           },
+                                           {
+                                           "ID": "navibar_right_share",
+                                           "type": "native",
+                                           "key": "sys_button",
+                                           "params": {
+                                           "type": "1",
+                                           "title": "\ua12a    分享",
+                                           "titleSizeRatio": "0.375"
+                                           },
+                                           "actions": [
+                                                       {
+                                                       "ID": "navibar_right_share_action",
+                                                       "key": "share",
+                                                       "params": {
+                                                       "trackNamePre":"Button-",
+                                                       "trackName": "Share"
+                                                       }
+                                                       }
+                                                       ]
+                                           }
+                                           ]
+                              }
+                              ]
+                 },
+                 {
+                 "ID": "pic_gallery",
+                 "type": "native",
+                 "key": "pic_gallery",
+                 "params": {
+                 "inMainLayout": "true"
+                 }
+                 },
+                 {
+                 "ID": "main_layout",
+                 "type": "native",
+                 "key": "sys_list",
+                 "children": [
+                              {
+                              "ID": "title_share",
+                              "type": "native",
+                              "key": "title_share"
+                              },
+                              {
+                              "ID": "price",
+                              "type": "native",
+                              "key": "price"
+                              }
+                              ]
+                 },
+                 {
+                 "ID": "bottom_bar",
+                 "type": "native",
+                 "key": "bottom_bar",
+                 "children": [
+                              {
+                              "ID": "toolbar_item01",
+                              "type": "native",
+                              "key": "bottom_bar_ww",
+                              "params": {
+                              "drawLine": true,
+                              "minWidth": 44,
+                              "widthRatio": 0.1375
+                              }
+                              },
+                              {
+                              "ID": "toolbar_item03",
+                              "type": "native",
+                              "key": "bottom_bar_shop",
+                              "params": {
+                              "drawLine": true,
+                              "minWidth": 44,
+                              "widthRatio": 0.1375
+                              },
+                              "actions": [
+                                          {
+                                          "ID": "navibar_toolbar_openurl_action1",
+                                          "key": "open_url",
+                                          "params": {
+                                          "url": "http://shop.m.taobao.com/shop/shop_index.htm",
+                                          "urlParams": {
+                                          "user_id": "${SELLER_ID}",
+                                          "item_id": "${ITEM_ID}"
+                                          },
+                                          "trackNamePre":"Button-",
+                                          "trackName": "BarShop"
+                                          }
+                                          }
+                                          ]
+                              },
+                              {
+                              "ID": "toolbar_item02",
+                              "type": "native",
+                              "key": "bottom_bar_fav",
+                              "params": {
+                              "drawLine": true,
+                              "minWidth": 44,
+                              "widthRatio": 0.1375
+                              }
+                              },
+                              {
+                              "ID": "toolbar_item04",
+                              "type": "native",
+                              "key": "bottom_bar_cart",
+                              "params": {
+                              "minWidth": 94,
+                              "widthRatio": 0.29375
+                              }
+                              },
+                              {
+                              "ID": "toolbar_item05",
+                              "type": "native",
+                              "key": "bottom_bar_buy",
+                              "params": {
+                              "minWidth": 94,
+                              "widthRatio": 0.29375
+                              }
+                              }
+                              ]
+                 }
+                 ]
+}

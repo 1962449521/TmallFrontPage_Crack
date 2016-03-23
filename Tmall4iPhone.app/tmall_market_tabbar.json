@@ -1,0 +1,70 @@
+{
+    "items": [
+              {
+              "id": "market_item_home",
+              "isSelected": true,
+              "iconFont": true,
+              "normalIcon": "&#xe602;",
+              "selectedIcon": "&#xe605;",
+              "text": "首页",
+              "nativeUrl":"tmall://page.tm/market.home",
+              "url": "https://chaoshi.m.tmall.com",
+              "needLogin": false,
+              "needSwitchTab": true,
+              "stationed":true
+              },
+              {
+              "id": "market_item_welfare",
+              "isSelected": false,
+              "iconFont": true,
+              "normalIcon": "&#xe603;",
+              "selectedIcon": "&#xe603;",
+              "text": "翻牌",
+              "url": "//chaoshi.m.tmall.com/welfare.htm",
+              "needLogin": true,
+              "needSwitchTab": true,
+              "stationed":true
+              },
+              {
+              "id": "market_item_history",
+              "isSelected": false,
+              "iconFont": true,
+              "normalIcon": "&#xe604;",
+              "selectedIcon": "&#xe604;",
+              "text": "我常买",
+              "url": "//chaoshi.m.tmall.com/history.htm",
+              "needLogin": true,
+              "needSwitchTab": true,
+              "stationed":true
+              },
+              {
+              "id": "market_item_activity",
+              "isSelected": false,
+              "iconFont": true,
+              "normalIcon": "&#xe600;",
+              "selectedIcon": "&#xe600;",
+              "text": "品牌特惠",
+              "url": "//chaoshi.m.tmall.com/activity.htm",
+              "needLogin": false,
+              "needSwitchTab": true,
+              "stationed":false
+              },
+              {
+              "id": "market_item_category",
+              "isSelected": false,
+              "iconFont": true,
+              "normalIcon": "&#xe601;",
+              "selectedIcon": "&#xe601;",
+              "text": "分类",
+              "url": "tmall://page.tm/categories?businessName=chaoshi",
+              "needLogin": false,
+              "needSwitchTab": false,
+              "stationed":true
+              }
+              ],
+    "dividerColor": "#E4E4E4",
+    "backgroundColor": "#FFFFFF",
+    "iconFontPackageUrl": "https://at.alicdn.com/t/font_1448874755_2360206.ttf",
+    "normalColor": "#3d4245",
+    "selectedColor": "#dd2727"
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TMCouponProtocol</key>
+	<string>TMCouponServiceImp</string>
+	<key>HomeServiceProtocol</key>
+	<string>BHViewController</string>
+	<key>MinskBHServiceProtocol</key>
+	<string>MinskBHService</string>
+	<key>ProfileBHServiceProtocol</key>
+	<string>ProfileBHService</string>
+	<key>RewriteBHServiceProtocol</key>
+	<string>RewriteBHService</string>
+	<key>UserTrackRecord</key>
+	<string>UserTrackRecordV2</string>
+	<key>UserTrackBHServiceProtocol</key>
+	<string>UserTrackBHService</string>
+	<key>TMServerTimeServiceProtocol</key>
+	<string>TMServerTimeServiceImpl</string>
+	<key>TMGlobalNavigationServiceProtocol</key>
+	<string>TMGlobalNavigationBHService</string>
+	<key>LogBHServiceProtocol</key>
+	<string>LogBHService</string>
+	<key>TMTaoKeBHServiceProtocol</key>
+	<string>TMTaoKeManager</string>
+	<key>TMRecommendProtocol</key>
+	<string>TMRecommendBeeHiveAdapter</string>
+	<key>TM3DTouchBHServiceProtocol</key>
+	<string>TM3DTouchBHService</string>
+	<key>TMNetProtocol</key>
+	<string>TMNetModuleService</string>
+</dict>
+</plist>

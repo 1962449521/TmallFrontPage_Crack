@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>page1</key>
+	<string>{
+  &quot;api&quot;: &quot;access.doubleImage.test&quot;,
+  &quot;data&quot;: {
+    &quot;page&quot;: &quot;geb/userDefine&quot;,
+    &quot;title&quot;: &quot;container带子view&quot;,
+    &quot;view&quot;: {
+      &quot;styleBinding&quot;: {
+        &quot;backgroundColor&quot;: &quot;#fffccc&quot;,
+        &quot;height&quot;: 500,
+        &quot;layout&quot;: &quot;linearLayout&quot;
+      },
+      &quot;subViews&quot;: [
+        {
+          &quot;styleBinding&quot;: {
+            &quot;height&quot;: -2,
+            &quot;layout&quot;: &quot;absoluteLayout&quot;,
+            &quot;marginTop&quot;: 24,
+            &quot;orientation&quot;: &quot;horizontal&quot;
+          },
+          &quot;subViews&quot;: [
+            {
+              &quot;dataBinding&quot;: {
+                &quot;value&quot;: &quot;子view:label&amp;image&quot;
+              },
+              &quot;styleBinding&quot;: {
+                &quot;align&quot;: 5,
+                &quot;backgroundColor&quot;: &quot;#ffffff&quot;,
+                &quot;borderColor&quot;: &quot;#dddddd&quot;,
+                &quot;borderWidth&quot;: 1,
+                &quot;fontSize&quot;: 28,
+                &quot;fontStyle&quot;: 1,
+                &quot;gravity&quot;: 2,
+                &quot;height&quot;: 84,
+                &quot;textColor&quot;: &quot;#3d3f45&quot;,
+                &quot;width&quot;: 380
+              },
+              &quot;type&quot;: &quot;label&quot;
+            }
+          ],
+          &quot;type&quot;: &quot;container&quot;
+        },
+        {
+          &quot;dataBinding&quot;: {
+            &quot;url&quot;: &quot;http://img02.config-vip.taobaocdn.net/imgextra/i2/2066596281/TB280tXXXXXXXXNXXXXXXXXXXXX_!!2066596281.png&quot;
+          },
+          &quot;styleBinding&quot;: {
+            &quot;height&quot;: 296,
+            &quot;marginLeft&quot;: 20,
+            &quot;marginRight&quot;: 20,
+            &quot;marginTop&quot;: 20
+          },
+          &quot;type&quot;: &quot;image&quot;
+        }
+      ],
+      &quot;type&quot;: &quot;container&quot;,
+      &quot;viewId&quot;: &quot;container&quot;
+    }
+  },
+  &quot;ret&quot;: [
+    &quot;SUCCESS::调用成功&quot;
+  ],
+  &quot;v&quot;: &quot;2.0&quot;
+}</string>
+	<key>page2</key>
+	<string>{
+    &quot;api&quot;: &quot;mtop.geb.view.getPageView&quot;,
+    &quot;v&quot;: &quot;2.0&quot;,
+    &quot;ret&quot;: [
+        &quot;SUCCESS::调用成功&quot;
+    ],
+    &quot;data&quot;: {
+        &quot;page&quot;: &quot;Page_Shop&quot;,
+        &quot;title&quot;: &quot;tttt&quot;,
+        &quot;data&quot;: {
+            &quot;itemListLocal&quot;: [
+                {
+                    &quot;nid&quot;: &quot;2100500442667&quot;,
+                    &quot;title&quot;: &quot;VOTO紫云&quot;,
+                    &quot;imgUrl&quot;: &quot;http://img04.daily.taobaocdn.net/bao/uploaded/i4/1819309226544/T16FFXXjJgXXXXXXXX_!!0-item_pic.jpg&quot;,
+                    &quot;price&quot;: &quot;1349.00&quot;,
+                    &quot;reservePrice&quot;: &quot;1349.00&quot;,
+                    &quot;h5Url&quot;: &quot;http://h5.waptest.taobao.com/awp/core/detail.htm?id=2100500442667&quot;
+                },
+                {
+                    &quot;nid&quot;: &quot;2100500453911&quot;,
+                    &quot;title&quot;: &quot;卓普 大黑C7&quot;,
+                    &quot;imgUrl&quot;: &quot;http://img02.daily.taobaocdn.net/bao/uploaded/i2/1819309226543/T1mzezXa4gXXXXXXXX_!!0-item_pic.jpg&quot;,
+                    &quot;price&quot;: &quot;1599.00&quot;,
+                    &quot;reservePrice&quot;: &quot;1599.00&quot;,
+                    &quot;h5Url&quot;: &quot;http://h5.waptest.taobao.com/awp/core/detail.htm?id=2100500453911&quot;
+                },
+                {
+                    &quot;nid&quot;: &quot;2100500450089&quot;,
+                    &quot;title&quot;: &quot;优思小C&quot;,
+                    &quot;imgUrl&quot;: &quot;http://img03.daily.taobaocdn.net/bao/uploaded/i3/1819309226541/T13XRXXX4eXXXXXXXX_!!0-item_pic.jpg&quot;,
+                    &quot;price&quot;: &quot;1699.00&quot;,
+                    &quot;reservePrice&quot;: &quot;1699.00&quot;,
+                    &quot;h5Url&quot;: &quot;http://h5.waptest.taobao.com/awp/core/detail.htm?id=2100500450089&quot;
+                },
+                {
+                    &quot;nid&quot;: &quot;2100500453833&quot;,
+                    &quot;title&quot;: &quot;欧奇 小欧&quot;,
+                    &quot;imgUrl&quot;: &quot;http://img03.daily.taobaocdn.net/bao/uploaded/i3/1819309226537/T1qpJXXhRgXXXXXXXX_!!0-item_pic.jpg&quot;,
+                    &quot;price&quot;: &quot;468.00&quot;,
+                    &quot;reservePrice&quot;: &quot;468.00&quot;,
+                    &quot;h5Url&quot;: &quot;http://h5.waptest.taobao.com/awp/core/detail.htm?id=2100500453833&quot;
+                },
+                {
+                    &quot;nid&quot;: &quot;1500014802674&quot;,
+                    &quot;title&quot;: &quot;晓霞 万人团测试商品 不要拍 不要编辑&quot;,
+                    &quot;imgUrl&quot;: &quot;http://img02.daily.taobaocdn.net/bao/uploaded/i2/T1STGyXoljXXa4_r_X_084420.jpg&quot;,
+                    &quot;price&quot;: &quot;11.00&quot;,
+                    &quot;reservePrice&quot;: &quot;11.00&quot;,
+                    &quot;h5Url&quot;: &quot;http://h5.waptest.taobao.com/awp/core/detail.htm?id=1500014802674&quot;
+                }
+            ],
+            &quot;p3open_url_title&quot;: &quot;我是标题模块&quot;,
+            &quot;p1moreLink&quot;: &quot;http://h5.waptest.taobao.com/weapp/view_page.htm?page=shop/index&amp;userId=2065731274&amp;pageId=&quot;,
+            &quot;openBanner&quot;: &quot;false&quot;,
+            &quot;loginUserId&quot;: 2065731274,
+            &quot;p9phone_number&quot;: &quot;18268035587&quot;,
+            &quot;p3open_url&quot;: &quot;http://h5.m.taobao.com&quot;,
+            &quot;p0moreLink&quot;: &quot;http://h5.waptest.taobao.com/weapp/view_page.htm?page=shop/index&amp;userId=2065731274&amp;pageId=&quot;,
+            &quot;wp_tpl&quot;: 20,
+            &quot;wp_pk&quot;: &quot;shop/index_2065731274_188003&quot;,
+            &quot;p7banner_array&quot;: [
+                {
+                    &quot;image&quot;: &quot;http://img04.config-vip.taobaocdn.net/imgextra/i4/2065731274/TB20HBXXXXXXXakXXXXXXXXXXXX_!!2065731274.jpg&quot;,
+                    &quot;url&quot;: &quot;http://h5.waptest.taobao.com/weapp/view_page.htm?page=shop/index&amp;userId=2065731274&amp;pageId=&quot;
+                },
+                {
+                    &quot;image&quot;: &quot;http://img01.config-vip.taobaocdn.net/imgextra/i1/2065731274/TB2fHNXXXXXXXaiXXXXXXXXXXXX_!!2065731274.jpg&quot;,
+                    &quot;url&quot;: &quot;http://h5.waptest.taobao.com/weapp/view_page.htm?page=shop/index&amp;userId=2065731274&amp;pageId=&quot;
+                },
+                {
+                    &quot;image&quot;: &quot;http://img01.config-vip.taobaocdn.net/imgextra/i1/2065731274/TB2aH4XXXXXXXXjXXXXXXXXXXXX_!!2065731274.jpg&quot;,
+                    &quot;url&quot;: &quot;http://h5.waptest.taobao.com/weapp/view_page.htm?page=shop/index&amp;userId=2065731274&amp;pageId=&quot;
+                }
+            ],
+            &quot;pageId&quot;: 188003,
+            &quot;p0title&quot;: &quot;我是单列宝贝&quot;,
+            &quot;p5double_image1_url&quot;: &quot;http://img03.config-vip.taobaocdn.net/imgextra/i3/2065731274/TB2jbRXXXXXXXX1XXXXXXXXXXXX_!!2065731274.jpg&quot;,
+            &quot;image_array&quot;: [
+                {
+                    &quot;imageUrl&quot;: &quot;http://img04.config-vip.taobaocdn.net/imgextra/i4/2065731274/TB2jYJXXXXXXXaAXXXXXXXXXXXX_!!2065731274.jpg&quot;,
+                    &quot;link&quot;: &quot;http://h5.waptest.taobao.com/weapp/view_page.htm?page=shop/index&amp;userId=2065731274&amp;pageId=&quot;
+                },
+                {
+                    &quot;imageUrl&quot;: &quot;http://img02.config-vip.taobaocdn.net/imgextra/i2/2065731274/TB2wYNXXXXXXXXWXXXXXXXXXXXX_!!2065731274.jpg&quot;,
+                    &quot;link&quot;: &quot;http://shop60057464.waptest.taobao.com/#list?catId=410130090&quot;
+                },
+                {
+                    &quot;imageUrl&quot;: &quot;http://img02.config-vip.taobaocdn.net/imgextra/i2/2065731274/TB2tbRXXXXXXXXZXXXXXXXXXXXX_!!2065731274.jpg&quot;,
+                    &quot;link&quot;: &quot;http://shop60057464.waptest.taobao.com/#list?catId=410130091&quot;
+                }
+            ],
+            &quot;page&quot;: &quot;shop/index&quot;,
+            &quot;p6title&quot;: &quot;我是多图模块&quot;,
+            &quot;userId&quot;: 2065731274,
+            &quot;p0isAuto&quot;: &quot;true&quot;,
+            &quot;p4single_content_url&quot;: &quot;http://h5.m.taobao.com&quot;,
+            &quot;p1isAuto&quot;: &quot;true&quot;,
+            &quot;p4single_content_title&quot;: &quot;我是单列图片&quot;,
+            &quot;p8textPic_content_url&quot;: &quot;http://h5.waptest.taobao.com/weapp/view_page.htm?page=shop/index&amp;userId=2065731274&amp;pageId=&quot;,
+            &quot;shopTitle&quot;: &quot;天猫店铺&quot;,
+            &quot;p1pageSize&quot;: &quot;1&quot;,
+            &quot;p5double_image1_content_url&quot;: &quot;http://h5.waptest.taobao.com/weapp/view_page.htm?page=shop/index&amp;userId=2065731274&amp;pageId=&quot;,
+            &quot;p5double_image2_content_url&quot;: &quot;http://h5.waptest.taobao.com/weapp/view_page.htm?page=shop/index&amp;userId=2065731274&amp;pageId=&quot;,
+            &quot;wp_tplv&quot;: 1,
+            &quot;p5double_image2_url&quot;: &quot;http://img02.config-vip.taobaocdn.net/imgextra/i2/2065731274/TB2sHRXXXXXXXXvXXXXXXXXXXXX_!!2065731274.jpg&quot;,
+            &quot;p0itemIds&quot;: &quot;&quot;,
+            &quot;p4single_image_url&quot;: &quot;http://img01.config-vip.taobaocdn.net/imgextra/i1/2065731274/TB2brNXXXXXXXXEXXXXXXXXXXXX_!!2065731274.jpg&quot;,
+            &quot;p8textPic_content_title&quot;: &quot;我就是左文右图垃圾组&quot;,
+            &quot;shopInfo&quot;: {
+                &quot;isRecieveMsg&quot;: false,
+                &quot;wangwangLink&quot;: &quot;http://im.m.taobao.com/ww/ad_ww_dialog.htm?to_user=eHVleWFuMDAy&amp;shop_id=60057464&quot;,
+                &quot;feedCount&quot;: 4,
+                &quot;rankLevelPic&quot;: &quot;http://gtms02.alicdn.com/tps/i2/T17W5jFL0dXXbO5ajj-176-24.png&quot;,
+                &quot;fansNum&quot;: 1,
+                &quot;feedURL&quot;: &quot;http://h5.m.taobao.com/weapp/view_page.htm?page=weitao/feed_list&amp;userId=2065731274&quot;,
+                &quot;isTmall&quot;: true,
+                &quot;newProductURL&quot;: &quot;http://h5.m.taobao.com/weapp/view_page.htm?page=shop/new_item_list&amp;userId=2065731274&quot;,
+                &quot;allProductURL&quot;: &quot;http://shop.m.taobao.com/goods/index.htm?shop_id=60057464&amp;user_id=2065731274&quot;,
+                &quot;rankNum&quot;: &quot;tmall&quot;,
+                &quot;newItem&quot;: 0,
+                &quot;shopId&quot;: &quot;60057464&quot;,
+                &quot;shopName&quot;: &quot;dgtojpwchu&quot;,
+                &quot;promotionNum&quot;: 0,
+                &quot;promotionProductURL&quot;: &quot;http://h5.m.taobao.com/weapp/view_page.htm?page=shop/prom_item_list&amp;userId=2065731274&quot;,
+                &quot;isFollowed&quot;: false,
+                &quot;itemCount&quot;: 0,
+                &quot;shopLogo&quot;: &quot;http://gtms02.alicdn.com/tps/i2/T1qWu4FMdaXXXK60jr-88-88.png&quot;
+            },
+            &quot;isGoldenSeller&quot;: false,
+            &quot;p1itemIds&quot;: &quot;&quot;,
+            &quot;p8textPic_image_url&quot;: &quot;http://img04.config-vip.taobaocdn.net/imgextra/i4/2065731274/TB2erNXXXXXXXaiXXXXXXXXXXXX_!!2065731274.jpg&quot;,
+            &quot;p0pageSize&quot;: &quot;1&quot;,
+            &quot;p1title&quot;: &quot;我是双列宝贝&quot;
+        },
+        &quot;view&quot;: {
+            &quot;styleBinding&quot;: {
+                &quot;height&quot;: -2,
+                &quot;layout&quot;: &quot;linearLayout&quot;,
+                &quot;scroll&quot;: 1
+            },
+            &quot;subViews&quot;: [
+                {
+                    &quot;conditions&quot;: [
+                        {
+                            &quot;left&quot;: &quot;$title&quot;,
+                            &quot;right&quot;: &quot;null&quot;,
+                            &quot;styleBinding&quot;: {
+                                &quot;height&quot;: 194
+                            },
+                            &quot;type&quot;: &quot;==&quot;
+                        }
+                    ],
+                    &quot;styleBinding&quot;: {
+                        &quot;backgroundColor&quot;: &quot;#FFFFFF&quot;,
+                        &quot;borderColor&quot;: &quot;#dddddd&quot;,
+                        &quot;borderWidth&quot;: 1,
+                        &quot;height&quot;: 254,
+                        &quot;layout&quot;: &quot;linearLayout&quot;,
+                        &quot;marginBottom&quot;: 24,
+                        &quot;paddingLeft&quot;: 24
+                    },
+                    &quot;subViews&quot;: [
+                        {
+                            &quot;conditions&quot;: [
+                                {
+                                    &quot;left&quot;: &quot;$title&quot;,
+                                    &quot;right&quot;: &quot;null&quot;,
+                                    &quot;styleBinding&quot;: {
+                                        &quot;height&quot;: 36,
+                                        &quot;marginTop&quot;: 24
+                                    },
+                                    &quot;type&quot;: &quot;!=&quot;
+                                }
+                            ],
+                            &quot;dataBinding&quot;: {
+                                &quot;value&quot;: &quot;$title&quot;
+                            },
+                            &quot;styleBinding&quot;: {
+                                &quot;fontSize&quot;: 32,
+                                &quot;gravity&quot;: 4,
+                                &quot;height&quot;: 0,
+                                &quot;lines&quot;: 1,
+                                &quot;textColor&quot;: &quot;#3d4245&quot;
+                            },
+                            &quot;type&quot;: &quot;label&quot;
+                        },
+                        {
+                            &quot;foreach&quot;: {
+                                &quot;array&quot;: &quot;$image_array&quot;,
+                                &quot;end&quot;: 2,
+                                &quot;start&quot;: 0,
+                                &quot;step&quot;: 1,
+                                &quot;template&quot;: {
+                                    &quot;dataBinding&quot;: {
+                                        &quot;url&quot;: &quot;$image_array.[?].imageUrl&quot;
+                                    },
+                                    &quot;events&quot;: [
+                                        {
+                                            &quot;actions&quot;: [
+                                                {
+                                                    &quot;param&quot;: {
+                                                        &quot;param&quot;: {
+                                                            &quot;wp_app&quot;: &quot;weapp&quot;,
+                                                            &quot;wp_m&quot;: &quot;MODULE_KEY_PLACE_HOLDER&quot;,
+                                                            &quot;wp_p&quot;: &quot;1&quot;,
+                                                            &quot;wp_pk&quot;: &quot;$wp_pk&quot;
+                                                        },
+                                                        &quot;url&quot;: &quot;$image_array.[?].link&quot;
+                                                    },
+                                                    &quot;type&quot;: &quot;openURL&quot;
+                                                }
+                                            ],
+                                            &quot;type&quot;: &quot;click&quot;
+                                        }
+                                    ],
+                                    &quot;styleBinding&quot;: {
+                                        &quot;height&quot;: 146,
+                                        &quot;marginRight&quot;: 16,
+                                        &quot;width&quot;: 248
+                                    },
+                                    &quot;type&quot;: &quot;image&quot;
+                                }
+                            },
+                            &quot;styleBinding&quot;: {
+                                &quot;height&quot;: 146,
+                                &quot;layout&quot;: &quot;linearLayout&quot;,
+                                &quot;marginBottom&quot;: 24,
+                                &quot;marginTop&quot;: 24,
+                                &quot;orientation&quot;: &quot;horizontal&quot;,
+                                &quot;scroll&quot;: 2
+                            },
+                            &quot;type&quot;: &quot;container&quot;
+                        }
+                    ],
+                    &quot;type&quot;: &quot;container&quot;
+                },
+                {
+                    &quot;dataBinding&quot;: {
+                        &quot;apiAlias&quot;: &quot;itemList&quot;,
+                        &quot;apiName&quot;: &quot;mtop.taobao.geb.enhenced.itemList.get&quot;,
+                        &quot;needLogin&quot;: false,
+                        &quot;param&quot;: {
+                            &quot;sort&quot;: &quot;hotsell&quot;,
+                            &quot;pageSize&quot;: &quot;6&quot;,
+                            &quot;ownerId&quot;: &quot;81049352&quot;,
+                            &quot;isAuto&quot;: &quot;true&quot;
+                        },
+                        &quot;showErrorView&quot;: false
+                    },
+                    &quot;foreach&quot;: {
+                        &quot;array&quot;: &quot;${itemList}.list&quot;,
+                        &quot;template&quot;: {
+                            &quot;dataBinding&quot;: {
+                                &quot;url&quot;: &quot;${itemList}.list.[?].imgUrl&quot;
+                            },
+                            &quot;events&quot;: [
+                                {
+                                    &quot;actions&quot;: [
+                                        {
+                                            &quot;param&quot;: {
+                                                &quot;text&quot;: &quot;测试刷新&quot;
+                                            },
+                                            &quot;type&quot;: &quot;toast&quot;
+                                        },
+                                        {
+                                            &quot;param&quot;: {
+                                                &quot;viewId&quot;: &quot;woshiceshi&quot;
+                                            },
+                                            &quot;type&quot;: &quot;refresh&quot;
+                                        }
+                                    ],
+                                    &quot;type&quot;: &quot;click&quot;
+                                }
+                            ],
+                            &quot;styleBinding&quot;: {
+                                &quot;height&quot;: 146,
+                                &quot;marginRight&quot;: 16,
+                                &quot;width&quot;: 248
+                            },
+                            &quot;type&quot;: &quot;image&quot;
+                        },
+                        &quot;start&quot;: 2,
+                        &quot;end&quot;: 4,
+                        &quot;step&quot;: 1
+                    },
+                    &quot;styleBinding&quot;: {
+                        &quot;height&quot;: 272,
+                        &quot;layout&quot;: &quot;linearLayout&quot;,
+                        &quot;orientation&quot;: &quot;horizontal&quot;,
+                        &quot;scroll&quot;: 2,
+                        &quot;isPointHide&quot;: true
+                    },
+                    &quot;subViews&quot;: [
+                        {
+                            &quot;dataBinding&quot;: {
+                                &quot;value&quot;: &quot;我是来占位的，就看看foreach顶不顶得起用~&quot;
+                            },
+                            &quot;styleBinding&quot;: {
+                                &quot;fontSize&quot;: 48,
+                                &quot;lines&quot;: 3,
+                                &quot;marginRight&quot;: 36,
+                                &quot;textColor&quot;: &quot;#3d4245&quot;,
+                                &quot;width&quot;: 200
+                            },
+                            &quot;type&quot;: &quot;label&quot;
+                        },
+                        {
+                            &quot;dataBinding&quot;: {
+                                &quot;url&quot;: &quot;http://gtms04.alicdn.com/tps/i4/TB1eP6wFFXXXXXaaFXXXK5zTVXX-520-280.png&quot;
+                            },
+                            &quot;styleBinding&quot;: {
+                                &quot;backgroundColor&quot;: &quot;#ffffff&quot;,
+                                &quot;height&quot;: 272,
+                                &quot;marginRight&quot;: 36,
+                                &quot;width&quot;: 288
+                            },
+                            &quot;type&quot;: &quot;image&quot;
+                        }
+                    ],
+                    &quot;type&quot;: &quot;sliderView&quot;,
+                    &quot;viewId&quot;: &quot;woshiceshi&quot;
+                }
+            ],
+            &quot;type&quot;: &quot;container&quot;
+        }
+    }
+}</string>
+</dict>
+</plist>

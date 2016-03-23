@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>moduleClasses</key>
+	<array>
+		<string>TMNetModule</string>
+		<string>AppConfig</string>
+		<string>HomeModule</string>
+		<string>TMTradeAdapter</string>
+		<string>UserTrackModule</string>
+		<string>AppUISkeleton</string>
+		<string>TMLoginBHModule</string>
+		<string>MinskBHModule</string>
+		<string>TmallDetailBHModule</string>
+		<string>LogBHModule</string>
+		<string>DTrackEngine</string>
+		<string>ProfileBHModule</string>
+	</array>
+</dict>
+</plist>

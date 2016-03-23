@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<body>
+	<encode>
+		<!-- 店铺 -->
+        
+		<url>
+			<domain>shop.m.taobao.com</domain>
+			<uris>
+				<uri>/shop/shop_index.htm</uri>
+				<uri>/shop/shopIndex.htm</uri>
+			</uris>
+			<type>id</type>
+			<idName>shop_id</idName>
+			<appendParam>ut_sk</appendParam>
+			<stringformat>/s/%@</stringformat>
+		</url>
+        
+         <url>
+         <domain>shop.m.taobao.com</domain>
+         <uris>
+         <uri>/shop/shop_index.htm</uri>
+         <uri>/shop/shopIndex.htm</uri>
+         </uris>
+         <type>id</type>
+         <idName>user_id</idName>
+         <appendParam>ut_sk</appendParam>
+         <stringformat>/u/%@</stringformat>
+         </url>
+         
+         <url>
+         <domain>h5.m.taobao.com</domain>
+         <uris>
+         <uri>/awp/core/detail.htm</uri>
+         </uris>
+         <type>id</type>
+         <idName>id</idName>
+         <appendParam>ut_sk</appendParam>
+         <stringformat>/i/%@</stringformat>
+         </url>
+         <url>
+         <domain>h5.m.taobao.com</domain>
+         <uris>
+         <uri>/awp/core/index.htm</uri>
+         </uris>
+         <type>id</type>
+         <idName>id</idName>
+         <appendParam>ut_sk</appendParam>
+         <stringformat>/i/%@</stringformat>
+         </url>
+         
+        
+         <url>
+         <domain>m.taobao.com</domain>
+         <uris>
+         <uri>/channel/rgn/pub_account/account.htm</uri>
+         </uris>
+         <type>id</type>
+         <idName>id</idName>
+         <appendParam>ut_sk</appendParam>
+         <stringformat>/w/%@</stringformat>
+         </url>
+        
+         <url>
+             <domain>h5.m.taobao.com</domain>
+             <uris>
+                 <uri>/we/index.htm([?0-9a-zA-Z_=&amp;.]+)#account/([0-9]+)</uri>
+             </uris>
+             <type>pattern</type>
+             <idName>1</idName>
+             <appendParam>ut_sk</appendParam>
+             <stringformat>/w/%@</stringformat>
+         </url>
+         
+         
+         <url>
+         <domain>h5.m.taobao.com</domain>
+         <uris>
+         <uri>/we/index.htm([?0-9a-zA-Z_=&amp;.]+)#detail/([0-9]+)/([0-9]+)</uri>
+         </uris>
+         <type>pattern</type>
+         <idName>1,2</idName>
+         <appendParam>ut_sk</appendParam>]
+         <stringformat>/f/%@</stringformat>
+         </url>
+         
+         <url>
+             <domain>h5.m.taobao.com</domain>
+             <uris>
+                 <uri>/we/detail.htm([?0-9a-zA-Z_=&amp;.]+)#detail/([0-9]+)/([0-9]+)</uri>
+             </uris>
+             <type>pattern</type>
+             <idName>1,2</idName>
+             <appendParam>ut_sk</appendParam>]
+             <stringformat>/f/%@</stringformat>
+         </url>
+         
+         <url>
+         <uris>
+         <uri>a.m.tmall.com/i([0-9]+).htm</uri>
+         </uris>
+         <type>pattern</type>
+         <idConvert-ref>springbeanName</idConvert-ref>
+         <idName>1</idName>
+         <appendParam>ut_sk</appendParam>
+         <stringformat>/i/%@</stringformat>
+         </url>
+         <url>
+         <uris>
+         <uri>a.m.taobao.com/i([0-9]+).htm</uri>
+         </uris>
+         <type>pattern</type>
+         <idConvert-ref>springbeanName</idConvert-ref>
+         <idName>1</idName>
+         <appendParam>ut_sk</appendParam>
+         <stringformat>/i/%@</stringformat>
+         </url>
+         <url>
+         <uris>
+         <uri>shop([0-9]+).m.taobao.com/</uri>
+         </uris>
+         <type>pattern</type>
+         <idName>1</idName>
+         <appendParam>ut_sk</appendParam>
+         <stringformat>/s/%@</stringformat>
+         </url>
+         
+	</encode>
+	
+	<decode>
+		<!-- 店铺 -->
+		<url>
+			<uri>/s/([0-9a-zA-Z]+)</uri>
+			<type>pattern</type>
+			<idName>1</idName>
+			<stringformat>http://shop.m.taobao.com/shop/shop_index.htm?shop_id=%@</stringformat>
+		</url>
+        
+        
+		<url>
+			<uri>/u/([0-9a-zA-Z]+)</uri>
+			<type>pattern</type>
+			<idName>1</idName>
+			<stringformat>http://shop.m.taobao.com/shop/shop_index.htm?user_id=%@</stringformat>
+		</url>
+    
+	
+		<url>
+			<uri>/i/([0-9a-zA-Z]+)</uri>
+			<type>pattern</type>
+			<idName>1</idName>
+			<stringformat>http://a.m.taobao.com/i%@.htm</stringformat>
+		</url>
+
+		<url>
+			<uri>/w/([0-9a-zA-Z]+)</uri>
+			<type>pattern</type>
+			<idName>1</idName>
+			<stringformat>http://h5.m.taobao.com/we/index.htm#account/%@</stringformat>
+		</url>
+		
+		
+		<url>
+			<uri>/f/([0-9a-zA-Z]+)/([0-9a-zA-Z]+)</uri>
+			<type>pattern</type>
+			<idName>1,2</idName>
+			<stringformat>http://h5.m.taobao.com/we/index.htm#detail/%@</stringformat>
+		</url>
+		
+		<!-- 插件 -->
+		
+		<!-- 其它 -->
+	</decode>
+</body>

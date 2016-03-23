@@ -1,0 +1,2467 @@
+{
+    "id": 1030,
+    "update": true,
+    "interval": 1,
+    "v": "5.8.52",
+    "config": [
+               {
+               "name": "rewrite",
+               "data": [
+                        {
+                        "new": "$1",
+                        "flag": "",
+                        "origin": "tmall:\\/\\/tmallclient\\/\\?(.*)",
+                        "comment": "前4行顺序固定"
+                        },
+                        {
+                        "new": "$#0",
+                        "flag": "",
+                        "origin": "^(%7B|\\{%22).*",
+                        "comment": "前4行顺序固定"
+                        },
+                        {
+                        "new": "$1",
+                        "flag": "",
+                        "origin": "\"action\":\"(.*?)\"",
+                        "comment": "前4行顺序固定"
+                        },
+                        {
+                        "new": "$2",
+                        "flag": "",
+                        "origin": "^(internal:url|iu)=(.*)",
+                        "comment": "前4行顺序固定"
+                        },
+                        {
+                        "new": "$3#$5",
+                        "flag": "",
+                        "origin": "(link|wlink|bannerid|banner):(url|securl)=(.+)(%23)(.*)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "$3",
+                        "flag": "",
+                        "origin": "(link|wlink|bannerid|banner):(url|securl)=(.*)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "$#0",
+                        "flag": "",
+                        "origin": "^https?%3A%2F%2F.*",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/market",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/chaoshi\\.m\\.tmall\\.com",
+                        "comment": "天猫超市native优化"
+                        },
+                        {
+                        "new": "http://chaoshi.m.tmall.com?$2",
+                        "flag": "",
+                        "origin": "tmall:\\/\\/page\\.tm\\/shop(\\/)?\\?(.*?(&?shopId=(67597230|101975462|108330122|107693821)|&?sellerId=(725677994|1910146537|1129326215|1955345225|2243902285|2136152958)|&?sellerNick=(%E5%A4%A9%E7%8C%AB%E8%B6%85%E5%B8%82|%E5%A4%A9%E7%8C%AB%E8%B6%85%E5%B8%82%E7%94%9F%E9%B2%9C%E5%BA%97|%E5%A4%A9%E7%8C%AB%E8%B6%85%E5%B8%82%E5%8D%8E%E5%8D%97%E7%AB%99|%E5%A4%A9%E7%8C%AB%E8%B6%85%E5%B8%82%E5%8D%8E%E5%8C%97%E7%AB%99|%E5%A4%A9%E7%8C%AB%E8%B6%85%E5%B8%82%E5%8D%8E%E5%8C%97%E7%94%9F%E9%B2%9C|%E5%A4%A9%E7%8C%AB%E8%B6%85%E5%B8%82%E9%87%8F%E8%B4%A9%E5%BA%97)).*?)",
+                        "comment": "天猫超市"
+                        },
+                        {
+                        "new": "$0",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/shop(67597230|101975462|108330122|107693821)(\\.m)*\\.(taobao|tmall)\\.com",
+                        "comment": "天猫超市"
+                        },
+                        {
+                        "new": "$0",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/(chaoshi|chaoshihn|chaoshihb|xian)(\\.m)?\\.tmall\\.com",
+                        "comment": "天猫超市"
+                        },
+                        {
+                        "new": "tmall://page.tm/itemDetail?$1",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/page\\.m\\.tmall\\.com\\/chaoshi/detail\\.htm\\/?\\?(.*)",
+                        "comment": "天猫超市"
+                        },
+                        {
+                        "new": "$0",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/\\w+\\.m\\.tmall\\.com\\/shop\\/promotion\\.htm.*",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/tunla",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/tun(\\.m)*\\.tmall\\.com",
+                        "comment": "囤啦"
+                        },
+                        {
+                        "new": "tmall://page.tm/react?url=$1.js",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/.*[\\?&]rct_n=(.+)\\.js(.*)",
+                        "comment": "ReactNative"
+                        },
+                        {
+                        "new": "tmall://page.tm/funMessage?categoryId=$2",
+                        "flag": "l",
+                        "origin": "tmall:\\/\\/(mtp|mobile\\.tmall\\.com\\/page)\\/messageFun[\\?&]categoryId=(\\w+)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/messageList?categoryId=$2",
+                        "flag": "l",
+                        "origin": "tmall:\\/\\/(mtp|mobile\\.tmall\\.com\\/page)\\/msgList[\\?&]categoryId=(\\w+)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/messageRecommend?categoryId=$2",
+                        "flag": "l",
+                        "origin": "tmall:\\/\\/(mtp|mobile\\.tmall\\.com\\/page)\\/messageRecommend[\\?&]categoryId=(\\w+)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/webview?securityUrlString=$$0",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/ya\\.tmall\\.com\\/security\\/rest\\.do",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/itemDetail?itemId=$1",
+                        "flag": "l",
+                        "origin": "^itemId=(\\d+)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/itemDetail?itemId=$1",
+                        "flag": "l",
+                        "origin": "item:id=(\\d+)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/search?$1",
+                        "flag": "l",
+                        "origin": "search:(.*)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/shop?$3&$7",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/h5\\.(m|wapa)\\.taobao\\.com\\/weapp\\/view_page\\.htm\\?((.*)&)?page=shop(\\/|%2F)(index|mall_index)(&(.*))?",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/weapp?$4",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/(wapp|h5)\\.(m|waptest|wapa)\\.taobao\\.com\\/weapp\\/view_page\\.htm(\\?(.*))?",
+                        "comment": "weapp的链接"
+                        },
+                        {
+                        "new": "tmall://page.tm/shop$1",
+                        "flag": "",
+                        "origin": "tb\\.cn\\/shop(\\?.*)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/shop?shopId=$1",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/shop\\.taobao\\.com\\/shop\\.html\\/?.*[\\?&]shop_id=(\\d+).*",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/shop?shopId=$1",
+                        "flag": "l",
+                        "origin": "^shopId=(\\d+)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/shop?shopId=$1",
+                        "flag": "l",
+                        "origin": "shop:id=(\\d+)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "itms://$1",
+                        "flag": "l",
+                        "origin": "^https?:\\/\\/((\\w+\\.)*?(itunes|itunes\\.apple)\\.com\\/.*)",
+                        "comment": "应用商店链接，直接跳App Store"
+                        },
+                        {
+                        "new": "tmall://tab.switch/fun",
+                        "flag": "l",
+                        "origin": "tmall:\\/\\/(mtp|mobile\\.tmall\\.com\\/page)\\/brandShowMain(\\?.*)?",
+                        "comment": "Tab切换"
+                        },
+                        {
+                        "new": "tmall://tab.switch/myStreet",
+                        "flag": "l",
+                        "origin": "tmall:\\/\\/(mtp|mobile\\.tmall\\.com\\/page)\\/myStreet$",
+                        "comment": "Tab切换"
+                        },
+                        {
+                        "new": "tmall://tab.switch/home",
+                        "flag": "l",
+                        "origin": "tmall:\\/\\/(mtp|mobile\\.tmall\\.com\\/page)\\/home(\\?.*)?",
+                        "comment": "Tab切换"
+                        },
+                        {
+                        "new": "tmall://tab.switch/myTmall",
+                        "flag": "l",
+                        "origin": "tmall:\\/\\/(mtp|mobile\\.tmall\\.com\\/page)\\/mainTabMyTmall(\\?.*)?",
+                        "comment": "Tab切换"
+                        },
+                        {
+                        "new": "tmall://page.tm/$2",
+                        "flag": "",
+                        "origin": "tmall:\\/\\/(mtp|mobile\\.tmall\\.com\\/page)\\/(.*)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/huanxin?dataType=1&$1",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/www\\.tmall\\.com\\/wh\\/tpl\\/refreshmentwh\\/tag\\.htm\\?(.*tagId=(\\d+).*)",
+                        "comment": "焕新Tag承接页"
+                        },
+                        {
+                        "new": "tmall://page.tm/huanxin?dataType=2&$1",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/www\\.tmall\\.com\\/wh\\/tpl\\/refreshmentwh\\/tag\\.htm\\?(.*brandId=(\\d+).*)",
+                        "comment": "焕新Brand承接页"
+                        },
+                        {
+                        "new": "tmall://page.tm/shenghuojia?$1",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/---www\\.tmall\\.com\\/wh\\/tpl\\/shenghuojia\\/index\\.htm\\/?(?:\\?(.*))",
+                        "comment": "生活家首页"
+                        },
+                        {
+                        "new": "tmall://page.tm/shenghuojiatag?$1",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/---www\\.tmall\\.com\\/wh\\/tpl\\/shenghuojia\\/taglist\\.htm\\/?\\?(.*)",
+                        "comment": "生活家Tag"
+                        },
+                        {
+                        "new": "tmall://page.tm/shenghuojiastage?$1",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/---www\\.tmall\\.com\\/wh/tpl\\/shenghuojia\\/detail\\.htm\\/?\\?(.*)",
+                        "comment": "生活家Detail"
+                        },
+                        {
+                        "new": "tmall://page.tm/cart?cartfrom=tmall_supermarket",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/cart\\.m\\.tmall\\.com\\/cart\\/myCart\\.htm",
+                        "comment": "天猫超市购物车"
+                        },
+                        {
+                        "new": "tmall://page.tm/shopitem?searchType=shopItem&shopId=$1&categoryId=$5&isNew=$6",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/shop(\\d+)(\\.m)?(\\.wapa)?\\.taobao\\.com\\/?#list([\\?&]catId=(\\d+)|[\\?&]isNew=(\\d+))?",
+                        "comment": "店铺内搜索"
+                        },
+                        {
+                        "new": "tmall://page.tm/shopitem?searchType=shopItem&shopId=$1&$5&$7",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/shop(\\d+)(\\.m)?(\\.wapa)?\\.taobao\\.com\\/?(\\?(.*))?#list(\\?(.*))?",
+                        "comment": "店铺内搜索"
+                        },
+                        {
+                        "new": "tmall://page.tm/shopitem?searchType=shopItem&shopId=$shopid&categoryId=$9&$7",
+                        "flag": "l,s",
+                        "origin": "^(?:https?:)?\\/\\/(\\w+)(\\.m)?(\\.mall)?\\.(tmall|taobao)\\.(hk|com)\\/shop\\/shop_auction_search\\.htm(\\?(.*([\\?&]scid=(\\d+)).*))?",
+                        "comment": "店铺内搜索"
+                        },
+                        {
+                        "new": "tmall://page.tm/funLabelDetail?labelId=$1",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/m\\.tmall\\.com\\/share/labelShare\\.htm.*.*[\\?&]id=(\\d+)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/funLabelDetail?labelId=$1",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/page\\.m\\.tmall\\.com\\/fun\\/redirect\\.html\\?type=label.*[\\?&]id=(\\d+)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/funLabelDetail?labelId=$1",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/gw1\\.alicdn\\.com\\/L1/444/9662/fun/redirect\\.html\\?type=label.*[\\?&]id=(\\d+)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/funFeedDetail?feedId=$1",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/gw1\\.alicdn\\.com\\/L1/444/9662/fun/redirect\\.html\\?type=post.*[\\?&]id=(\\d+)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/funFeedDetail?feedId=$1",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/m\\.tmall\\.com\\/share/postShare\\.htm.*[\\?&]id=(\\d+)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/funFeedDetail?feedId=$1",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/page\\.m\\.tmall\\.com\\/fun\\/redirect\\.html\\?type=post.*[\\?&]id=(\\d+)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/funProfile?userId=$1",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/page\\.m\\.tmall\\.com\\/fun\\/redirect\\.html\\?type=user.*[\\?&]id=((%(\\w\\w)|\\w)+)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/funProfile?userId=$1",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/gw1\\.alicdn\\.com\\/L1/444/9662/fun/redirect\\.html\\?type=user.*[\\?&]id=((%(\\w\\w)|\\w)+)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/funProfile?userId=$1",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/m\\.tmall\\.com\\/share/userShare\\.htm.*[\\?&]id=((%(\\w\\w)|\\w)+)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/search$1",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/list\\.tmall\\.com\\/search_product.htm(.*)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/search$1",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/s\\.m\\.taobao\\.com\\/h5(.*)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/search$2",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/s\\.m\\.tmall\\.com(\\/m)?\\/search\\.htm(.*)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/search?searchType=chaoshi&$1",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/s\\.m\\.tmall\\.com\\/chaoshi\\.htm(?:\\?(.*))?",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/itemDetail?itemId=$1&$3",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/miao\\.item\\.taobao\\.com\\/(\\d+)\\.htm(\\?(.*))?",
+                        "comment": "秒杀商品"
+                        },
+                        {
+                        "new": "tmall://page.tm/itemDetail?itemId=$1&$3",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/auction1\\.wap\\.taobao\\.com\\/auction\\/item_detail-\\w+-(\\d+)\\.htm\\/?(\\?(.*))?",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/itemDetail?itemId=$3&$6",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/a\\.(m|waptest)\\.(taobao|tmall)\\.com\\/i(\\d*)\\.(htm|html)\\/?(\\?(.*))?",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/itemDetail?$1",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/h5\\.m\\.taobao\\.com\\/awp\\/base\\/cart\\.htm#\\!awp\\/core\\/detail\\.htm\\/?\\?(.*)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/itemDetail?$1",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/ju\\.taobao\\.com\\/tg\\/home\\.htm\\/?\\?(.*)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/itemDetail?$2",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/detail(\\.m)?\\.tmall\\.com\\/item.htm\\/?\\?(.*)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/itemDetail?$1",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/detail\\.tmall\\.hk\\/hk\\/item\\.htm\\/?\\?(.*)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/itemDetail?$2",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/h5\\.(m|waptest|wapa)\\.taobao\\.com\\/awp\\/core\\/detail\\.htm\\/?\\?(.*)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/itemDetail?$4",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/item\\.(tmall|taobao)\\.com\\/((\\d+)|item)\\.htm\\/?\\?(.*)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/itemDetail?$1$3",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/detail\\.ju\\.taobao\\.com\\/home\\.htm\\/?([\\?&].*?itemId=\\d+.*?)([\\?&]id=\\d+)([\\?&].*)?",
+                        "comment": "聚划算，如果有itemId就把id过滤掉"
+                        },
+                        {
+                        "new": "tmall://page.tm/itemDetail?$1$3",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/detail\\.ju\\.taobao\\.com\\/home\\.htm\\/?([\\?&].*?)?([\\?&]id=\\d+)([\\?&].*itemId=\\d+.*)",
+                        "comment": "聚划算，如果有itemId就把id过滤掉"
+                        },
+                        {
+                        "new": "tmall://page.tm/itemDetail?$1",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/detail\\.yao\\.95095\\.com\\/item\\.htm\\/??\\?(.*)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "$0",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/shop(\\d+)(\\.m)*(\\.wapa)*.taobao\\.com\\/campaign(-(\\d+))?\\.htm",
+                        "comment": "店铺承接页，不跳转"
+                        },
+                        {
+                        "new": "tmall://page.tm/shop?shopId=$1&$5",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/shop(\\d+)(\\.m)*(\\.wapa)*.taobao\\.com\\/?(\\?(.*))?",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/shop?$1",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/shop\\.taobao\\.com\\/shop\\.htm[l]?\\/?\\?(.*)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/shop?$1",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/shop\\.m\\.taobao\\.com\\/shop\\/shop_index\\.htm\\/?\\?(.*)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/shop?$2",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/shop\\.m\\.taobao\\.com\\/shop\\/(shopindex|shopIndex)\\.htm\\/?\\?(.*)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/shop?$1",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/store\\.taobao\\.com\\/shop\\/view_shop\\.htm\\/?\\?(.*)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/shop?$1",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/shop\\.m\\.tmall\\.com\\/shop\\/shop_index\\.htm\\/?\\?(.*)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/shop?shopId=$1&$4",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/shop(\\d+)\\.m\\.taobao\\.com\\/#(.*?)\\/?(\\?(.*))?",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/queryOrder?exParams=$2&orderType=3",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?//h5\\.(m|wapa)\\.taobao\\.com/awp/base/buy.htm.*[\\?&]exParams=(.*)",
+                        "comment": "淘宝过来的下单请求"
+                        },
+                        {
+                        "new": "tmall://page.tm/orderDetail?tradeId=$2",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/tm\\.m\\.taobao\\.com\\/order\\/order_detail\\.htm[\\?&](payOrderId|bizOrderId|orderId)=(\\d+)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/orderDetail?tradeId=$3",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/trade\\.tmall\\.com\\/detail\\/(orderdetail|orderDetail)\\.htm[\\?&](payOrderId|bizOrderId|orderId)=(\\d+)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/orderDetail?tradeId=$2",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/trade\\.taobao\\.com\\/trade\\/detail\\/trade_item_detail\\.htm[\\?&](payOrderId|bizOrderId|orderId)=(\\d+)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/orderDetail?tradeId=$2",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/h5\\.m\\.taobao\\.com\\/awp\\/mtb\\/odetail\\.htm[\\?&](payOrderId|bizOrderId|orderId)=(\\d+)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/cart",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/h5\\.m\\.taobao\\.com\\/cart\\/index\\.htm",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/cart",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/h5\\.m\\.taobao\\.com\\/awp\\/base\\/cart\\.htm(?!#.*(awp\\/core\\/buy\\.htm))",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/cart",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/d\\.m\\.taobao\\.com\\/mybag\\.htm",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/cart",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/cart\\.taobao\\.com\\/my_cart\\.htm",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/cartCoudan?$2",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/h5\\.(wapa|waptest|m)\\.taobao\\.com\\/cart\\/gather\\.html\\/?\\?(.*)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/wuseMain",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/www\\.tmall\\.com\\/wh\\/tpl\\/tmwusemwh\\/list",
+                        "comment": "物色首页"
+                        },
+                        {
+                        "new": "tmall://page.tm/funFeedDetail$1",
+                        "flag": "l",
+                        "origin": "tmall:\\/\\/page\\.tm\\/brandShowPostDetail(.*)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/funProfile$1",
+                        "flag": "l",
+                        "origin": "tmall:\\/\\/page\\.tm\\/brandShowProfile(.*)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/funLabelDetail$1",
+                        "flag": "l",
+                        "origin": "tmall:\\/\\/page\\.tm\\/brandShowLabelDetail(.*)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/funMessage$1",
+                        "flag": "l",
+                        "origin": "tmall:\\/\\/page\\.tm\\/messageFun(.*)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/funPost$1",
+                        "flag": "l",
+                        "origin": "tmall:\\/\\/page\\.tm\\/brandShowPost(.*)",
+                        "comment": ""
+                        },
+                        {
+                        "new": "tmall://page.tm/shop?shopId=$shopid&$9",
+                        "flag": "l,s",
+                        "origin": "^(?:https?:)?\\/\\/([\\w|-]+)(\\.m)?(\\.mall)?\\.(tmall|taobao)\\.(hk|com)(\\/view_shop-\\w+\\.htm|\\/shop\\/view_shop-\\w+\\.htm|.*?\\/(shop\\/viewshop\\.htm|shop\\/view_shop\\.htm|view_shop\\.htm|index\\.htm|shop\\/shop_index\\.htm))(\\?(.*))?",
+                        "comment": "带特殊Path的店铺个性域名，放在不跳转前边"
+                        },
+                        {
+                        "new": "$0",
+                        "flag": "l",
+                        "origin": "^(?:https?:)?\\/\\/([\\w|-]+)(\\.m)?(\\.mall)?\\.(tmall|taobao)\\.(hk|com)\\/(\\w+)",
+                        "comment": "带Path的，不跳转"
+                        },
+                        {
+                        "new": "tmall://page.tm/shop?shopId=$shopid&$7",
+                        "flag": "l,s",
+                        "origin": "^(?:https?:)?\\/\\/([\\w|-]+)(\\.m)?(\\.mall)?\\.(tmall|taobao)\\.(hk|com)\\/?(\\?(.*))?",
+                        "comment": "个性域名查询会有同步请求，要放最后"
+                        }
+                        ]
+               },
+               {
+               "name": "webViewSettings",
+               "data": {
+               "closePullRefresh": true,
+               "closeBtnDynamicSetting": true,
+               "allowOpenCount": "3",
+               "needShowRefreshBtn": true,
+               "useWebViewGesture": true
+               }
+               },
+               {
+               "name": "detailKeepAliveConfig",
+               "data": {
+               "keepAlive": false,
+               "delayPush": true
+               }
+               },
+               {
+               "name": "useSpecialIconForSecondTab",
+               "data": {
+               "startDate": "20150115",
+               "endDate": "20150121",
+               "useSpecialIcon": false
+               }
+               },
+               {
+               "name": "packageAppConfig",
+               "data": {
+               "packageAppEnable": true
+               }
+               },
+               {
+               "name": "autoLoginConfig",
+               "data": {
+               "reAutologin": true,
+               "forceAutoLoginNew": false,
+               "forceAutoLogin": true,
+               "autoLoginEnable": true
+               }
+               },
+               {
+               "name": "wangXinRingConfig",
+               "data": {
+               "ringEnable": true
+               }
+               },
+               {
+               "name": "navigationPushDelay",
+               "data": {
+               "viewTransitionInProgress": "false",
+               "enable": "true",
+               "delaySeconds": "0.6"
+               }
+               },
+               {
+               "name": "mtopConfig",
+               "data": {
+               "dnsEnable": true,
+               "spdyEnable": true
+               }
+               },
+               {
+               "name": "registerUrl",
+               "data": {
+               "url": "http://reg.taobao.com/member/new_register.jhtml?_devenv=MobileDeviceWebView&tmallclient=true"
+               }
+               },
+               {
+               "name": "nonWhiteListNotice",
+               "data": {
+               "noticeEnable": true
+               }
+               },
+               {
+               "name": "funSwitch",
+               "data": [
+                        {
+                        "host": "http://h5.m.taobao.com/app/fun/pages/topic/index.html?from=native&labelId=",
+                        "enable": "true",
+                        "key": "huatiDetail"
+                        },
+                        {
+                        "host": "http://h5.m.taobao.com/app/fun/pages/homepage/index.html",
+                        "enable": "true",
+                        "key": "indexPromo1"
+                        },
+                        {
+                        "host": "http://h5.m.taobao.com/app/fun/pages/brand/index.html?from=native&labelId=",
+                        "enable": "true",
+                        "key": "brandDetail"
+                        },
+                        {
+                        "host": "[{\"name\":\"话题\",\"url\":\"tmall://page.tm/funTopicList\"},{\"name\":\"达人\",\"url\":\"http://h5.m.taobao.com/app/fun/pages/talent/index.html\"},{\"name\":\"喜欢的人\",\"url\":\"tmall://page.tm/funFeedFollowing#needLogin\"}]",
+                        "enable": "true",
+                        "key": "indexCeiling"
+                        },
+                        {
+                        "host": "{\"BSCRules\":[{\"minBrightness\":40,\"maxBrightness\":100,\"minSaturation\":0,\"maxSaturation\":29,\"configuration\":{\"brightness\":0.0841906315789474,\"saturation\":1.28635494736842,\"contrast\":1.2}},{\"minBrightness\":40,\"maxBrightness\":100,\"minSaturation\":29,\"maxSaturation\":69,\"configuration\":{\"brightness\":0.08,\"saturation\":1,\"contrast\":1.2}},{\"minBrightness\":40,\"maxBrightness\":100,\"minSaturation\":69,\"maxSaturation\":100,\"configuration\":{\"brightness\":0.08419,\"saturation\":1,\"contrast\":1.1}},{\"minBrightness\":100,\"maxBrightness\":179,\"minSaturation\":0,\"maxSaturation\":29,\"configuration\":{\"brightness\":0.09678525,\"saturation\":1,\"contrast\":1.1}},{\"minBrightness\":100,\"maxBrightness\":179,\"minSaturation\":29,\"maxSaturation\":69,\"configuration\":{\"brightness\":0.012097,\"saturation\":0.8,\"contrast\":1.2}},{\"minBrightness\":100,\"maxBrightness\":179,\"minSaturation\":69,\"maxSaturation\":100,\"configuration\":{\"brightness\":0.08,\"saturation\":1,\"contrast\":1.1}},{\"minBrightness\":179,\"maxBrightness\":240,\"minSaturation\":0,\"maxSaturation\":29,\"configuration\":{\"brightness\":-0.0274915,\"saturation\":1.34100875,\"contrast\":1}},{\"minBrightness\":179,\"maxBrightness\":240,\"minSaturation\":70,\"maxSaturation\":100,\"configuration\":{\"brightness\":-0.24214625,\"saturation\":1.28037075,\"contrast\":1}}],\"TemperatureRule\":[{\"minTemperature\":0,\"maxTemperature\":10000,\"configuration\":{\"temperature\":6394.95285377778}},{\"minTemperature\":10000,\"maxTemperature\":12000,\"configuration\":{\"temperature\":5994.19968580435}},{\"minTemperature\":12000,\"maxTemperature\":15000,\"configuration\":{\"temperature\":5694}},{\"minTemperature\":15000,\"maxTemperature\":18000,\"configuration\":{\"temperature\":4650}},{\"minTemperature\":18000,\"maxTemperature\":99999,\"configuration\":{\"temperature\":4350}}],\"sharpness\":0.3}",
+                        "enable": true,
+                        "key": "AutoImageOptimization"
+                        },
+                        {
+                        "enable": false,
+                        "key": "canAddingNewTag"
+                        },
+                        {
+                        "startTime": 1439567495000,
+                        "tabIconUrl": "http://gtms03.alicdn.com/tps/i3/TB1.utnJXXXXXcjXpXX1tkaIXXX-143-167.png",
+                        "contentUrl": "http://gtms03.alicdn.com/tps/i3/TB1HnFqJXXXXXalXpXXieD7UpXX-1242-2208.png",
+                        "enable": false,
+                        "maxDuration": 3000,
+                        "type": 0,
+                        "endTime": 1439654400000,
+                        "key": "funInteraction"
+                        },
+                        {
+                        "enable": true,
+                        "key": "jumpH5AfterRate",
+                        "url": "http://h5.m.taobao.com/app/fun/pages/evaluation/index.html?postId="
+                        }
+                        ]
+               },
+               {
+               "name": "funTab",
+               "data": [
+                        {
+                        "searchSuggest": "",
+                        "aggreType": "recommended",
+                        "page": "post",
+                        "name": "推荐",
+                        "banners": [
+                                    {
+                                    "action": "http://m.laiwang.com/market/laiwang/cvd.php",
+                                    "image": "http://gtms03.alicdn.com/tps/i3/TB19TWmJXXXXXcdXpXXgoUDMFXX-1680-400.jpg"
+                                    },
+                                    {
+                                    "action": "http://h5.m.taobao.com/app/fun/pages/topic/index.html?labelId=439413&from=web",
+                                    "image": "http://gtms02.alicdn.com/tps/i2/TB1_zBbJXXXXXX8XpXXl_Xx2XXX-1680-400.jpeg"
+                                    },
+                                    {
+                                    "action": "http://h5.m.taobao.com/app/fun/pages/topic/index.html?labelId=439868&from=web",
+                                    "image": "http://gtms03.alicdn.com/tps/i3/TB11Fw1IVXXXXX6aXXXgoUDMFXX-1680-400.jpg"
+                                    },
+                                    {
+                                    "action": "http://h5.m.taobao.com/app/fun/pages/topic/index.html?from=web&labelId=439584",
+                                    "image": "http://gtms03.alicdn.com/tps/i3/TB1F90cJXXXXXahXVXXgoUDMFXX-1680-400.jpg"
+                                    },
+                                    {
+                                    "action": "http://h5.m.taobao.com/app/fun/pages/topic/index.html?from=web&labelId=434370",
+                                    "image": "http://gtms03.alicdn.com/tps/i3/TB1ttMLIFXXXXXNaXXXgoUDMFXX-1680-400.jpg"
+                                    },
+                                    {
+                                    "action": "http://h5.m.taobao.com/app/fun/pages/topic/index.html?from=web&labelId=437022",
+                                    "image": "http://gtms04.alicdn.com/tps/i4/TB1kLugIVXXXXXzapXXgoUDMFXX-1680-400.jpg"
+                                    },
+                                    {
+                                    "action": "http://h5.m.taobao.com/app/fun/pages/topic/index.html?from=web&labelId=437876",
+                                    "image": "http://gtms03.alicdn.com/tps/i3/TB1GWPHIVXXXXcOXXXXgoUDMFXX-1680-400.jpg"
+                                    }
+                                    ]
+                        },
+                        {
+                        "searchSuggest": "搜索标签",
+                        "aggreType": "activity",
+                        "page": "label",
+                        "name": "话题"
+                        },
+                        {
+                        "searchSuggest": "",
+                        "aggreType": "following",
+                        "page": "post",
+                        "name": "关注"
+                        }
+                        ]
+               },
+               {
+               "name": "tmallConfigWhiteList",
+               "data": {
+               "shop": [
+                        "1111.tmall.com"
+                        ]
+               }
+               },
+               {
+               "name": "broadcast",
+               "data": {
+               "bannerUrl": "http://gtms01.alicdn.com/tps/i1/TB1zAv2GFXXXXcDXFXXpyEt0FXX-640-172.png",
+               "turnOffBroadcast": false,
+               "turnOffComments": false,
+               "bannerLink": "http://gtms01.alicdn.com/tps/i1/TB1qg.bGFXXXXavXVXX1yu_7XXX-600-1948.png",
+               "programUrl": "http://gtms01.alicdn.com/tps/i1/TB1qg.bGFXXXXavXVXX1yu_7XXX-600-1948.png",
+               "turnOffBanner": false
+               }
+               },
+               {
+               "name": "tmallDetail",
+               "data": {
+               "detailConfig": "{\"v\":1,\"cacheConfig\":{\"4.6.0\":{\"dynamicEnable\":true,\"useCache\":false\n       },\n       \"4.7.0\":\n       {\n          \"dynamicEnable\":true,\n          \"useCache\":true\n       },\n       \"4.5.2\":              \n       {\n          \"dynamicEnable\":true,\n          \"useCache\":false,\n          \"allRefreshWhenDown\":true\n       },\n       \"4.8.6\":              \n       {\n          \"esiEnable\":false\n       },\n       \"4.8.7\":              \n       {\n          \"esiEnable\":false\n       },\n       \"4.8.8\":              \n       {\n          \"esiEnable\":false\n       },\n       \"4.9.0\":              \n       {\n          \"esiEnable\":false\n       },\n       \"4.9.1\":              \n       {\n          \"esiEnable\":false\n       },\n       \"4.9.2\":              \n       {\n          \"esiEnable\":false\n       },\n       \"4.9.3\":              \n       {\n          \"esiEnable\":false\n       }\n   },\n   \"switchConfig\":   \n   {\n     \"testBusinessEnable\":true,\n     \"swipEnable\":true,\n     \"swipCacheDataEnable\":true,\n     \"staticDataCacheTime\":1800,\n     \"dynamicDataCacheTime\":0,\n     \"weiXinShareEnable\":false,\n     \"swipeDelayTime\":300\n   }\n}",
+               "dynamicEnable": false
+               }
+               },
+               {
+               "name": "urlToActionInterceptor",
+               "data": {
+               "http://www.tmall.com/go/fun/promotion-act/VideoEntrance.php": "internal:url=tmall://mobile.tmall.com/page/bsVideoEntrance"
+               }
+               },
+               {
+               "name": "brandAlbum",
+               "data": {
+               "subject": [
+                           "12"
+                           ]
+               }
+               },
+               {
+               "name": "performanceConfig",
+               "data": [
+                        {
+                        "masterSwitch": 1,
+                        "numberForPercent": 100,
+                        "type": "masterSwitch"
+                        },
+                        {
+                        "time": 240,
+                        "numberForPercent": 100,
+                        "type": "imageType",
+                        "countsViaWWan": 200,
+                        "swith": 1,
+                        "countsViaWifi": 200
+                        },
+                        {
+                        "time": 240,
+                        "numberForPercent": 100,
+                        "type": "netWorkType",
+                        "countsViaWWan": 100,
+                        "swith": 1,
+                        "countsViaWifi": 1000
+                        },
+                        {
+                        "time": 240,
+                        "numberForPercent": 100,
+                        "type": "pageType",
+                        "countsViaWWan": 1000,
+                        "swith": 1,
+                        "countsViaWifi": 1000
+                        },
+                        {
+                        "time": 240,
+                        "numberForPercent": 100,
+                        "type": "launchType",
+                        "countsViaWWan": 1000,
+                        "swith": 1,
+                        "countsViaWifi": 1000
+                        },
+                        {
+                        "time": 240,
+                        "numberForPercent": 100,
+                        "type": "otherType",
+                        "countsViaWWan": 100,
+                        "swith": 0,
+                        "countsViaWifi": 100
+                        }
+                        ]
+               },
+               {
+               "name": "dynative",
+               "data": {
+               "shop": {
+               "clearCache": false
+               }
+               }
+               },
+               {
+               "name": "fun",
+               "data": {
+               "userProfileEmptyContent": {
+               "linkUrl": "http://m.tmall.com",
+               "linkText": "逛一逛",
+               "emptyContent": "买过那么多心爱的物品\n现在拿起手机记录下来吧",
+               "type": "cameraOnly"
+               }
+               }
+               },
+               {
+               "name": "huoyan",
+               "data": {
+               "logo": {
+               "desc": "",
+               "img": "http://gtms04.alicdn.com/tps/i4/TB1fFrJHpXXXXbaXpXXFPXh_XXX-450-350.png",
+               "endTime": 1472659200000
+               },
+               "select": "qrcode"
+               }
+               },
+               {
+               "name": "session",
+               "data": {
+               "interval": "30",
+               "isOpen": true
+               }
+               },
+               {
+               "name": "interceptUrl",
+               "data": {
+               "store.taobao.com/shop/view_shop.htm": {
+               "pattern": [
+                           "user_number_id=(\\d*)"
+                           ],
+               "type": "seller",
+               "indexs": []
+               },
+               "detail.tmall.hk/hk/item.htm": {
+               "pattern": [
+                           "[\\?&]id=(\\d*)"
+                           ],
+               "type": "item",
+               "indexs": []
+               },
+               "a.m.tmall.com": {
+               "pattern": [
+                           "/i(\\d*)\\.(htm|html)"
+                           ],
+               "type": "item",
+               "indexs": []
+               },
+               "h5.wapa.taobao.com/awp/core/detail.htm": {
+               "pattern": [
+                           "[\\?&]id=(\\d*)"
+                           ],
+               "type": "item",
+               "indexs": []
+               },
+               "h5.m.taobao.com/awp/core/detail.htm": {
+               "pattern": [
+                           "[\\?&]id=(\\d*)"
+                           ],
+               "type": "item",
+               "indexs": []
+               },
+               "subject.tmall.com/subject/subject.htm": {
+               "pattern": [
+                           "[\\?&]gccpm=([-\\.\\w]*)",
+                           "[\\?&]id=(\\d*)",
+                           "[\\?&].*subject-(\\d+)"
+                           ],
+               "type": "subject",
+               "indexs": []
+               },
+               "item.taobao.com/item.htm": {
+               "pattern": [
+                           "[\\?&]id=(\\d*)"
+                           ],
+               "type": "item",
+               "indexs": []
+               },
+               "brand.tmall.com/subject/subject.htm": {
+               "pattern": [
+                           "[\\?&]gccpm=([-\\.\\w]*)",
+                           "[\\?&]id=(\\d*)",
+                           "[\\?&].*subject-(\\d+)"
+                           ],
+               "type": "subject",
+               "indexs": []
+               },
+               "a.waptest.tmall.com": {
+               "pattern": [
+                           "/i(\\d*)\\.(htm|html)"
+                           ],
+               "type": "item",
+               "indexs": []
+               },
+               "item.tmall.com/item.htm": {
+               "pattern": [
+                           "[\\?&]id=(\\d*)"
+                           ],
+               "type": "item",
+               "indexs": []
+               },
+               "detail.m.tmall.com": {
+               "pattern": [
+                           "[\\?&]id=(\\d*)"
+                           ],
+               "type": "item",
+               "indexs": []
+               },
+               "shop.m.taobao.com/shop/shop_index.htm": {
+               "pattern": [
+                           "shop_id=(\\d*)",
+                           "user_id=(\\d*)"
+                           ],
+               "type": "shoporseller",
+               "indexs": []
+               },
+               "detail.tmall.com/item.htm": {
+               "pattern": [
+                           "[\\?&]id=(\\d*)"
+                           ],
+               "type": "item",
+               "indexs": []
+               },
+               "page.m.tmall.com/fun/redirect.html": {
+               "pattern": [
+                           "[\\?&]id=([^&#]*)"
+                           ],
+               "type": "fun",
+               "indexs": []
+               },
+               "s.m.tmall.com": {
+               "pattern": [
+                           "search.htm$"
+                           ],
+               "type": "search",
+               "indexs": []
+               },
+               "shop.m.tmall.com/shop/shop_index.htm": {
+               "pattern": [
+                           "shop_id=(\\d*)",
+                           "user_id=(\\d*)"
+                           ],
+               "type": "shoporseller",
+               "indexs": []
+               }
+               }
+               },
+               {
+               "name": "mtopCache",
+               "data": [
+                        {
+                        "apis": [
+                                 {
+                                 "scope": "private",
+                                 "cache": true,
+                                 "query": [
+                                           "p",
+                                           "netType",
+                                           "feature"
+                                           ],
+                                 "api": "mtop.trade.queryBag",
+                                 "block": "carts",
+                                 "offline": true,
+                                 "push": true,
+                                 "version": "4.1"
+                                 }
+                                 ],
+                        "block": "carts"
+                        }
+                        ]
+               },
+               {
+               "name": "mtopCacheMeta",
+               "data": {
+               "carts": {
+               "compress": true,
+               "encrypt": true,
+               "removable": true,
+               "block": "carts",
+               "size": "5"
+               }
+               }
+               },
+               {
+               "name": "preload",
+               "data": []
+               },
+               {
+               "name": "dynative_sidebar",
+               "data": {
+               "gala.jia": "http://www.tmall.com/go/rgn/promotion-act/2014-1111-dynative-data-nav.php",
+               "gala.mei": "http://www.tmall.com/go/rgn/promotion-act/2014-1111-dynative-data-nav.php",
+               "gala.index": "http://www.tmall.com/go/rgn/promotion-act/2014-1111-dynative-data-nav.php",
+               "gala.3c": "http://www.tmall.com/go/rgn/promotion-act/2014-1111-dynative-data-nav.php",
+               "gala.clothing": "http://www.tmall.com/go/rgn/promotion-act/2014-1111-dynative-data-nav.php",
+               "gala.index_pre": "http://www.tmall.com/go/rgn/promotion-act/2014-1111-dynative-data-nav.php"
+               }
+               },
+               {
+               "name": "interceptUrlNew",
+               "data": {
+               "a\\.m\\.taobao\\.com": {
+               "sn": "18",
+               "pattern": [
+                           "/i(\\d*)\\.(htm|html)"
+                           ],
+               "type": "item"
+               },
+               "shop\\.m\\.taobao\\.com\\/shop\\/shopindex\\.htm": {
+               "sn": "35",
+               "pattern": [
+                           "[\\?&]shop_id=(\\d+)",
+                           "[\\?&]user_id=(\\d+)",
+                           "[\\?&]nick=((%(\\w\\w)|\\w)+)",
+                           "[\\?&]user_number_id=(\\d+)"
+                           ],
+               "type": "shop"
+               },
+               "^http:\\/\\/s\\.m\\.tmall\\.com": {
+               "sn": "15",
+               "pattern": [
+                           "\\/search\\.htm"
+                           ],
+               "type": "search"
+               },
+               "d\\.m\\.taobao\\.com\\/mybag\\.htm": {
+               "sn": "47",
+               "pattern": [],
+               "type": "cart"
+               },
+               "^http:\\/\\/(\\w+)(\\.m)?(\\.mall)?\\.(tmall|taobao)\\.com\\/(?!\\w+)": {
+               "sn": "48",
+               "pattern": [
+                           "[http|https]:\\/\\/(\\w+.*[tmall|taobao]\\.com)\\/"
+                           ],
+               "type": "shopdomain"
+               },
+               "detail\\.ju\\.taobao\\.com\\/home\\.htm": {
+               "sn": "28",
+               "pattern": [
+                           "[\\?&]item_id=(\\d+)"
+                           ],
+               "type": "item"
+               },
+               "list\\.tmall\\.com": {
+               "sn": "13",
+               "pattern": [
+                           "\\/search_product.htm"
+                           ],
+               "type": "search"
+               },
+               "(\\w+)\\.tmall\\.com\\\\/bkbm\\.htm": {
+               "sn": "31",
+               "pattern": [],
+               "type": "web"
+               },
+               "item\\.taobao\\.com\\/item\\.htm": {
+               "sn": "26",
+               "pattern": [
+                           "[\\?&]item_id=(\\d+)",
+                           "[\\?&]item_num_id=(\\d+)",
+                           "[\\?&]id=(\\d+)"
+                           ],
+               "type": "item"
+               },
+               "gw1\\.alicdn\\.com\\/L1/444/9662/fun/redirect\\.html\\?type=user": {
+               "sn": "10",
+               "pattern": [
+                           "[\\?&]id=((%(\\w\\w)|\\w)+)"
+                           ],
+               "type": "fun"
+               },
+               "page\\.m\\.tmall\\.com\\/fun\\/redirect\\.html\\?type=label": {
+               "sn": "5",
+               "pattern": [
+                           "[\\?&]id=(\\d+)",
+                           "[\\?&]token=(\\w+)"
+                           ],
+               "type": "funlabel"
+               },
+               "h5\\.m\\.taobao\\.com\\/awp\\/base\\/cart\\.htm": {
+               "sn": "46",
+               "pattern": [
+                           "#.*(awp\\/core\\/buy\\.htm)"
+                           ],
+               "type": "cart"
+               },
+               "detail\\.m\\.tmall\\.com": {
+               "sn": "22",
+               "pattern": [
+                           "[\\?&]item_id=(\\d+)",
+                           "[\\?&]item_num_id=(\\d+)",
+                           "[\\?&]id=(\\d+)"
+                           ],
+               "type": "item"
+               },
+               "h5\\.m\\.taobao\\.com\\/awp\\/base\\/cart\\.htm#\\!awp\\/core\\/detail\\.htm": {
+               "sn": "19",
+               "pattern": [
+                           "#.*[\\?&]item_id=(\\d+)",
+                           "#.*[\\?&]item_num_id=(\\d+)",
+                           "#.*[\\?&]id=(\\d+)"
+                           ],
+               "type": "item"
+               },
+               "page\\.m\\.tmall\\.com\\/fun\\/redirect\\.html\\?type=post": {
+               "sn": "8",
+               "pattern": [
+                           "[\\?&]id=(\\d+)"
+                           ],
+               "type": "funfeed"
+               },
+               "detail\\.yao\\.95095\\.com\\/item\\.htm": {
+               "sn": "29",
+               "pattern": [
+                           "[\\?&]id=(\\d+)"
+                           ],
+               "type": "item"
+               },
+               "m\\.tmall\\.com\\/share/userShare\\.htm": {
+               "sn": "11",
+               "pattern": [
+                           "[\\?&]id=((%(\\w\\w)|\\w)+)"
+                           ],
+               "type": "fun"
+               },
+               "detail\\.tmall\\.com\\/item\\.htm": {
+               "sn": "23",
+               "pattern": [
+                           "[\\?&]item_id=(\\d+)",
+                           "[\\?&]item_num_id=(\\d+)",
+                           "[\\?&]id=(\\d+)"
+                           ],
+               "type": "item"
+               },
+               "shop(\\d+)(\\.m)*(\\.wapa)*.taobao\\.com.*#list": {
+               "sn": "30",
+               "pattern": [
+                           "http:\\/\\/shop(\\d+)\\.",
+                           "[\\?&]catId=(\\d+)",
+                           "[\\?&](isNew=1|isSoldCount=1)"
+                           ],
+               "type": "shopitem"
+               },
+               "h5\\.(m|waptest|wapa)\\.taobao\\.com\\/awp\\/core\\/detail\\.htm": {
+               "sn": "25",
+               "pattern": [
+                           "[\\?&]item_id=(\\d+)",
+                           "[\\?&]item_num_id=(\\d+)",
+                           "[\\?&]id=(\\d+)"
+                           ],
+               "type": "item"
+               },
+               "shop\\.m\\.tmall\\.com\\/shop\\/shop_index\\.htm": {
+               "sn": "37",
+               "pattern": [
+                           "[\\?&]shop_id=(\\d+)",
+                           "[\\?&]user_id=(\\d+)",
+                           "[\\?&]nick=((%(\\w\\w)|\\w)+)",
+                           "[\\?&]user_number_id=(\\d+)"
+                           ],
+               "type": "shop"
+               },
+               "a\\.m\\.tmall\\.com": {
+               "sn": "17",
+               "pattern": [
+                           "/i(\\d*)\\.(htm|html)"
+                           ],
+               "type": "item"
+               },
+               "^http:\\/\\/s\\.m\\.(taobao|tmall)\\.com.*[\\?&]promo=": {
+               "sn": "12",
+               "pattern": [],
+               "type": "web"
+               },
+               "h5\\.m\\.taobao\\.com\\/cart\\/index\\.htm": {
+               "sn": "45",
+               "pattern": [],
+               "type": "cart"
+               },
+               "item\\.tmall\\.com\\/item\\.htm": {
+               "sn": "27",
+               "pattern": [
+                           "[\\?&]item_id=(\\d+)",
+                           "[\\?&]item_num_id=(\\d+)",
+                           "[\\?&]id=(\\d+)"
+                           ],
+               "type": "item"
+               },
+               "trade\\.tmall\\.com\\/detail\\/(orderdetail|orderDetail)\\.htm": {
+               "sn": "41",
+               "pattern": [
+                           "[\\?&]payOrderId=(\\d+)",
+                           "[\\?&]bizOrderId=(\\d+)",
+                           "[\\?&]orderId=(\\d+)"
+                           ],
+               "type": "order"
+               },
+               "^http:\\/\\/s\\.m\\.taobao\\.com": {
+               "sn": "14",
+               "pattern": [
+                           "\\/h5"
+                           ],
+               "type": "search"
+               },
+               "gw1\\.alicdn\\.com\\/L1/444/9662/fun/redirect\\.html\\?type=post": {
+               "sn": "6",
+               "pattern": [
+                           "[\\?&]id=(\\d+)"
+                           ],
+               "type": "funfeed"
+               },
+               "shop(\\d+)(\\.m)*(\\.wapa)*.taobao\\.com": {
+               "sn": "38",
+               "pattern": [
+                           "http:\\/\\/shop(\\d+)\\."
+                           ],
+               "type": "shop"
+               },
+               "auction1\\.wap\\.taobao\\.com": {
+               "sn": "16",
+               "pattern": [
+                           "item_detail-\\w+-(\\d+)\\."
+                           ],
+               "type": "item"
+               },
+               "h5\\.m\\.taobao\\.com\\/cart\\/index\\.htm#.*": {
+               "sn": "44",
+               "pattern": [],
+               "type": "web"
+               },
+               "shop\\.m\\.taobao\\.com\\/shop\\/shop_index\\.htm": {
+               "sn": "34",
+               "pattern": [
+                           "[\\?&]shop_id=(\\d+)",
+                           "[\\?&]user_id=(\\d+)",
+                           "[\\?&]nick=((%(\\w\\w)|\\w)+)",
+                           "[\\?&]user_number_id=(\\d+)"
+                           ],
+               "type": "shop"
+               },
+               "subject\\.tmall\\.com\\/subject\\/subject\\.htm.*[\\?&]id=(\\d+)": {
+               "sn": "51",
+               "pattern": [
+                           "[\\?&]gccpm=([-\\.\\w]*)",
+                           "[\\?&]id=(\\d*)",
+                           "[\\?&].*subject-(\\d+)"
+                           ],
+               "type": "subject"
+               },
+               "h5\\.m\\.taobao\\.com\\/awp\\/mtb\\/odetail\\.htm": {
+               "sn": "43",
+               "pattern": [
+                           "[\\?&]payOrderId=(\\d+)",
+                           "[\\?&]bizOrderId=(\\d+)",
+                           "[\\?&]orderId=(\\d+)"
+                           ],
+               "type": "order"
+               },
+               "brand\\.tmall\\.com\\/subject\\/subject\\.htm.*[\\?&]id=(\\d+)": {
+               "sn": "2",
+               "pattern": [
+                           "[\\?&]gccpm=([-\\.\\w]*)",
+                           "[\\?&]id=(\\d*)",
+                           "[\\?&].*subject-(\\d+)"
+                           ],
+               "type": "subject"
+               },
+               "^http:\\/\\/(\\w+)(\\.m)?(\\.mall)?\\.(tmall|taobao)\\.com(?!(\\/\\w+))": {
+               "sn": "49",
+               "pattern": [
+                           "[http|https]:\\/\\/(\\w+.*[tmall|taobao]\\.com)\\/"
+                           ],
+               "type": "shopdomain"
+               },
+               "ju\\.taobao\\.com\\/tg\\/home\\.htm": {
+               "sn": "20",
+               "pattern": [
+                           "[\\?&]item_id=(\\d+)",
+                           "[\\?&]item_num_id=(\\d+)",
+                           "[\\?&]id=(\\d+)"
+                           ],
+               "type": "item"
+               },
+               "m\\.tmall\\.com\\/share/labelShare\\.htm": {
+               "sn": "4",
+               "pattern": [
+                           "[\\?&]id=(\\d+)",
+                           "[\\?&]token=(\\w+)"
+                           ],
+               "type": "funlabel"
+               },
+               "cart\\.taobao\\.com\\/my_cart\\.htm": {
+               "sn": "50",
+               "pattern": [],
+               "type": "cart"
+               },
+               "h5\\.(m|wapa)\\.taobao\\.com\\/weapp\\/view_page\\.htm.*?[\\?&]page=shop\\/(index|mall_index)": {
+               "sn": "39",
+               "pattern": [
+                           "[\\?&]shopId=(\\d+)",
+                           "[\\?&]userId=(\\d+)",
+                           "[\\?&]userNick=((%(\\w\\w)|\\w)+)",
+                           "[\\?&]sellerId=(\\d+)"
+                           ],
+               "type": "shop"
+               },
+               "detail\\.tmall\\.hk\\/hk\\/item\\.htm": {
+               "sn": "24",
+               "pattern": [
+                           "[\\?&]item_id=(\\d+)",
+                           "[\\?&]item_num_id=(\\d+)",
+                           "[\\?&]id=(\\d+)"
+                           ],
+               "type": "item"
+               },
+               "page\\.m\\.tmall\\.com\\/fun\\/redirect\\.html\\?type=user": {
+               "sn": "9",
+               "pattern": [
+                           "[\\?&]id=((%(\\w\\w)|\\w)+)"
+                           ],
+               "type": "fun"
+               },
+               "shop\\.taobao\\.com\\/shop\\.htm": {
+               "sn": "33",
+               "pattern": [
+                           "[\\?&]shop_id=(\\d+)",
+                           "[\\?&]user_id=(\\d+)",
+                           "[\\?&]nick=((%(\\w\\w)|\\w)+)",
+                           "[\\?&]user_number_id=(\\d+)"
+                           ],
+               "type": "shop"
+               },
+               "trade\\.taobao\\.com\\/trade\\/detail\\/trade_item_detail\\.htm": {
+               "sn": "42",
+               "pattern": [
+                           "[\\?&]payOrderId=(\\d+)",
+                           "[\\?&]bizOrderId=(\\d+)",
+                           "[\\?&]orderId=(\\d+)"
+                           ],
+               "type": "order"
+               },
+               "store\\.taobao\\.com\\/shop\\/view_shop\\.htm": {
+               "sn": "36",
+               "pattern": [
+                           "[\\?&]shop_id=(\\d+)",
+                           "[\\?&]user_id=(\\d+)",
+                           "[\\?&]nick=((%(\\w\\w)|\\w)+)",
+                           "[\\?&]user_number_id=(\\d+)"
+                           ],
+               "type": "shop"
+               },
+               "shop(\\d+)(\\.m)*(\\.wapa)*.taobao\\.com\\/campaign(-(\\d+))?\\.htm": {
+               "sn": "32",
+               "pattern": [],
+               "type": "web"
+               },
+               "gw1\\.alicdn\\.com\\/L1/444/9662/fun/redirect\\.html\\?type=label": {
+               "sn": "3",
+               "pattern": [
+                           "[\\?&]id=(\\d+)",
+                           "[\\?&]token=(\\w+)"
+                           ],
+               "type": "funlabel"
+               },
+               "m\\.tmall\\.com\\/share/postShare\\.htm": {
+               "sn": "7",
+               "pattern": [
+                           "[\\?&]id=(\\d+)"
+                           ],
+               "type": "funfeed"
+               },
+               "^http:\\/\\/a\\.waptest\\.tmall\\.com": {
+               "sn": "21",
+               "pattern": [
+                           "[\\?&]item_id=(\\d+)",
+                           "[\\?&]item_num_id=(\\d+)",
+                           "[\\?&]id=(\\d+)"
+                           ],
+               "type": "item"
+               },
+               "tm\\.m\\.taobao\\.com\\/order\\/order_detail\\.htm": {
+               "sn": "40",
+               "pattern": [
+                           "[\\?&]payOrderId=(\\d+)",
+                           "[\\?&]bizOrderId=(\\d+)",
+                           "[\\?&]orderId=(\\d+)"
+                           ],
+               "type": "order"
+               }
+               }
+               },
+               {
+               "name": "hotpatchwithbuild",
+               "data": [
+                        {
+                        "patch_url": "http://d.daily.taobaocdn.net/L0/TB1UiuIXXXXXXahXXXXcvNbFXXX.zip",
+                        "build": "4.4.001"
+                        },
+                        {
+                        "patch_url": "http://d.daily.taobaocdn.net/L0/TB1txGIXXXXXXaoXpXXcvNbFXXX.zip",
+                        "build": "3557"
+                        },
+                        {
+                        "patch_url": "http://d.daily.taobaocdn.net/L0/TB1D7mIXXXXXXceXXXXcvNbFXXX.zip",
+                        "build": "3557"
+                        },
+                        {
+                        "patch_url": "http://d.taobaocdn.com/L0/TB1K_4yHFXXXXaZXFXXcvNbFXXX.zip",
+                        "build": "5.0.0001"
+                        },
+                        {
+                        "patch_url": "http://d.taobaocdn.com/L0/TB1K_4yHFXXXXaZXFXXcvNbFXXX.zip",
+                        "build": "5.0.0002"
+                        },
+                        {
+                        "patch_url": "http://d.taobaocdn.com/L0/TB1q9pUHFXXXXcSaXXXcvNbFXXX.zip",
+                        "build": "5.0.0001"
+                        },
+                        {
+                        "patch_url": "http://d.taobaocdn.com/L0/TB1q9pUHFXXXXcSaXXXcvNbFXXX.zip",
+                        "build": "5.0.0002"
+                        },
+                        {
+                        "patch_url": "http://d.taobaocdn.com/L0/TB1rCxFFpXXXXcqdpXXcvNbFXXX.zip",
+                        "build": "5.2.49"
+                        },
+                        {
+                        "patch_url": "http://d.taobaocdn.com/L0/TB1rCxFFpXXXXcqdpXXcvNbFXXX.zip",
+                        "build": "5.2.50"
+                        },
+                        {
+                        "patch_url": "http://d.taobaocdn.com/L0/TB1rCxFFpXXXXcqdpXXcvNbFXXX.zip",
+                        "build": "5.2.51"
+                        },
+                        {
+                        "patch_url": "http://d.taobaocdn.com/L0/TB1YOnxHVXXXXblXXXXcvNbFXXX.zip",
+                        "build": "5.2.49"
+                        },
+                        {
+                        "patch_url": "http://d.taobaocdn.com/L0/TB1YOnxHVXXXXblXXXXcvNbFXXX.zip",
+                        "build": "5.2.50"
+                        },
+                        {
+                        "patch_url": "http://d.taobaocdn.com/L0/TB1YOnxHVXXXXblXXXXcvNbFXXX.zip",
+                        "build": "5.2.51"
+                        },
+                        {
+                        "patch_url": "http://d.taobaocdn.com/L0/TB1YOnxHVXXXXblXXXXcvNbFXXX.zip",
+                        "build": "5.2.52"
+                        },
+                        {
+                        "patch_url": "http://d.taobaocdn.com/L0/TB1YOnxHVXXXXblXXXXcvNbFXXX.zip",
+                        "build": "5.3.0002"
+                        },
+                        {
+                        "patch_url": "http://d.taobaocdn.com/L0/TB1YOnxHVXXXXblXXXXcvNbFXXX.zip",
+                        "build": "5.3.1001"
+                        },
+                        {
+                        "patch_url": "http://d.taobaocdn.com/L0/TB17THqHVXXXXceXFXXcvNbFXXX.zip",
+                        "build": "5.3.0002"
+                        },
+                        {
+                        "patch_url": "http://d.taobaocdn.com/L0/TB17THqHVXXXXceXFXXcvNbFXXX.zip",
+                        "build": "5.3.0003"
+                        },
+                        {
+                        "patch_url": "http://d.taobaocdn.com/L0/TB17THqHVXXXXceXFXXcvNbFXXX.zip",
+                        "build": "5.3.1001"
+                        },
+                        {
+                        "patch_url": "http://d.taobaocdn.com/L0/TB17THqHVXXXXceXFXXcvNbFXXX.zip",
+                        "build": "5.2.49"
+                        },
+                        {
+                        "patch_url": "http://d.taobaocdn.com/L0/TB17THqHVXXXXceXFXXcvNbFXXX.zip",
+                        "build": "5.2.50"
+                        },
+                        {
+                        "patch_url": "http://d.taobaocdn.com/L0/TB17THqHVXXXXceXFXXcvNbFXXX.zip",
+                        "build": "5.2.51"
+                        },
+                        {
+                        "patch_url": "http://d.taobaocdn.com/L0/TB17THqHVXXXXceXFXXcvNbFXXX.zip",
+                        "build": "5.2.52"
+                        },
+                        {
+                        "patch_url": "http://d.taobaocdn.com/L0/TB17THqHVXXXXceXFXXcvNbFXXX.zip",
+                        "build": "5.3.0001"
+                        },
+                        {
+                        "patch_url": "http://d.taobaocdn.com/L0/TB1K7CZIXXXXXcSXpXXcvNbFXXX.zip",
+                        "build": "5.3.50"
+                        },
+                        {
+                        "patch_url": "http://d.taobaocdn.com/L0/TB188K9IXXXXXXyXpXXcvNbFXXX.zip",
+                        "build": "5.3.51"
+                        },
+                        {
+                        "patch_url": "http://d.taobaocdn.com/L0/TB1kmmWIXXXXXX9XFXXcvNbFXXX.zip",
+                        "build": "5.3.52"
+                        },
+                        {
+                        "patch_url": "http://d.taobaocdn.com/L0/TB1zPW1IXXXXXcOXpXXcvNbFXXX.zip",
+                        "build": "5.4.0002"
+                        },
+                        {
+                        "patch_url": "http://d.taobaocdn.com/L0/TB13TIKIVXXXXclXXXXcvNbFXXX.zip",
+                        "build": "5.7.1"
+                        },
+                        {
+                        "patch_url": "http://d.taobaocdn.com/L0/TB1vAwLIVXXXXbDXXXXcvNbFXXX.zip",
+                        "build": "5.8.0"
+                        }
+                        ]
+               },
+               {
+               "name": "hotpatch",
+               "data": [
+                        "http://d.taobaocdn.com/L0/TB1uoFfGpXXXXXsXpXXcvNbFXXX.zip",
+                        "http://d.daily.taobaocdn.net/L0/TB1UiuIXXXXXXahXXXXcvNbFXXX.zip",
+                        "http://d.daily.taobaocdn.net/L0/TB1txGIXXXXXXaoXpXXcvNbFXXX.zip",
+                        "http://d.daily.taobaocdn.net/L0/TB1D7mIXXXXXXceXXXXcvNbFXXX.zip",
+                        "http://d.daily.taobaocdn.net/L0/TB1OlqIXXXXXXXPXpXXcvNbFXXX.zip",
+                        "http://d.taobaocdn.net/L0/TB1jM1RXXXXXXc4aVXXcvNbFXXX.zip",
+                        "http://d.taobaocdn.com/L0/TB1K_4yHFXXXXaZXFXXcvNbFXXX.zip",
+                        "http://d.taobaocdn.com/L0/TB1K_4yHFXXXXaZXFXXcvNbFXXX.zip",
+                        "http://d.taobaocdn.com/L0/TB1q9pUHFXXXXcSaXXXcvNbFXXX.zip",
+                        "http://d.taobaocdn.com/L0/TB1q9pUHFXXXXcSaXXXcvNbFXXX.zip",
+                        "http://d.taobaocdn.com/L0/TB1rCxFFpXXXXcqdpXXcvNbFXXX.zip",
+                        "http://d.taobaocdn.com/L0/TB1rCxFFpXXXXcqdpXXcvNbFXXX.zip",
+                        "http://d.taobaocdn.com/L0/TB1rCxFFpXXXXcqdpXXcvNbFXXX.zip",
+                        "http://d.taobaocdn.com/L0/TB1YOnxHVXXXXblXXXXcvNbFXXX.zip",
+                        "http://d.taobaocdn.com/L0/TB1YOnxHVXXXXblXXXXcvNbFXXX.zip",
+                        "http://d.taobaocdn.com/L0/TB1YOnxHVXXXXblXXXXcvNbFXXX.zip",
+                        "http://d.taobaocdn.com/L0/TB1YOnxHVXXXXblXXXXcvNbFXXX.zip",
+                        "http://d.taobaocdn.com/L0/TB1YOnxHVXXXXblXXXXcvNbFXXX.zip",
+                        "http://d.taobaocdn.com/L0/TB1YOnxHVXXXXblXXXXcvNbFXXX.zip",
+                        "http://d.taobaocdn.com/L0/TB17THqHVXXXXceXFXXcvNbFXXX.zip",
+                        "http://d.taobaocdn.com/L0/TB17THqHVXXXXceXFXXcvNbFXXX.zip",
+                        "http://d.taobaocdn.com/L0/TB17THqHVXXXXceXFXXcvNbFXXX.zip",
+                        "http://d.taobaocdn.com/L0/TB17THqHVXXXXceXFXXcvNbFXXX.zip",
+                        "http://d.taobaocdn.com/L0/TB17THqHVXXXXceXFXXcvNbFXXX.zip",
+                        "http://d.taobaocdn.com/L0/TB17THqHVXXXXceXFXXcvNbFXXX.zip",
+                        "http://d.taobaocdn.com/L0/TB17THqHVXXXXceXFXXcvNbFXXX.zip",
+                        "http://d.taobaocdn.com/L0/TB17THqHVXXXXceXFXXcvNbFXXX.zip",
+                        "http://d.taobaocdn.com/L0/TB1K7CZIXXXXXcSXpXXcvNbFXXX.zip",
+                        "http://d.taobaocdn.com/L0/TB188K9IXXXXXXyXpXXcvNbFXXX.zip",
+                        "http://d.taobaocdn.com/L0/TB1kmmWIXXXXXX9XFXXcvNbFXXX.zip",
+                        "http://d.taobaocdn.com/L0/TB1zPW1IXXXXXcOXpXXcvNbFXXX.zip"
+                        ]
+               },
+               {
+               "name": "abtest",
+               "data": {}
+               },
+               {
+               "name": "share",
+               "data": [
+                        {
+                        "on": true,
+                        "type": "4"
+                        },
+                        {
+                        "on": true,
+                        "type": "6"
+                        },
+                        {
+                        "on": true,
+                        "type": "1"
+                        },
+                        {
+                        "on": true,
+                        "type": "9"
+                        },
+                        {
+                        "on": true,
+                        "type": "7"
+                        },
+                        {
+                        "on": true,
+                        "type": "2"
+                        },
+                        {
+                        "on": true,
+                        "type": "10"
+                        },
+                        {
+                        "on": true,
+                        "type": "11"
+                        },
+                        {
+                        "on": false,
+                        "type": "3"
+                        },
+                        {
+                        "on": false,
+                        "type": "8"
+                        },
+                        {
+                        "on": false,
+                        "type": "5"
+                        }
+                        ]
+               },
+               {
+               "name": "new_share",
+               "data": {
+               "title": "用手机天猫看看好友都分享了啥",
+               "desc": "上天猫，就够了！手机天猫，更多好货等你来~",
+               "useNew": true,
+               "image": "https://gw.alicdn.com/tps/TB1QoYbIXXXXXaGXFXXXXXXXXXX.jpg_q90.jpg"
+               }
+               },
+               {
+               "name": "order",
+               "data": {
+               "pay_callback_url": "http://buy.m.tmall.com/order/wapPaySuccess.htm?bizOrderId=",
+               "confirm_callback_url": "http://buy.m.tmall.com/order/wapTradeSuccess.htm?bizOrderId=",
+               "cart_url": ""
+               }
+               },
+               {
+               "name": "YFNavigationConfig",
+               "data": {
+               "enable": true
+               }
+               },
+               {
+               "name": "detailIgnoreUrls",
+               "data": [
+                        "http://err.tmall.com/error1.html"
+                        ]
+               },
+               {
+               "name": "nav_vc",
+               "data": {
+               "SingletonViewControllers": [
+                                            "DetailImageDescController",
+                                            "CategoriesViewController"
+                                            ],
+               "UTViewControllers": [
+                                     "TMBrowserV2ViewController",
+                                     "TMShoppingCartShareViewController",
+                                     "TMShoppingCartIntroViewController",
+                                     "TMShoppingCartContainerViewController",
+                                     "TMShoppingCartAnonymListViewController",
+                                     "TMShoppingCartFriendShareListViewController",
+                                     "TMShoppingCartMyShareListViewController",
+                                     "TMShoppingCartMySharePickViewController",
+                                     "TMShoppingCartMySharePostViewController",
+                                     "TMShoppingCartMessageListViewController",
+                                     "TMShoppingCartMessageDetailViewController",
+                                     "TMShoppingCartSettingViewController",
+                                     "FrontPageController",
+                                     "MyStreetMainPageController",
+                                     "BSMainTabViewController",
+                                     "TMShopCartViewController",
+                                     "MyTmallViewController"
+                                     ],
+               "HideNavigationControllers": [
+                                             "PriceQueryResultViewController",
+                                             "MyTmallViewController",
+                                             "ShopController",
+                                             "ShopCategoryController",
+                                             "TMWuseViewController",
+                                             "SearchResultListController",
+                                             "ShopNewArrivelController",
+                                             "ShopCategoryController",
+                                             "MyStreetBrandController",
+                                             "VideoStudioRoomViewController",
+                                             "QRHistoryViewController"
+                                             ]
+               }
+               },
+               {
+               "name": "barcodeNav",
+               "data": {
+               "startDate": 1425744000000,
+               "filterBarcodeList": [
+                                     "6902022131486",
+                                     "6902022130601",
+                                     "6920354814082",
+                                     "6920354814051",
+                                     "6920354814075",
+                                     "6920354811401",
+                                     "6920354811395",
+                                     "6907376820260",
+                                     "8850339008039",
+                                     "6907376820345",
+                                     "6903624800169",
+                                     "6903624500250",
+                                     "6913991300704",
+                                     "6913991301220",
+                                     "6902088113990",
+                                     "6902088113983",
+                                     "6902088114010",
+                                     "6902088113990",
+                                     "6902088114027",
+                                     "6902088114003",
+                                     "4901872836253",
+                                     "4901872836253",
+                                     "6922731800695",
+                                     "6922731800695",
+                                     "6903244370950",
+                                     "6921443435485",
+                                     "6921443431456",
+                                     "6934660516745",
+                                     "6903148091449",
+                                     "6903148091425",
+                                     "6903148091432",
+                                     "6903148204078",
+                                     "6903148202449",
+                                     "6903148080023",
+                                     "6903148079997",
+                                     "6903148080016",
+                                     "6903148044964",
+                                     "6903148044971",
+                                     "6903148101742",
+                                     "6903148044957",
+                                     "6920174744743",
+                                     "6920174764109",
+                                     "6920174700565",
+                                     "6920174700589",
+                                     "6925911510322",
+                                     "6925911500248",
+                                     "6902022137297",
+                                     "6902022137310",
+                                     "6902022137273",
+                                     "6902022137259",
+                                     "6902022137235",
+                                     "6902022137211",
+                                     "6902022137396",
+                                     "6902022137372",
+                                     "6902022137358",
+                                     "6902022137334",
+                                     "6902022138560",
+                                     "6902022137518",
+                                     "6902022137914",
+                                     "6902022137990",
+                                     "6902022137709",
+                                     "6902022137952",
+                                     "6902022138034",
+                                     "6902022137495",
+                                     "6902022137891",
+                                     "6902022137976",
+                                     "6902022137532",
+                                     "6902022137938",
+                                     "6902022138010",
+                                     "6902022138102",
+                                     "6920174737189",
+                                     "6902088707434",
+                                     "6902088709131",
+                                     "6902088707403",
+                                     "6902088707427",
+                                     "6902088707410",
+                                     "6902088709117",
+                                     "6922266445057",
+                                     "6922266445248",
+                                     "6914068013138",
+                                     "6914068013121",
+                                     "",
+                                     "6901209209970",
+                                     "6901209209833",
+                                     "8935024149669",
+                                     "8935024156117",
+                                     "8935024142370",
+                                     "8935024141342",
+                                     "8935024143353",
+                                     "8935024143360",
+                                     "8935024143384",
+                                     "8935024147573",
+                                     "6923644274238",
+                                     "6923644274221",
+                                     "4260290260041",
+                                     "4260290260003",
+                                     "6917878045153",
+                                     "6917878045139",
+                                     "6917878045122",
+                                     "6907992507385",
+                                     "6907992507095",
+                                     "6902018770491",
+                                     "6949352201588",
+                                     "6949352201106",
+                                     "6949352201113",
+                                     "6949352201588",
+                                     "6949352201137",
+                                     "721031960124",
+                                     "721031009762",
+                                     "721031926519",
+                                     "721031090029",
+                                     "721031026059",
+                                     "0721031960124",
+                                     "0721031009762",
+                                     "0721031926519",
+                                     "0721031090029",
+                                     "0721031026059",
+                                     "6901035609272",
+                                     "6901035609265",
+                                     "6901035609272",
+                                     "6901035609273",
+                                     "6901035605328",
+                                     "6901035601764",
+                                     "6901035605335",
+                                     "6901035601771",
+                                     "6902902009072",
+                                     "6948195810117",
+                                     "6948195802617",
+                                     "6948195802624",
+                                     "6948195802631",
+                                     "6948195805717",
+                                     "6948195805700",
+                                     "6948195810131",
+                                     "6948195802648",
+                                     "6948195810247",
+                                     "6948195802662",
+                                     "6948195807261",
+                                     "6948195807254",
+                                     "6948195810117",
+                                     "6948195809999",
+                                     "6948195803881",
+                                     "6948195810728",
+                                     "6948195810834",
+                                     "6948195802655",
+                                     "6948195807551",
+                                     "6948195809944",
+                                     "6948195807506",
+                                     "6948195800446",
+                                     "6948195800453",
+                                     "6948195807513",
+                                     "6948195800484",
+                                     "6948195807520",
+                                     "6948195800491",
+                                     "6948195807537",
+                                     "6948195800507",
+                                     "6948195800514",
+                                     "6948195807551",
+                                     "6948195800514",
+                                     "6948195800514",
+                                     "6948195800538",
+                                     "6948195810100",
+                                     "6948195800521",
+                                     "6948195800552",
+                                     "6948195800545",
+                                     "6948195800415",
+                                     "6948195800941",
+                                     "6948195800958",
+                                     "6948195800958",
+                                     "6948195809456",
+                                     "6948195800965",
+                                     "6948195800972",
+                                     "6948195800989",
+                                     "6948195811176",
+                                     "6948195800996",
+                                     "6948195811015",
+                                     "6948195805724",
+                                     "6948195811114",
+                                     "6948195801016",
+                                     "6939078001449",
+                                     "6923564150063",
+                                     "6922130101355",
+                                     "6907619663364",
+                                     "6907619663470",
+                                     "6925843403365",
+                                     "3260711080006",
+                                     "5410291011404",
+                                     "8000500003787",
+                                     "80050278",
+                                     "80135906",
+                                     "6942836700379",
+                                     "6942836700133",
+                                     "6942836700218",
+                                     "6942836700256",
+                                     "6942836700171",
+                                     "6942836703790",
+                                     "6942836700140",
+                                     "6942836700225",
+                                     "6942836700188",
+                                     "6942836705978",
+                                     "6942836700133",
+                                     "6942836703790",
+                                     "6942836700881",
+                                     "6942836700348",
+                                     "6942836700355",
+                                     "6942836700386",
+                                     "6942836700393",
+                                     "6942836706456",
+                                     "6942836706463",
+                                     "6942836709211",
+                                     "077330012416",
+                                     "0773300124164",
+                                     "077330342056",
+                                     "077330759168",
+                                     "0077330012416",
+                                     "00773300124164",
+                                     "0077330342056",
+                                     "0077330759168",
+                                     "",
+                                     "716221050587",
+                                     "0716221050587",
+                                     "0206453140014",
+                                     "0208890876884",
+                                     "4891338022217",
+                                     "4891338022200",
+                                     "4891338022200",
+                                     "6903148054215",
+                                     "6903148183786",
+                                     "6903148094365",
+                                     "6903148224984",
+                                     "6903148217993",
+                                     "6903148226131",
+                                     "6903148099483",
+                                     "6903148082102",
+                                     "6903148082119",
+                                     "6903148082133",
+                                     "6903148139400",
+                                     "6922731840530",
+                                     "6922731882516",
+                                     "6903148138182",
+                                     "6903148138175",
+                                     "6903148138199",
+                                     "6903148222300",
+                                     "6903148138250",
+                                     "6903148138243",
+                                     "6921443437250",
+                                     "6921443437267",
+                                     "6903148048801",
+                                     "6903148048788",
+                                     "6903148048795",
+                                     "6903148103623",
+                                     "6902088113136",
+                                     "6902088119282",
+                                     "6902088113730",
+                                     "6902088113112",
+                                     "6902088113129",
+                                     "6955818202372",
+                                     "6903966790203",
+                                     "6903966790227",
+                                     "6925911510421",
+                                     "6925911518687",
+                                     "6925911501566",
+                                     "6925911500132",
+                                     "6922266447310",
+                                     "6922266447327",
+                                     "6922266443770",
+                                     "6922266443787",
+                                     "6903244984157",
+                                     "6903244984102",
+                                     "6914068017570",
+                                     "6914068017624",
+                                     "6914068017563",
+                                     "6917878026084",
+                                     "6917878026060",
+                                     "6917878044118",
+                                     "",
+                                     "6934660594408",
+                                     "6934660595436",
+                                     "6934660562049",
+                                     "6934660562889",
+                                     "6934660567044",
+                                     "6934660567884",
+                                     "6934660567686",
+                                     "6934660562681",
+                                     "6934660594606",
+                                     "6934660594200",
+                                     "6934660594804",
+                                     "6934660595436",
+                                     "8801555300100",
+                                     "8801194701375",
+                                     "6936516980021",
+                                     "6936516980014",
+                                     "6943052100127",
+                                     "6943052100110",
+                                     "6925861571299",
+                                     "6925861571305",
+                                     "6925861571159",
+                                     "6925861571534",
+                                     "6920584471215",
+                                     "6930763971559",
+                                     "6920584471017",
+                                     "6920584471048",
+                                     "6920584471055",
+                                     "6925861571466",
+                                     "6920584471055",
+                                     "6920584471345",
+                                     "",
+                                     "6920584471222",
+                                     "6930763971221",
+                                     "6920584471567",
+                                     "69021824",
+                                     "6902088800746",
+                                     "6902088800760",
+                                     "6902088800753",
+                                     "6901721495455",
+                                     "6901721495363",
+                                     "6901721496186",
+                                     "6901721495776",
+                                     "6901721495462",
+                                     "6923644272630",
+                                     "6923644272623",
+                                     "6907992507064",
+                                     "6907992509174",
+                                     "6902952889822",
+                                     "6903102105069",
+                                     "6903102105502",
+                                     "6903102105205",
+                                     "6903102105038",
+                                     "6903102105045",
+                                     "6923564100020",
+                                     "6908791102146",
+                                     "6908791102153",
+                                     "6908791102139",
+                                     "6908791002798",
+                                     "6901012021967",
+                                     "6901012054538",
+                                     "6936986800041",
+                                     "6936986812105",
+                                     "6936986832080",
+                                     "7630023690266",
+                                     "6918598021182",
+                                     "6918598028815",
+                                     "6918598021823",
+                                     "6954434300851",
+                                     "6954434301049",
+                                     "6954434300868",
+                                     "6954434300875",
+                                     "6954434301094",
+                                     "6954434301049",
+                                     "8858761400230",
+                                     "8858761400254",
+                                     "8934760211005",
+                                     "8934760211845",
+                                     "8934760211852",
+                                     "8934760211876",
+                                     "8934760212033",
+                                     "8934760211975",
+                                     "6958620700005",
+                                     "6958620700098",
+                                     "6958620700432",
+                                     "6958620700319",
+                                     "6958620700319",
+                                     "6958620700418",
+                                     "6958620700036",
+                                     "6958620700210",
+                                     "6958620700326",
+                                     "6958620700364",
+                                     "6958620700012",
+                                     "6959620700392",
+                                     "6914782208216",
+                                     "6914782208230",
+                                     "6914782208223",
+                                     "6914782208025",
+                                     "4547691439611",
+                                     "4547691656148",
+                                     "4547691439628",
+                                     "6913991300483",
+                                     "6913991300483",
+                                     "6922731830029",
+                                     "6922731881977",
+                                     "6903148169568",
+                                     "6903148200254",
+                                     "6903148116036",
+                                     "6903148169551",
+                                     "6903148169544",
+                                     "6920177923770",
+                                     "6955818212296",
+                                     "6920177915430",
+                                     "6920177962250",
+                                     "6926799690830",
+                                     "6926799690823",
+                                     "6926799690816",
+                                     "6901236379943",
+                                     "6901236352533",
+                                     "6901236341292",
+                                     "6901236382394",
+                                     "6914068014593",
+                                     "6914068010663",
+                                     "6923589441429",
+                                     "6923589446417",
+                                     "6923589447919",
+                                     "6923589447414",
+                                     "6923589441412",
+                                     "6923589441443",
+                                     "6923589446981",
+                                     "",
+                                     "6923589446332",
+                                     "",
+                                     "6923589447872",
+                                     "",
+                                     "6923589447933",
+                                     "",
+                                     "6923589441436",
+                                     "6953818204037",
+                                     "6953818203030",
+                                     "6953818205034",
+                                     "6953818202033",
+                                     "6953818201012",
+                                     "6924743912748",
+                                     "6924743916074",
+                                     "6924743911581",
+                                     "6923555238770",
+                                     "6923555212794",
+                                     "6923555212770",
+                                     "6923555233195",
+                                     "6901333100518",
+                                     "6901333110524",
+                                     "6901333200423",
+                                     "6901333100914",
+                                     "6948960100078",
+                                     "6916058680603",
+                                     "6948960100474",
+                                     "6948960102195",
+                                     "6948960100511",
+                                     "6916058680573",
+                                     "6901481008957",
+                                     "6901584194212",
+                                     "6901584194311",
+                                     "6901009914685",
+                                     "6901009914685",
+                                     "",
+                                     "6920601711195",
+                                     "6920601711218",
+                                     "6920601711423",
+                                     "6920601711201",
+                                     "6920601711805",
+                                     "6920601711812",
+                                     "6920601711805",
+                                     "6920601711812",
+                                     "6920601713083",
+                                     "6920601713090",
+                                     "6920601711409",
+                                     "6920601711416",
+                                     "6920601711195",
+                                     "6920601711218",
+                                     "6914973604032",
+                                     "6914973600010",
+                                     "6914973600102",
+                                     "6914973600072",
+                                     "6914973600133",
+                                     "6914973600164",
+                                     "6914973106956",
+                                     "6914973603318",
+                                     "6914973603325",
+                                     "6914973604193",
+                                     "6914973604414",
+                                     "6914973605299",
+                                     "6914973605312",
+                                     "6914973600041",
+                                     "6907305692654",
+                                     "6907305670386",
+                                     "6907305681542",
+                                     "6907305681634",
+                                     "6907305681900",
+                                     "6907305670386",
+                                     "6920912357761",
+                                     "6920912359475",
+                                     "6920912357655",
+                                     "6920912357662",
+                                     "6920912357679",
+                                     "6920912357716",
+                                     "6920912360266",
+                                     "6920912357686",
+                                     "6920912359765",
+                                     "6920912360037",
+                                     "6920912361072",
+                                     "6909995121209",
+                                     "6920766218058",
+                                     "6920297212303",
+                                     "6920616312097",
+                                     "6909995102093",
+                                     "6905734102096",
+                                     "6920546800053",
+                                     "6920766212094",
+                                     "6941001610932",
+                                     "6920766211608",
+                                     "6920616317580",
+                                     "6909995117691",
+                                     "6909995117189",
+                                     "6909995110326",
+                                     "6920616312073",
+                                     "6902088603996",
+                                     "6902088604214",
+                                     "6902088304879",
+                                     "6902088304848",
+                                     "6902088304855",
+                                     "6902088304862",
+                                     "7702018359295",
+                                     "6903148193938",
+                                     "6903148193907",
+                                     "6925911517109",
+                                     "6925911517086",
+                                     "6901236382516",
+                                     "6901236351505",
+                                     "8716200708111",
+                                     "8716200278775",
+                                     "6916457002327",
+                                     "6916457002334",
+                                     "6916457002341",
+                                     "4901301230881",
+                                     "4901301230843",
+                                     "4901301253422",
+                                     "4901301230812",
+                                     "4901301230782",
+                                     "6941326203611",
+                                     "6941326201204",
+                                     "6941326204748",
+                                     "6941326201235",
+                                     "6941326202423",
+                                     "6941326203451",
+                                     "6941326203659",
+                                     "6941326208722",
+                                     "6941326203444",
+                                     "6941326201198",
+                                     "6941326204731",
+                                     "6941326201228",
+                                     "6941326202416",
+                                     "6941326203390",
+                                     "6941326203604",
+                                     "01264904",
+                                     "01241000",
+                                     "01235504",
+                                     "01264904",
+                                     "6901035610407",
+                                     "6901035601870",
+                                     "6901035612340",
+                                     "6901035610407",
+                                     "6901035612364",
+                                     "6914973303072",
+                                     "6914973604520",
+                                     "6914973305663",
+                                     "69029448",
+                                     "6914973300828",
+                                     "6907305681375",
+                                     "6907305677729",
+                                     "6907305679990",
+                                     "6907305681382",
+                                     "6907305681375",
+                                     "6907305675411",
+                                     "6907305675435"
+                                     ],
+               "isFilterBarcode": "true",
+               "endDate": 1425830401000,
+               "url": "http://h5.m.taobao.com/app/smg/index.html?barcode=%@#needLogin"
+               }
+               },
+               {
+               "name": "bindSellerSwitch",
+               "data": {
+               "bind": true
+               }
+               },
+               {
+               "name": "wangXinChatLink",
+               "data": [
+                        "http://a.m.tmall.com",
+                        "http://detail.m.tmall.com",
+                        "http://item.tmall.com/item.htm",
+                        "http://detail.tmall.com/item.htm",
+                        "http://page.m.tmall.com/chaoshi/detail.htm",
+                        "http://detail.tmall.hk/hk/item.htm",
+                        "http://item.taobao.com/item.htm",
+                        "http://h5.m.taobao.com/awp/core/detail.htm",
+                        "http://shop.m.taobao.com/shop/shop_index.htm",
+                        "http://store.taobao.com/shop/view_shop.htm",
+                        "http://shop.m.tmall.com/shop/shop_index.htm",
+                        "http://detail.yao.95095.com/item.htm",
+                        "http://trade.taobao.com/trade/detail/trade_item_detail.htm"
+                        ]
+               },
+               {
+               "name": "preloader_switch",
+               "data": {
+               "isOpen": true
+               }
+               },
+               {
+               "name": "tm_social_share",
+               "data": {
+               "switch": true
+               }
+               },
+               {
+               "name": "trade_recommend_component",
+               "data": {
+               "enable": true
+               }
+               },
+               {
+               "name": "pullViewInfo",
+               "data": {
+               "startTime": 1439913600,
+               "refreshingHint": "正在刷新",
+               "releaseHint": "松开立即刷新",
+               "pullHint": "下拉刷新",
+               "image": "https://gw.alicdn.com/tps/TB1sGt3JXXXXXXbapXXXXXXXXXX-706-397.gif",
+               "image3x": "https://gw.alicdn.com/tps/TB1sGt3JXXXXXXbapXXXXXXXXXX-706-397.gif",
+               "endTime": 1440604800
+               }
+               },
+               {
+               "name": "TmallLogConfig",
+               "data": {
+               "tlog_module": "off",
+               "tlog_level": "error",
+               "tlog_destroy": "false",
+               "tlog_switch": "false"
+               }
+               },
+               {
+               "name": "httpsSwitch",
+               "data": {
+               "isOpen": true
+               }
+               },
+               {
+               "name": "tmall_mage",
+               "data": {
+               "switch": true
+               }
+               },
+               {
+               "name": "TMNativeCache",
+               "data": {
+               "switch": true
+               }
+               },
+               {
+               "name": "tmall_shareIcon_list",
+               "data": {
+               "iconList": [
+                            {
+                            "icon": "share_icon_miaokouling",
+                            "default": true,
+                            "name": "喵口令",
+                            "badge": "http://gtms02.alicdn.com/tps/i2/TB1EHndIVXXXXa_XVXXEDhGGXXX-32-32.png",
+                            "type": 10
+                            },
+                            {
+                            "icon": "share_icon_weixin",
+                            "default": true,
+                            "name": "微信",
+                            "badge": "",
+                            "type": 4
+                            },
+                            {
+                            "icon": "share_icon_pengyouquan",
+                            "default": true,
+                            "name": "朋友圈",
+                            "badge": "",
+                            "type": 6
+                            },
+                            {
+                            "icon": "share_icon_qq",
+                            "default": true,
+                            "name": "QQ",
+                            "badge": "",
+                            "type": 15
+                            },
+                            {
+                            "icon": "share_icon_weibo",
+                            "default": true,
+                            "name": "微博",
+                            "badge": "",
+                            "type": 1
+                            },
+                            {
+                            "icon": "share_icon_zhifubao",
+                            "default": true,
+                            "name": "支付宝",
+                            "badge": "",
+                            "type": 14
+                            },
+                            {
+                            "icon": "share_icon_qrcode",
+                            "default": true,
+                            "name": "二维码",
+                            "badge": "",
+                            "type": 11
+                            },
+                            {
+                            "icon": "share_icon_sms",
+                            "default": true,
+                            "name": "短信",
+                            "badge": "",
+                            "type": 9
+                            },
+                            {
+                            "icon": "share_icon_laiwangdongtai",
+                            "default": true,
+                            "name": "来往动态",
+                            "badge": "",
+                            "type": 7
+                            },
+                            {
+                            "icon": "share_icon_laiwang",
+                            "default": true,
+                            "name": "来往好友",
+                            "badge": "",
+                            "type": 2
+                            }
+                            ]
+               }
+               }
+               ],
+    "secMd5": "D242B726999F5A89ECCD97DA16AEC090",
+    "secConfig": "[{\"data\":{\"level2\":{\".yahoo.com.cn\":\"\",\"juhs.me\":\"\",\".alibaba.com\":\"\",\"alitrip.com\":\"\",\".taobao.com\":\"\",\".taojianghu.com\":\"\",\".weibo.com\":\"\",\".alimama.com\":\"\",\".aliexpress.com\":\"\",\"yao.95095.daily.etao.net\":\"\",\"we.jaeapp.com\":\"\",\"mybank.cn\":\"\",\".alibaba.cn\":\"\",\"yangma.play.m.jaeapp.com\":\"\",\".aliyun.com\":\"\",\".juhuasuan.com\":\"\",\".taohua.com\":\"\",\".taobao.net\":\"\",\".koubei.org\":\"\",\".alixueyuan.net\":\"\",\".xiami.com\":\"\",\".yisou.com\":\"\",\".zhifubao.com\":\"\",\".yahoo.cn\":\"\",\".hitao.com\":\"\",\".taobaocdn.com\":\"\",\"cdn.tanx.com\":\"\",\"atb.so\":\"\",\".etao.com\":\"\",\"demoescape.play.m.jaeapp.com\":\"\",\".alisoft.cn\":\"\",\"ahd.so\":\"\",\".koubei.com.cn\":\"\",\".amap.com\":\"\",\".wmlp.com\":\"\",\".adtina.com\":\"\",\"laiwang.com\":\"\",\".1688.com.cn\":\"\",\".faalv.com\":\"\",\".koubei.com\":\"\",\".alipay.com.cn\":\"\",\".alibaba-inc.com\":\"\",\".alipay.com\":\"\",\".aliimg.net\":\"\",\"tshow-1.play.m.jaeapp.com\":\"\",\".zhifu.com\":\"\",\".tmall.net\":\"\",\"yao.95095.com\":\"\",\".atpanel.com\":\"\",\".yunos.com\":\"\",\".taojapan.com\":\"\",\".taobao.com.cn\":\"\",\".taobao.cn\":\"\",\"tb.cn\":\"\",\".tbsandbox.com\":\"\",\".alimama.cn\":\"\",\".tao123.com\":\"\",\".1688.cn\":\"\",\"wap.zjtoolbar.10086.cn\":\"\",\"hichao.uz.m.jaeapp.com\":\"\",\".youshuyuan.com\":\"\",\".alimama.com.cn\":\"\",\".alisoft.com.cn\":\"\",\"tshow.play.m.jaeapp.com\":\"\",\".alipay.net\":\"\",\".koubei.cn\":\"\",\".tmall.com\":\"\",\".alibaba.com.cn\":\"\",\"mashort.cn\":\"\",\"weibo.cn\":\"\",\"tmall.pp.cc\":\"\",\".tbcdn.com\":\"\",\".tmall.com.hk\":\"\",\"jaeapp.com\":\"\",\"weibo.com\":\"\",\".urltb.cn\":\"\",\".alicdn.com\":\"\",\"yangma-1.play.m.jaeapp.com\":\"\",\"kanbox.com\":\"\",\".alibado.com\":\"\",\".aliimg.com\":\"\",\".1688.com\":\"\",\"tbcdn.cn\":\"\",\".taobao.org\":\"\",\".tmall.hk\":\"\",\"wrating.com\":\"\",\"itunes.apple.com\":\"\",\"pepsi.we.jaeapp.com\":\"\",\".aliloan.com\":\"\",\".alisoft.com\":\"\",\".laiwang.com\":\"\"},\"level3\":{\"lunbo.play.m.jaeapp.com\":\"23142009\",\"zxdemo.play.m.jaeapp.com\":\"23138209\",\"guanmei.play.m.jaeapp.com\":\"23082743\",\"zxdemophp.play.m.jaeapp.com\":\"23147639\",\"shiyijian.play.m.jaeapp.com\":\"23115237\",\"sxbs.play.m.jaeapp.com\":\"23089623\",\"makeup.play.m.jaeapp.com\":\"23164248\",\"minishow.play.m.jaeapp.com\":\"23096719\",\"flycat.play.m.jaeapp.com\":\"23033826\",\"match-1.play.m.jaeapp.com\":\"23067267\",\"pg20141111pc.play.jaeapp.com\":\"23042228\",\"purcotton.play.m.jaeapp.com\":\"23029809\",\"ccntest.play.m.jaeapp.com\":\"23088521\",\"meibaolian4.play.m.jaeapp.com\":\"23099924\",\"apptest01011.play.m.jaeapp.com\":\"23025705\",\"endorse.play.m.jaeapp.com\":\"23076098\",\"mobile.play.m.jaeapp.com\":\"23066074\",\"xing.play.m.jaeapp.com\":\"23088689\",\"jiayifang-1.play.m.jaeapp.com\":\"23087434\",\"coin.play.m.jaeapp.com\":\"23056603\",\"baobeixiu.play.m.jaeapp.com\":\"23127299\",\"pig123.play.m.jaeapp.com\":\"23088061\",\"pg20141111pc.play.m.jaeapp.com\":\"23042228\",\"yangma.play.jaeapp.com\":\"\",\"collocation.play.m.jaeapp.com\":\"23070268\",\"taopk.play.jaeapp.com\":\"23025311\",\"zuicat.play.m.jaeapp.com\":\"23178509\",\"unilever.play.m.jaeapp.com\":\"23090128\",\"huopin-1.play.m.jaeapp.com\":\"23030325\",\"xssw.play.m.jaeapp.com\":\"23083876\",\"yssjyxzj.play.m.jaeapp.com\":\"23141947\",\"findbao-1.play.m.jaeapp.com\":\"23025404\",\"twtest158-1.o2o.m.jaeapp.com\":\"21805965\",\"catbird.play.m.jaeapp.com\":\"23025762\",\"magic1.play.m.jaeapp.com\":\"23041276\",\"tinybugs.play.m.jaeapp.com\":\"23025519\",\"ihudong.play.jaeapp.com\":\"23076028\",\"shiyi.play.m.jaeapp.com\":\"23107712\",\"cutcut.play.m.jaeapp.com.jaecdn.com\":\"23025522\",\"baobei.play.m.jaeapp.com\":\"23144169\",\"purcotton.play.jaeapp.com\":\"23029809\",\"goodluck.play.m.jaeapp.com\":\"23172181\",\"chando.play.m.jaeapp.com\":\"23138314\",\"vzhan.play.m.jaeapp.com\":\"23091916\",\"11163.play.m.jaeapp.com\":\"23032086\",\"taobaophone.play.m.jaeapp.com\":\"\",\"test1.play.m.jaeapp.com\":\"23083423\",\"siia.play.m.jaeapp.com\":\"23094365\",\"shangshu-1.play.m.jaeapp.com\":\"23025787\",\"lancome.play.m.jaeapp.com\":\"23072379\",\"yxgl.play.m.jaeapp.com\":\"23116568\",\"huopin.play.m.jaeapp.com\":\"23030325\",\"bmgqh.play.m.jaeapp.com\":\"23088583\",\"typlatform.play.m.jaeapp.com\":\"23079134\",\"byunicursal-1.play.m.jaeapp.com\":\"23026021\",\"jalacrm.play.m.jaeapp.com\":\"23080608\",\"jinhuantest.play.m.jaeapp.com\":\"23036826\",\"doudou.play.jaeapp.com\":\"23025904\",\"2cat.play.m.jaeapp.com\":\"23027482\",\"gogogo.play.jaeapp.com\":\"23093207\",\"xingzuo.play.m.jaeapp.com\":\"23086808\",\"xswifi.play.m.jaeapp.com\":\"23147502\",\"meibaolian3.play.m.jaeapp.com\":\"23100065\",\"savemoney.play.m.jaeapp.com\":\"23027968\",\"tinybugs.play.jaeapp.com\":\"23025519\",\"loreal2.play.m.jaeapp.com\":\"23098253\",\"paopao.play.jaeapp.com\":\"23025430\",\"taoapp.play.m.jaeapp.com\":\"23129520\",\"swhj.play.m.jaeapp.com\":\"23074652\",\"iyou.play.m.jaeapp.com\":\"23025330\",\"kinde.play.m.jaeapp.com\":\"23175491\",\"ddccc.play.m.jaeapp.com\":\"23067370\",\"onlineinteract.play.m.jaeapp.com\":\"23031527\",\"testdoloplay.play.m.jaeapp.com\":\"23027975\",\"demogame-1.play.m.jaeapp.com\":\"23020993\",\"kickdiscount-1.play.m.jaeapp.com.jaecdn.com\":\"23028444\",\"evo315.play.m.jaeapp.com\":\"23173637\",\"2048gm.play.jaeapp.com\":\"23025933\",\"app3152.play.m.jaeapp.com\":\"23123878\",\"gogogo.play.m.jaeapp.com\":\"23093207\",\"bmgbd.play.m.jaeapp.com\":\"23088661\",\"ihudong.play.m.jaeapp.com\":\"23076028\",\"kiss-1.play.m.jaeapp.com\":\"23032759\",\"hdkc.play.m.jaeapp.com\":\"23087525\",\"activity.play.m.jaeapp.com\":\"23086810\",\"securitycode.play.m.jaeapp.com\":\"23082811\",\"kickdiscount-1.play.m.jaeapp.com\":\"23028444\",\"mfsj.play.m.jaeapp.com\":\"23090130\",\"proya.play.m.jaeapp.com\":\"23087756\",\"loreal.play.m.jaeapp.com\":\"23092286\",\"origins-1.play.m.jaeapp.com\":\"23093850\",\"eyer-1.play.m.jaeapp.com\":\"23025915\",\"countmoney.play.m.jaeapp.com\":\"23026945\",\"idafortest.play.m.jaeapp.com\":\"23085393\",\"purcotton-1.play.m.jaeapp.com\":\"23029809\",\"iucar-1.play.m.jaeapp.com\":\"23026390\",\"iumvp-1.play.m.jaeapp.com\":\"23026491\",\"xianweijing.play.m.jaeapp.com\":\"23088063\",\"originstesttwo.play.m.jaeapp.com\":\"23114593\",\"sale.play.m.jaeapp.com\":\"23087878\",\"twtest158-1.o2o.jaeapp.com\":\"1021805964\",\"grabbag-1.play.m.jaeapp.com\":\"23028366\",\"couple-1.play.m.jaeapp.com\":\"23025769\",\"twtest158.play.jaeapp.com\":\"\",\"huiyuan.play.m.jaeapp.com\":\"23070233\",\"byunicursal-1.play.m.jaeapp.com.jaecdn.com\":\"23026021\",\"php4.play.m.jaeapp.com\":\"23161337\",\"2cat.play.jaeapp.com\":\"23027482\",\"cilaitest.play.m.jaeapp.com\":\"23182767\",\"kchd.play.m.jaeapp.com\":\"23090528\",\"yangma.play.m.jaeapp.com\":\"\",\"xianweijing-1.play.m.jaeapp.com\":\"23088063\",\"taopk.play.m.jaeapp.com\":\"23025311\",\"star.play.m.jaeapp.com\":\"23087032\",\"vshc.play.m.jaeapp.com\":\"23090330\",\"game6.play.m.jaeapp.com\":\"23041436\",\"testll.play.m.jaeapp.com\":\"23023207\",\"taoxunbao.play.m.jaeapp.com\":\"23089707\",\"huopin.play.jaeapp.com\":\"23030325\",\"yaoyiyao-1.play.m.jaeapp.com\":\"23089710\",\"flycat-1.play.m.jaeapp.com\":\"23033826\",\"byunicursal.play.m.jaeapp.com\":\"23026021\",\"mlbtest.play.m.jaeapp.com\":\"23153406\",\"cutcut-1.play.m.jaeapp.com\":\"23025522\",\"taoxunbao-1.play.m.jaeapp.com\":\"23089707\",\"pg20141111.play.m.jaeapp.com\":\"23035568\",\"meibaolian1.play.m.jaeapp.com\":\"23094391\",\"byunicursal.play.m.jaeapp.com.jaecdn.com\":\"23026021\",\"fly01-1.play.m.jaeapp.com\":\"23031506\",\"yunding.play.m.jaeapp.com\":\"23086953\",\"tbapitest.play.m.jaeapp.com\":\"23093261\",\"vzan.play.m.jaeapp.com\":\"23087027\",\"ccnmtx.play.m.jaeapp.com\":\"23180124\",\"paopao-1.play.m.jaeapp.com\":\"23025430\",\"evergrandespring.play.m.jaeapp.com\":\"23102572\",\"ehsure6.play.m.jaeapp.com\":\"23175308\",\"telephonapp.play.m.jaeapp.com\":\"23027847\",\"meibaolian.play.m.jaeapp.com\":\"23095392\",\"pengpeng-1.play.m.jaeapp.com\":\"23025322\",\"shouji.play.m.jaeapp.com\":\"23183830\",\"yunifanggame-1.play.m.jaeapp.com\":\"23036345\",\"libao-1.play.m.jaeapp.com\":\"23116431\",\"xiaochuanhudong.play.m.jaeapp.com\":\"23183029\",\"ehsure.play.m.jaeapp.com\":\"23175298\",\"taoplay.play.m.jaeapp.com\":\"23025309\",\"game2.play.m.jaeapp.com\":\"23041198\",\"tinybugs-1.play.m.jaeapp.com\":\"23025519\",\"kiss.play.m.jaeapp.com\":\"23032759\",\"cutcut.play.m.jaeapp.com\":\"23025522\",\"dragon.play.m.jaeapp.com\":\"23025643\",\"aorantest1110.play.m.jaeapp.com\":\"23048619\",\"zxdemo2.play.m.jaeapp.com\":\"23139053\",\"yushu.play.m.jaeapp.com\":\"23154267\",\"gaofu.play.m.jaeapp.com\":\"23091110\",\"doudou.play.m.jaeapp.com\":\"23025904\",\"soft.play.m.jaeapp.com\":\"23090237\",\"yunifanggame.play.m.jaeapp.com\":\"23036345\",\"newitem.play.m.jaeapp.com\":\"23088484\",\"kchd-1.play.m.jaeapp.com\":\"23090528\",\"herborist.play.m.jaeapp.com\":\"23066988\",\"chaojima.play.m.jaeapp.com\":\"23085629\",\"kickdiscount.play.jaeapp.com\":\"23028444\",\"iyou-1.play.m.jaeapp.com\":\"23025330\",\"active.play.m.jaeapp.com\":\"23102631\",\"twtest158-1.play.m.jaeapp.com\":\"21805965\",\"match.play.m.jaeapp.com\":\"23067267\",\"zgcsj.play.m.jaeapp.com\":\"23075147\",\"zxdemo3.play.m.jaeapp.com\":\"23147639\",\"hyfw.play.m.jaeapp.com\":\"23188430\",\"luck.play.m.jaeapp.com\":\"23086821\",\"loreal1.play.m.jaeapp.com\":\"23098250\",\"renwu.play.m.jaeapp.com\":\"23087890\",\"mpjy.play.m.jaeapp.com\":\"23093128\",\"ttfx.play.m.jaeapp.com\":\"23115357\",\"demogame.play.jaeapp.com\":\"23020993\",\"testaa.play.m.jaeapp.com\":\"23186814\",\"tmshow.play.m.jaeapp.com\":\"23085435\",\"meibaolian2.play.m.jaeapp.com\":\"23098456\",\"savemoney1-1.play.m.jaeapp.com\":\"23028244\",\"ccmtest.play.m.jaeapp.com\":\"23155337\",\"huiy.play.m.jaeapp.com\":\"23087892\",\"skyscraper-1.play.m.jaeapp.com\":\"23032904\",\"loverstears.play.m.jaeapp.com\":\"23087198\",\"letsun.play.m.jaeapp.com\":\"23187220\",\"baobeituan.play.m.jaeapp.com\":\"23179217\",\"sign.play.m.jaeapp.com\":\"23086878\",\"eyer.play.m.jaeapp.com\":\"23025915\",\"taoxiaopu.play.m.jaeapp.com\":\"23125231\",\"libao.play.m.jaeapp.com\":\"23116431\",\"doudou-1.play.m.jaeapp.com\":\"23025904\",\"honor.play.m.jaeapp.com\":\"23112766\",\"iwatch.play.m.jaeapp.com\":\"23101797\",\"16311.play.m.jaeapp.com\":\"23032365\",\"taopk-1.play.m.jaeapp.com\":\"23025311\",\"taoplay-1.play.m.jaeapp.com\":\"23025309\",\"magic23.play.m.jaeapp.com\":\"23041282\",\"2048gm-1.play.m.jaeapp.com\":\"23025933\",\"card.play.m.jaeapp.com\":\"23173614\",\"tmpoptile-1.play.m.jaeapp.com\":\"23031922\",\"jiayifang.play.m.jaeapp.com\":\"23087434\",\"ghost.play.m.jaeapp.com\":\"23164181\",\"tangjinou.play.m.jaeapp.com\":\"23023205\",\"xiaomi.play.jaeapp.com\":\"23031745\",\"xiaomi-1.play.m.jaeapp.com\":\"23031745\",\"hrvip.play.m.jaeapp.com\":\"23087570\",\"dumm.play.m.jaeapp.com\":\"23105624\",\"dianbu.play.m.jaeapp.com\":\"23168411\",\"weiyouxi.play.m.jaeapp.com\":\"23085289\",\"paopao.play.m.jaeapp.com\":\"23025430\",\"lzlj.play.m.jaeapp.com\":\"23063767\",\"magic12.play.m.jaeapp.com\":\"23043086\",\"aorantest.play.m.jaeapp.com\":\"23055064\",\"task.play.m.jaeapp.com\":\"23061875\",\"hanhoo.play.m.jaeapp.com\":\"23068578\",\"acexe.play.m.jaeapp.com\":\"23087752\",\"beijing.play.m.jaeapp.com\":\"23075777\",\"jalamscrm.play.m.jaeapp.com\":\"23082761\",\"fly01.play.m.jaeapp.com\":\"23031506\",\"16311-1.play.m.jaeapp.com\":\"23032365\",\"maiduoduo.play.m.jaeapp.com\":\"23073951\",\"tmall.play.m.jaeapp.com\":\"23102629\",\"countmoney-1.play.m.jaeapp.com\":\"23026945\",\"taobao.play.m.jaeapp.com\":\"23092865\",\"app315.play.m.jaeapp.com\":\"23062454\",\"2015c.play.m.jaeapp.com\":\"23103018\",\"zxrouter.play.m.jaeapp.com\":\"23161337\",\"iucar.play.m.jaeapp.com\":\"23026390\",\"uztest.play.m.jaeapp.com\":\"23026022\",\"jala.play.m.jaeapp.com\":\"23066034\",\"tshow.play.m.jaeapp.com\":\"23085240\",\"grabbag.play.m.jaeapp.com.jaecdn.com\":\"23028366\",\"exam.play.m.jaeapp.com\":\"23088683\",\"h5test.play.m.jaeapp.com\":\"\",\"taoplay.play.jaeapp.com\":\"23025309\",\"jiuxianphone-1.play.m.jaeapp.com\":\"23025544\",\"fangwei.play.m.jaeapp.com\":\"23078695\",\"tmpoptile.play.m.jaeapp.com\":\"23031922\",\"gxggame.play.jaeapp.com\":\"23030917\",\"tystress.play.m.jaeapp.com\":\"23183474\",\"twtest158.play.m.jaeapp.com\":\"\",\"tangjinou-1.play.m.jaeapp.com\":\"23023205\",\"2048gm.play.m.jaeapp.com\":\"23025933\",\"abtest.play.m.jaeapp.com\":\"23083602\",\"aorantest.play.jaeapp.com\":\"23055064\",\"yangma-1.wx.m.jaeapp.com\":\"1021806270\",\"ctest157.play.m.jaeapp.com\":\"23035601\",\"meidian-1.play.m.jaeapp.com\":\"23076663\",\"catbird-1.play.m.jaeapp.com\":\"23025762\",\"savemoney1.play.m.jaeapp.com\":\"23028244\",\"jlbmtx.play.m.jaeapp.com\":\"23172289\",\"hdkc-1.play.m.jaeapp.com\":\"23087525\",\"promotion.play.m.jaeapp.com\":\"23091791\",\"findbao.play.m.jaeapp.com\":\"23025404\",\"qiangren.play.m.jaeapp.com\":\"23091035\",\"savemoney1.play.jaeapp.com\":\"23028244\",\"origins.play.m.jaeapp.com\":\"23093850\",\"lipton.play.m.jaeapp.com\":\"23052258\",\"yunifang.play.m.jaeapp.com\":\"23090341\",\"hehe.play.m.jaeapp.com\":\"23096363\",\"sinian.play.m.jaeapp.com\":\"23154756\",\"skin.play.m.jaeapp.com\":\"23088062\",\"demogame.play.m.jaeapp.com\":\"23020993\",\"twtest158.o2o.m.jaeapp.com\":\"21805965\",\"2048.play.m.jaeapp.com\":\"23025526\",\"coolgame-1.play.m.jaeapp.com\":\"23025092\",\"couple.play.m.jaeapp.com\":\"23025769\",\"newitem-1.play.m.jaeapp.com\":\"23088484\",\"jelly.play.m.jaeapp.com\":\"23031765\",\"tian.play.m.jaeapp.com\":\"23070173\",\"teat.play.m.jaeapp.com\":\"23035383\",\"aaaaaaa-1.play.m.jaeapp.com\":\"23023201\",\"asdfasf.play.m.jaeapp.com\":\"23049947\",\"gogogo-1.play.m.jaeapp.com\":\"23093207\",\"grabbag-1.play.m.jaeapp.com.jaecdn.com\":\"23028366\",\"2048-1.play.m.jaeapp.com\":\"23025526\",\"okamoto.play.m.jaeapp.com\":\"23049795\",\"taedemo.play.m.jaeapp.com\":\"23170530\",\"kickdiscount.play.m.jaeapp.com.jaecdn.com\":\"23028444\",\"wjds.play.m.jaeapp.com\":\"23086831\",\"benow.play.m.jaeapp.com\":\"23087691\",\"shiqian.play.m.jaeapp.com\":\"23179017\",\"eyer.play.jaeapp.com\":\"23025915\",\"pondscrm.play.m.jaeapp.com\":\"23091332\",\"dumm-1.play.m.jaeapp.com\":\"23105624\",\"2cat-1.play.m.jaeapp.com\":\"23027482\",\"gxggame.play.m.jaeapp.com\":\"23030917\",\"pengpeng.play.jaeapp.com\":\"23025322\",\"cliim.play.m.jaeapp.com\":\"23078577\",\"share.play.m.jaeapp.com\":\"23110899\",\"lankou.play.m.jaeapp.com\":\"23142592\",\"xiaomi.play.m.jaeapp.com\":\"23031745\",\"apptest01011-1.play.m.jaeapp.com\":\"23025705\",\"jiuxianphone.play.m.jaeapp.com\":\"23025544\",\"kickdiscount.play.m.jaeapp.com\":\"23028444\",\"pengpeng.play.m.jaeapp.com\":\"23025322\",\"qrcode.play.m.jaeapp.com\":\"23096667\",\"goto.play.m.jaeapp.com\":\"23116301\",\"white.play.m.jaeapp.com\":\"23092416\",\"yuceji-1.play.m.jaeapp.com\":\"23088059\",\"jelly-1.play.m.jaeapp.com\":\"23031765\",\"vshc-1.play.m.jaeapp.com\":\"23090330\",\"fenxiang.play.m.jaeapp.com\":\"23087142\",\"gameboy.play.m.jaeapp.com\":\"23092964\",\"gujing.play.m.jaeapp.com\":\"23164572\",\"iumvp.play.m.jaeapp.com\":\"23026491\",\"jinhuanspi.play.m.jaeapp.com\":\"23094270\",\"minishowtest.play.m.jaeapp.com\":\"23096456\",\"take.play.m.jaeapp.com\":\"23168426\",\"goodgame.play.m.jaeapp.com\":\"23023203\",\"shijuema.play.m.jaeapp.com\":\"23082799\",\"iwatchtest.play.m.jaeapp.com\":\"23101764\",\"guanmei-1.play.m.jaeapp.com\":\"23082743\",\"ydapp.play.m.jaeapp.com\":\"23099688\",\"zuis.play.m.jaeapp.com\":\"23178506\",\"izhufu.play.m.jaeapp.com\":\"23073290\",\"countmoney.play.jaeapp.com\":\"23026945\",\"dragon-1.play.m.jaeapp.com\":\"23025643\",\"dovegaokao.play.m.jaeapp.com\":\"23144793\",\"meidian.play.m.jaeapp.com\":\"23076663\",\"verification.play.m.jaeapp.com\":\"23087089\",\"shangshu.play.m.jaeapp.com\":\"23025787\",\"skyscraper.play.m.jaeapp.com\":\"23032904\",\"recommend.play.m.jaeapp.com\":\"23096413\",\"tongyongcode.play.m.jaeapp.com\":\"23076816\",\"yuceji.play.m.jaeapp.com\":\"23088059\",\"play.app.jae.taobao.com/admin\":\"23020755\",\"kiss.play.jaeapp.com\":\"23087198\",\"jalalottery.play.m.jaeapp.com\":\"23121285\",\"lamer.play.m.jaeapp.com\":\"23185091\",\"qiangzg.play.m.jaeapp.com\":\"23090714\",\"grabbag.play.jaeapp.com\":\"23028366\",\"yaoyiyao.play.m.jaeapp.com\":\"23089710\",\"myphone.play.m.jaeapp.com\":\"23021105\",\"liebian.play.m.jaeapp.com\":\"23099861\",\"super.play.m.jaeapp.com\":\"23172276\",\"iycb.play.m.jaeapp.com\":\"23183017\",\"tmshow.play.jaeapp.com\":\"23085435\",\"gxggame-1.play.m.jaeapp.com\":\"23030917\",\"kfc315.play.m.jaeapp.com\":\"23082129\",\"couponsxiaomi.play.m.jaeapp.com\":\"23047632\",\"savemoney1.play.m.jaeapp.com.jaecdn.com\":\"23028244\",\"wxxjl.play.m.jaeapp.com\":\"23110863\",\"shot.play.m.jaeapp.com\":\"23031546\",\"zgcsj.play.jaeapp.com\":\"23075147\",\"shangshu.play.jaeapp.com\":\"23025787\",\"grabbag.play.m.jaeapp.com\":\"23028366\",\"goodgame-1.play.m.jaeapp.com\":\"23023203\",\"bmghd.play.m.jaeapp.com\":\"23087005\",\"cutcut-1.play.m.jaeapp.com.jaecdn.com\":\"23025522\",\"giftbag.play.m.jaeapp.com\":\"23116440\",\"pig123-1.play.m.jaeapp.com\":\"23088061\",\"uztest-1.play.m.jaeapp.com\":\"23026022\",\"coolgame.play.m.jaeapp.com\":\"23025092\",\"olaykp.play.m.jaeapp.com\":\"23177927\",\"myphone-1.play.m.jaeapp.com\":\"23021105\",\"jsgy.play.m.jaeapp.com\":\"23073108\",\"aaaaaaa.play.m.jaeapp.com\":\"23023201\",\"virgo.play.m.jaeapp.com\":\"23091588\",\"clivirgo.play.m.jaeapp.com\":\"23092353\",\"qiang.play.m.jaeapp.com\":\"23088065\"}},\"name\":\"whitelist\"},{\"data\":{\"level2\":[\"Application.getCameraPic\",\"Application.getGps\",\"Application.alarm\",\"Application.saveFile\",\"Application.sendIHavePost\",\"Application.forceLogin\",\"Application.getPicBase64\",\"Page.getStatisticData\",\"Page.setStatisticData\",\"Search.itemSearch\",\"Server.HybridServer\",\"TBSExt.commitEvent\",\"TBSPage.ctrlClicked\",\"Search.customSize\",\"Contact.askAuth\",\"Contact.checkAuth\",\"Contact.getContact\",\"Contact.checkInContact\",\"Application.alipaySimplePurchase\",\"Application.enableHttpDns\",\"Application.disableHttpDns\",\"Application.enableSpdy\",\"Application.disableSpdy\",\"Sonic.startSend\",\"Sonic.startReceive\",\"Sonic.stop\",\"Fun.sendPost\",\"Share.newShare\",\"Search.customizeModule\",\"Detail.Sku\",\"Application.getDeviceId\",\"Application.getUtdId\",\"TmallMarket.updatePrice\",\"TmallMarket.isShowCart\",\"TmallTunla.isShowH5PinMoney\",\"TmallTunla.updatePinMoney\",\"Application.checkPayPasswordAction\"],\"level3\":[\"Application.getCameraPic\",\"Application.getGps\",\"Application.alarm\"],\"level1\":[]},\"name\":\"apiList\"},{\"data\":{\"Application.update\":\"\",\"Application.networkType\":\"\",\"Window.hideTitle\":\"\",\"Application.palyInline\":\"\",\"Scancode.scan\":\"\",\"Pug.confirm\":\"\",\"Window.toast\":\"\",\"Motion.clearWatch\":\"\",\"Window.portrait\":\"\",\"Window.enableRefresh\":\"\",\"Orientation.watchOrientation\":\"\",\"Window.landscape\":\"\",\"Window.disableRefresh\":\"\",\"Share.newShare\":\"\",\"Application.setPushSettingStatus\":\"\",\"Isv.doAuth\":\"\",\"Blow.watchBlow\":\"\",\"Audio.pause\":\"\",\"Window.setTitle\":\"\",\"Audio.stop\":\"\",\"Window.hideProgress\":\"\",\"Application.getVersion\":\"\",\"Window.showTitle\":\"\",\"Share.share\":\"\",\"Application.removeShakeListener\":\"\",\"PageVisibility.clearWatch\":\"\",\"Audio.play\":\"\",\"Logic.triggerAction\":\"\",\"Orientation.clearWatch\":\"\",\"Window.showProgress\":\"\",\"Application.login\":\"\",\"Audio.resume\":\"\",\"Window.back\":\"\",\"Isv.server\":\"\",\"Motion.watchAcceleration\":\"\",\"Application.addShakeListener\":\"\",\"Notification.vibrate\":\"\",\"Blow.clearWatch\":\"\",\"Search.subscribe\":\"\",\"PageVisibility.watchVisibilitychange\":\"\",\"Isv.mtopServer\":\"\",\"Application.getPushSettingStatus\":\"\"},\"name\":\"superApi\"},{\"data\":{\"level2\":[\"MtopWVPlugin.send\",\"Scancode.scan\",\"Base.isAppsInstalled\",\"Base.notify\",\"Base.checkWindVaneSDK\",\"Base.isInstall\",\"Base.isWindVaneSDK\",\"Base.notify\",\"Base.plusUT\",\"Base.openBrowser\",\"WVAudio.playSystemSound\",\"WVCamera.takePhoto\",\"WVCamera.confirmUploadPhoto\",\"WVContacts.askAuth\",\"WVContacts.authStatus\",\"WVContacts.choose\",\"WVContacts.find\",\"WVCookie.readCookies\",\"WVCookie.writeCookies\",\"WVLocation.getLocation\",\"WVLocation.searchLocation\",\"WVMotion.listenBlow\",\"WVMotion.stopListenBlow\",\"WVMotion.listenGyro\",\"WVMotion.listeningShake\",\"WVMotion.vibrate\",\"WVNetwork.getNetworkType\",\"WVNotification.beep\",\"WVWebUrl.intercept\",\"WVUIActionSheet.show\",\"WVUIDialog.alert\",\"WVUIDialog.confirm\",\"WVUI.showLoadingBox\",\"WVUI.hiddenLoadingBox\",\"WVUIToast.toast\",\"Base.openWindow\",\"AlipaySilentBridge.checkInstallAliPay\",\"WVLocation.getLocation\",\"WVLocation.searchLocation\",\"WVWebUrl.intercept\",\"WVUIImagepreview.showImagepreview\",\"WVTBUserTrack.toUT\",\"WebAppInterface.goToOrder\"],\"level3\":[\"wopc.invoke\",\"wopc.doAuth\"],\"level1\":[]},\"name\":\"wvApiList\"}]"
+}

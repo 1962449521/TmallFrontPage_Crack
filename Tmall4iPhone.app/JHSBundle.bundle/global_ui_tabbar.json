@@ -1,0 +1,60 @@
+{
+    "model": [
+              {
+              "icon": "tab_bar_today",
+              "title": "今日团",
+              "selectedIcon": "tab_bar_today_selected",
+              "url": "taobao://go/ju/today_home",
+              "selected": true,
+              "trackParams":{
+              "_trackId":"JuJRT",
+              "_trackName":"Tabbar今日团"
+              }
+              },
+              {
+              "icon": "tab_bar_brand",
+              "title": "品牌团",
+              "selectedIcon": "tab_bar_brand_selected",
+              "url": "https://ju.taobao.com/tg/wl_brand.htm?tabbar=true",
+              "iosUrl": "taobao://go/luaview?source=ppt.lv&package=ppt",
+              "selected": false,
+              "trackParams":{
+              "_trackId":"JuPPT",
+              "_trackName":"Tabbar品牌团"
+              }
+              },
+              {
+              "icon": "tab_bar_JMP",
+              "title": "聚名品",
+              "selectedIcon": "tab_bar_JMP_selected",
+              "url": "https://ju.taobao.com/m/jusp/other/mingpin/mtp.htm",
+              "selected": false,
+              "trackParams":{
+              "_trackId":"JuJMP",
+              "_trackName":"Tabbar聚名品"
+              }
+              },
+              {
+              "icon": "tab_bar_LFT",
+              "title": "量贩团",
+              "selectedIcon": "tab_bar_LFT_selected",
+              "url": "https://ju.taobao.com/m/jusp/other/liangfan/mtp.htm?jhsstyle=czlf",
+              "selected": false,
+              "trackParams":{
+              "_trackId":"JuLFT",
+              "_trackName":"Tabbar量贩团"
+              }
+              },
+              {
+              "icon": "tab_bar_life",
+              "title": "生活汇",
+              "selectedIcon": "tab_bar_life_selected",
+              "url": "taobao://go/ju/life_home?url=http://h5.m.taobao.com/ju-life/home/index.html",
+              "selected": false,
+              "trackParams":{
+              "_trackId":"JuSHT",
+              "_trackName":"Tabbar生活团"
+              }
+              }
+            ]
+}

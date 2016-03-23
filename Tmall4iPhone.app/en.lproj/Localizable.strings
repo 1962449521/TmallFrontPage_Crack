@@ -1,0 +1,1186 @@
+/* Localized versions of Info.plist keys */
+
+
+////////////////////////////////////////////////////////////////////////////////
+// 公共
+"common_ok"                     = "确定";
+"common_confirm"                = "确认";
+"common_cancel"                 = "取消";
+"common_hint_title"             = "提示";
+"common_hint_timeout"           = "请求超时";
+"common_back"                   = "返回";
+"common_retry"                  = "重试";
+"common_loading"                = "请稍候...";
+"common_delete"                 = "删除";
+"common_complete"               = "完成";
+"common_coin_type"              = "￥";
+"common_coin_desc"              = "元";
+"common_edit"                   = "编辑";
+"common_commit"                 = "提交";
+"common_send"                   = "发送";
+"nav_back"                      = "返回";
+"common_network_error"          = "网络请求失败，请重试。";
+"common_error"                  = "操作失败";
+"common_copy"                   = "复制";
+"common_refresh"                = "刷新";
+"common_clear"                  = "清空";
+"common_camera"                 = "拍照";
+"common_photo_library"          = "从相册选择";
+"common_no_data"                = "没有内容";
+"common_clear_all"              = "清空";
+"common_today"                  = "今天";
+"common_modify"                 = "修改";
+"common_close"                  = "关闭";
+"common_share"                  = "分享";
+
+////////////////////////////////////////////////////////////////////////////////
+// 自动更新
+"autoupdate_title_fmt"          = "发现新版本 %@";
+"autoupdate_later"              = "稍后再说";
+"autoupdate_go"                 = "现在升级";
+
+////////////////////////////////////////////////////////////////////////////////
+// 下拉刷新
+"Release to refresh status"     = "释放刷新...";
+"Pull down to refresh status"   = "下拉刷新...";
+"Loading Status"                = "正在刷新...";
+"Last Updated Format"           = "最近一次更新：%@";
+"Release to refresh"            = "释放立即刷新";
+"Pull down to refresh"          = "下拉刷新";
+"Do refresh"                    = "正在刷新";
+"Last Updated Fmt"              = "上次刷新：%@";
+
+// 上拉刷新
+"Pull up to refresh"            = "上拉刷新";
+"Get More Surprise"             = "发现更多惊喜";
+
+////////////////////////////////////////////////////////////////////////////////
+// 网络状态
+"network_disconnect"            = "当前没有网络连接";
+"network_wifi"                  = "当前使用Wi-Fi网络";
+"network_edge"                  = "当前使用2G/3G网络";
+
+"network_edge2wifi"             = "在Wi-Fi环境下，为您呈现高质量图片";
+"network_wifi2edge"             = "在移动网络下，为您呈现普通质量图片";
+
+////////////////////////////////////////////////////////////////////////////////
+// 位置服务与重力感应
+"location_need_enabled"         = "请在“系统设置-隐私”中打开“定位服务”";
+"location_need_enabled_for_app" = "天猫客户端需要访问您的位置，请在“系统设置-隐私”中打开“定位服务”";
+"location_error"                = "获取位置失败";
+"motion_service_invalid"        = "重力感应不可用";
+"I_KNOW"                        = "我知道了";
+
+////////////////////////////////////////////////////////////////////////////////
+//支付宝提示语
+"Alipay_Success_Msg" = "支付成功";
+"Alipay_Fail_Msg" = "支付失败";
+"Alipay_Success_confirm" = "确认收货成功";
+"Alipay_Fail_confirm" = "确认收货失败";
+
+"frontpage_load_failed" = "首页加载失败";
+
+////////////////////////////////////////////////////////////////////////////////
+// 封面页
+"cover_search_hint"             = "搜索 天猫 商品/店铺";
+"cover_search_hint1111"         = "搜索 双十一 商品/店铺";
+"cover_search_bar"              = "搜索 “%@”";
+"cover_search_item_count_fmt"   = "约%lld个商品";
+"cover_search_clear"            = "清空搜索记录";
+"cover_search_no_rst_fmt"       = "很抱歉，没有找到与 “%@” 相关的商品";
+"cover_search_no_shop_rst_fmt"  = "很抱歉，没有找到与 “%@” 相关的店铺";
+"cover_search_item"             = "商品：";
+"cover_search_shop"             = "店铺：";
+"cover_item"                    = "商品";
+"cover_shop"                    = "店铺";
+////////////////////////////////////////////////////////////////////////////////
+// Tabbar
+//"tabbar_recommend_title"        ="精品";
+//"tabbar_channel_title"          ="频道";
+"tabbar_homepage_title"        ="天猫";
+"tabbar_mystreet_title"         ="关注";
+"tabbar_category_title"         ="搜索";
+"tabbar_ihave_title"            ="范儿";
+"tabbar_shopcart_title"         ="购物车";
+"tabbar_mytmall_title"          ="我";
+
+////////////////////////////////////////////////////////////////////////////////
+// 主题页面
+"timeline_title"                = "精品推荐";
+"timeline_refresh_fail_hint"    = "数据加载失败，请检查您的设备是否联网";
+"topic_brief_fmt"               = "%lld件精美商品";
+"topic_taoke_fmt"               = "来自%@";
+"topic_down_refresh_normal"     = "下拉浏览上一精品主题";
+"topic_down_refresh_pulling"    = "松开浏览上一精品主题";
+"topic_down_refresh_loading"    = "正在加载上一精品主题";
+"topic_down_refresh_no_topic"   = "已经是最新主题了";
+"topic_up_refresh_normal"       = "上拉浏览下一精品主题";
+"topic_up_refresh_pulling"      = "松开浏览下一精品主题";
+"topic_up_refresh_loading"      = "正在加载下一精品主题";
+"topic_up_refresh_no_topic"     = "没有更多主题了";
+"topic_item_invalid"            = "抱歉，这个商品已卖完，还是去看看其他精品吧";
+
+////////////////////////////////////////////////////////////////////////////////
+// timeline menu
+"timeline_menu_category_all"        = "全部精品";
+"timeline_menu_tag_title"           = "精选标签";
+"timeline_menu_category_title"      = "精品分类";
+"timeline_menu_status_topic_count"  = "共%d个精品主题";
+"timeline_menu_status_update_time"  = "，最近一次更新%@";
+
+////////////////////////////////////////////////////////////////////////////////
+// bannerlist页面
+"banner_down_refresh_normal"     = "下拉浏览上一优惠活动";
+"banner_down_refresh_pulling"    = "松开浏览上一优惠活动";
+"banner_down_refresh_loading"    = "正在加载上一优惠活动";
+"banner_down_refresh_no_banner"   = "已经是最新优惠活动了";
+"banner_up_refresh_normal"       = "上拉浏览下一优惠活动";
+"banner_up_refresh_pulling"      = "松开浏览下一优惠活动";
+"banner_up_refresh_loading"      = "正在加载下一优惠活动";
+"banner_up_refresh_no_banner"     = "没有更多优惠活动了";
+"banner_title"                   = "优惠活动";
+
+////////////////////////////////////////////////////////////////////////////////
+// 类目页面
+"category_title"                = "类目导航";
+"category_cny"                  = "¥%@";
+"category_comment"              = "总评论";
+"category_brand"                = "品牌";
+"category_price"                = "选择价格区间";
+"category_location"             = "区域";
+"category_location_province"    = "省份";
+"category_location_city"        = "城市";
+"category_all_location"         = "所有区域";
+"category_select_location"      = "选择所在地";
+"category_zhuhai"               = "珠三角";
+"category_hongkong"             = "港澳台";
+"category_outland"              = "海外";
+"category_jiangsu"              = "江浙沪";
+"category_beijing"              = "北京市";
+"category_shanghai"             = "上海市";
+"category_guangzhou"            = "广州市";
+"category_shenzhen"             = "深圳市";
+"category_hangzhou"             = "杭州市";
+
+////////////////////////////////////////////////////////////////////////////////
+// 我的天猫页面
+"MyTmall_title"                = "我的天猫";
+"MyTmall_Login"                = "登录";
+"MyTmall_LoginOut"             = "注销";
+"MyTmall_Login_Title"          = "登录";
+"MyTmall_Login_User"           = "账  号:";
+"MyTmall_Login_placehold"      = "淘宝会员账号";
+"MyTmall_Login_pwd"            = "密  码:";
+"MyTmall_Login_pwdPlacehold"      = "密码";
+"MyTmall_Login_reg"            = "快速注册";
+"MyTmall_Login_success"        = "登录成功";
+"MyTmall_Login_fail"        = "登录失败";
+"MyTmall_logout_nouser"        = "请输入账号";
+"MyTmall_logout_nopwd"         = "请输入密码";
+"MyTmall_reg_message1"         = "中国大陆手机用户编辑短信\"TB\"发送到:";
+"MyTmall_reg_message2"         = "根据短信提示操作,即可成功注册";
+"MyTmall_reg_photonum"         = "1069099988";
+"MyTmall_logout_prompt"        = "确定要退出登录吗?";
+"MyTmall_notlogin_msg"         = "亲，欢迎来天猫";
+"MyTmall_logined_msg"          = "已登录";
+"MyTmall_MyGift"                ="我的红包";
+"MyTmall_wangwang"             = "旺旺";
+"MyTmall_history"               = "浏览历史";
+
+"MyTmall_history_item"          = "商品";
+"MyTmall_history_shop"          = "店铺";
+"MyTmall_history_theme"          = "主题";
+
+"MyTmall_buyer_credit"  = "买家等级：";
+"MyTmall_buyer_points"  = "天猫积分";
+
+"Validate_prompt_inputNeed" = "请输入验证码";
+"Validate_prompt_title" = "请输入验证码";
+
+"MyTmall_tmallcell_like" = "喜欢商品";
+"MyTmall_tmallcell_shop_like" = "收藏店铺";
+"MyTmall_tmallcell_shopping_cart" = "购物车";
+"MyTmall_tmallcell_wait_pay_order" = "待付款订单";
+"MyTmall_tmallcell_wait_confirm_order" = "待收货订单";
+"MyTmall_tmallcell_finish_order" = "已完成订单";
+"MyTmall_tmallcell_tmallcard" = "天猫卡";
+"MyTmall_tmallcell_coupon" = "优惠劵";
+"MyTmall_tmallcell_wangwang" = "旺旺消息";
+"MyTmall_tmallcell_brand" = "关注品牌";
+"MyTmall_tmallcell_ship" = "物流查询";
+
+"MyTmall_messagebox" = "消息中心";
+
+////////////////////////////////////////////////////////////////////////////////
+// 购物车
+"ShopCart_title"  = "购物车";
+"ShopCart_btn_balance"  = "结算";
+"ShopCart_btn_bash_del"  = "批量删除";
+"ShopCart_total_price"  = "总价:￥";
+"ShopCart_total_commodities"  = "共%d个商品";
+"ShopCart_content_quantity"  = "数量";
+"ShopCart_content_seller"  = "卖家";
+"ShopCart_content_repick"  = "重新选择";
+"ShopCart_choose_zero"  = "请选择商品";
+"ShopCart_edit_num"  = "修改数量";
+"ShopCart_over_stock"  = "超过库存";
+"ShopCart_empty"  = "购物车还是空的，去挑几件中意的商品吧";
+"ShopCart_empty_btnTitle"  = "开始购物";
+"ShopCart_saved_price_fmt" = "节省%@%.2f";
+"ShopCart_saved_price_weight_fmt" = "节省%@%.2f  总重 %@ kg";
+"ShopCart_bat_delete_title" = "删除所选的%d件商品？";
+"ShopCart_bat_delete_content" = "";
+"ShopCart_bat_delete_select" = "请先选择商品";
+"ShopCart_sync_fail" = "添加商品到购物车失败";
+"ShopCart_query_fail" = "拉取购物车失败";
+"ShopCart_delete_fail" = "从购物车删除商品失败";
+"ShopCart_update_count_fail" = "修改商品数量失败";
+"ShopCart_order_cross_fail" = "天猫国际商品只可单独下单";
+"ShopCart_multiple_buy" = "仅支持%d倍购买";
+"ShopCart_multiple_buy_error" = "购买数量必须是%d的倍数";
+"ShopCart_exceed_limit" = "购买数量超过限购数";
+"ShopCart_limit" = "限购%d件";
+
+////////////////////////////////////////////////////////////////////////////////
+// 订单
+"OrderForm_title" = "确认订单";
+"OrderForm_receiver_address_title" = "收货信息";
+"OrderForm_btn_purchase" = "付款";
+"OrderForm_btn_submit" = "提交订单";
+"OrderForm_receive_address" = "收贷地址";
+"OrderForm_post_type" = "配送方式";
+"OrderForm_sum_up" = "总计";
+"OrderForm_ship_sum" = "商量总价";
+"OrderForm_post_sum" = "运费";
+"OrderForm_free_fee" = "免费";
+"OrderForm_delete_success" = "删除成功";
+"OrderForm_BuyerStatusError" = "由于您的买家信用度处在0－3分之间，可以出价5次，再次出价必须在支付宝付款或交易关闭后进行！";
+"OrderForm_update_limit" = "输入数量有错";
+"OrderForm_ship_title" = "商品信息";
+"OrderForm_empty_waitpay" = "暂无待付款的订单";
+"OrderForm_empty_waitdelivery" = "暂无待发货的订单";
+"OrderForm_empty_wait_confirm" = "暂无待收货的订单";
+"OrderForm_empty_refunding" = "暂无退款中的订单";
+"OrderForm_empty_finished" = "暂无已完成的订单";
+"OrderFrom_empty_unrated" = "暂无待评价的订单";
+"OrderForm_empty_btnTitle" = "继续购物";
+"OrderForm_trade_limit" = "商品数量有限，下单要快哦！";
+"OrderForm_item_limit" = "该商品不支持手机购买";
+"OrderForm_address_empty" = "没有收货地址";
+"OrderForm_invalid_item" = "失效商品";
+"OrderForm_invalid_error" = "抱歉，有%d件商品已不能购买。";
+"OrderForm_invalid_error_view" = "查看详情";
+"OrderForm_invalid_error_ignore" = "忽略";
+"OrderForm_contact_seller" = "请与卖家协商";
+"OrderForm_Save_Money" = "已省";
+"OrderForm_step_batch_pay_unenabled" = "预售订单暂不支持合并付款";
+"OrderForm_preorder_batch_pay_unenabled" = "预下单的订单暂不支持合并付款";
+"OrderForm_periodic_batch_pay_unenabled" = "周期购的订单暂不支持合并付款";
+"OrderForm_tmallhk_batch_pay_unenabled" = "天猫国际的订单暂不支持合并付款";
+"OrderForm_batch_pay_failed" = "合并付款失败";
+"OrderForm_no_valid_address" = "无可用收货地址，点击此处编辑";
+"OrderForm_not_valid_address" = "该收货地址不在配送范围内";
+"OrderForm_create_order_fail" = "创建订单失败";
+"OrderForm_invoice_1" = "开具发票";
+"OrderForm_invoice_2" = "发票信息";
+"OrderForm_invoice_3" = "发票抬头";
+"OrderForm_invoice_title" = "抬头";
+"OrderForm_invoice_title_edit" = "请输入发票抬头";
+"OrderForm_invoice_type" = "类型";
+"OrderForm_periodic_phone" = "请输入发货信息通知号码";
+"OrderForm_preorder_hint" = "订单提交成功！请在%@回来付款哦，过期我们将会自动关闭您的订单";
+"OrderForm_creat_order_part_success_message" = "部分商品提交成功！先付款抢到，再去购物车看哪些需要重新提交";
+"OrderForm_creat_order_part_success_button" = "我知道了";
+
+////////////////////////////////////////////////////////////////////////////////
+// 商品详情页
+"detail_title"              = "商品展示";
+"detail_presell_price_step" = "满%d人，价格为%@%.2f";
+"detail_presell_count"      = "当前已有%@人预订";
+
+"detail_subscribe_count"    = "当前已有%d人订购";
+"detail_periodic_desc"      = "订购%@，省%@%.2f，共%d件，每件%@%.2f";
+"detail_salecount_fmt"      = "月销量：%@件";
+
+"detail_props_colon"        = "：";
+"detail_waitForStart"       = "开始倒计时：%@";
+"detail_waitForStart2"      = "商品暂时无法购买";
+"detail_limit_buy_fmt"      = "每个帐号限购%llu件";
+"detail_sold_count_fmt"     = "已售：%llu件";
+"detail_rest_time_invalid"  = "剩余时间：--:--";
+"detail_rest_time_fmt"      = "距结束：%d小时%d分%d秒";
+"detail_start_time_fmt"     = "距开始：%d小时%d分%d秒";
+
+"detail_photo_save"         = "保存";
+"detail_photo_save_image"   = "保存图片";
+"detail_photo_save_success" = "保存成功";
+"detail_photo_save_fail"    = "保存失败";
+
+"detail_service_go_wangwang"  = "联系卖家";
+"detail_invalid_hint"       = "对不起，该商品已失效，暂不能购买";
+"detail_header_jhsprice"       = "聚划算价";
+
+"detail_share_item"         = "我在天猫发现了一个宝贝";
+"detail_share_theme"        = "我在天猫发现了不错的主题";
+"detail_share_sina"         = "分享到新浪微博";
+"detail_share_laiwang_chat" = "分享到来往好友";
+"detail_share_laiwang_feed" = "分享到来往动态";
+"detail_share_weixin"       = "分享到微信";
+"detail_share_tencent"      = "分享到腾讯微博";
+"detail_enger_shop"         = "进店";
+
+"detail_miaosha_reminder_1" = "提前一分钟";
+"detail_miaosha_reminder_3" = "提前三分钟";
+"detail_miaosha_reminder_5" = "提前五分钟";
+"detail_miaosha_reminder_success" = "定时提醒设置成功";
+"detail_miaosha_reminder_failed" = "定时提醒设置失败";
+
+"system_calendar_visit_error" = "访问系统日历失败！";
+"system_calendar_visit_denied" = "天猫客户端需要访问您的日历，请在“系统设置-隐私”中允许天猫客户端访问日历。";
+
+"cancel_collect_success" = "取消收藏成功";
+"cancel_collect_fail" = "取消收藏失败";
+"collect_success" = "添加收藏成功";
+"collect_fail" = "添加收藏失败";
+
+////////////////////////////////////////////////////////////////////////////////
+// 商品购买页
+"purchase_title"            = "购买商品";
+"purchase_title_buy_now"    = "立即购买";
+"purchase_title_add_cart"   = "加入购物车";
+"purchase_title_joinmiaosha" = "参与秒杀";
+"purchase_title_joinmiaosha2" = "马上开抢";
+"purchase_title_joinmiaosha3" = "进去看看";
+"purchase_title_add_reminder" = "设置提醒";
+"purchase_not_supported"    = "不支持手机购买";
+"purchase_repository_fmt"   = "库存：%lld 件";
+"purchase_quantity_label"   = "数量";
+"purchase_quantity_label2"   = "每次数量";
+"purchase_area_label"   = "配送区域";
+"purchase_periodicity"   = "周期选择";
+"purchase_periodic_interval" = "配送频率";
+"purchase_periodic_interval_value" = "%@一次";
+"purchase_area_tip_label"   = "请确认商品配送区域";
+"purchase_service_label"   = "服务";
+"purchase_total_price"      = "总价：";
+"purchase_miaosha_price"    = "秒杀价：";
+"purchase_first_pay_price"  = "首次支付：";
+"purchase_total_deposit"    = "定金：";
+"purchase_confirm"          = "确认购买";
+"purchase_confirm_add_cart" = "确认添加";
+"purchase_confirm_shake"    = "进入闪购";
+"purchase_confirm_refresh"  = "刷新抢宝";
+"purchase_hint_no_sku_ftm"  = "请选择%@";
+"purchase_hint_no_quantity" = "请输入购买数量";
+"purchase_hint_invalid_quantity"  = "库存不足";
+"purchase_hint_limit_count"  = "超过最大限购数量";
+"purchase_hint_limit_periodic"  = "本商品购买份数只能为%lld~%lld";
+"purchase_to_area"          = "至";
+"purchase_add_cart_success" = "商品已成功添加到购物车";
+"purchase_periodic_desc"   = "共%d件，每件%@%.2f，省%@%.2f";
+"purchase_miaosha_finished" = "秒杀活动已结束";
+"purchase_miaosha_retry" = "亲，实在抱歉，当前人数过多，请稍后重试！";
+
+////////////////////////////////////////////////////////////////////////////////
+// 商品列表页
+"itemlist_sort_hot"            = "综合";
+"itemlist_sort_sales"          = "销量";
+"itemlist_sort_price"          = "价格";
+"itemlist_sort_shop"           = "店铺";
+"itemlist_sort_new"            = "新品";
+"itemlist_total_num"           = "%d件商品";
+"itemlist_total_num_of_10k"    = "%0.1f万件商品";
+"itemlist_sift"                = "筛选";
+"itemlist_search"              = "搜索 天猫 商品";
+"itemlist_search_left"         = "继续在\“";
+"itemlist_search_right"        = "\”分类下搜索";
+"itemlist_null_msg"            = "抱歉，没有找到相关商品";
+"itemlist_null_msg1"           = "请改变搜索条件重新尝试搜索";
+
+////////////////////////////////////////////////////////////////////////////////
+// 店铺列表页
+"shoplist_null_msg"            = "抱歉，没有找到相关店铺。";
+"shoplist_search"              = "搜索 天猫 店铺";
+
+
+////////////////////////////////////////////////////////////////////////////////
+// 我的订单
+"BizOrder_title"              = "我的订单";
+"BizOrder_buyer_pay"              = "待付款";
+"BizOrder_seller_send"            = "待收货";
+"BizOrder_trade_finished"         = "已完成";
+"WAIT_BUYER_PAY" = "等待付款";
+"WAIT_SELLER_SEND_GOODS" = "卖家正在发货";
+"WAIT_BUYER_CONFIRM_GOODS" = "待确认收货";
+"TRADE_FINISHED" = "已完成";
+"BizOrder_order_price"              = "价格：";
+"BizOrder_Order_num"              = "数量：";
+"BizOrder_order_state"              = "订单状态";
+"BizOrder_order_state_desc"     = "状态描述";
+"BizOrder_order_info"              = "订单信息";
+"BizOrder_Order_numFormat" = " 共%d件";
+// 订单评价
+"Order_Rate_Title"        = "订单评价";
+"Order_DoRate"            = "评价";
+"Order_AppendRate"        = "追评";
+"Order_Rate_Select"       = "选择评价";
+"Order_Rate_Comment"      = "您的评语";
+"Order_Rate_Confirm"      = "提交评价";
+"Order_Rate_Annomy"       = "匿名评论";
+"Order_Remark_Btn_title"  = "评论";
+"Order_Remark_Btn_title2" = "编辑";
+"Order_Rate_Success"      = "评论成功";
+"Order_Rate_Not_Complete" = "您有未完成的评分，确定提交?(未评分项将默认五星好评)";
+"Order_Rate_Submitting"   = "正在提交评价...";
+"Order_AppendRate_Title"  = "评价详情";
+"Suborder_Rating_Title"   = "描述相符";
+"Mainorder_Anony_Title"         = "匿名评论";
+"Suborder_Text_Placeholder"     = "喵，说两句吧";
+"Order_Rate_Remark_Too_Long"    = "字符数超过限制";
+"Order_Rate_Remark_Text_Left"   = "您还可以输入%d个字 ";
+"Order_ItemRate_Cancel_Confirm" = "您确定要放弃对该商品的评论吗？";
+
+////////////////////////////////////////////////////////////////////////////////
+// 地址
+"Address_title" = "收货地址";
+"Address_add_new" = "新增";
+"AddressDetail_title_delete" = "删除收货地址";
+"AddressDetail_title_new" = "新增收货地址";
+"AddressDetail_title_edit" = "编辑收货地址";
+"AddressDetail_detail_delete" = "确认要删除此收货地址吗？";
+"AddressDetail_title_amend" = "修改";
+"AddressDetail_title_add" = "添加";
+"AddressDetail_title_name" = "收货人姓名：";
+"AddressDetail_title_mobile" = "手机号码：";
+"AddressDetail_title_post" = "邮政编码：";
+"AddressDetail_title_area" = "所在地区：";
+"AddressDetail_title_detail" = "详细地址：";
+"AddressDetail_set_default" = "设为默认";
+"AddressDetail_as_default" = "默认地址";
+"AddressDetail_setdefault_success" = "设置成功";
+"AddressDetail_delete_success" = "删除成功";
+"AddressDetail_edit_success" = "编辑成功";
+"AddressDetail_add_success" = "添加成功";
+"AddressDetail_address_empty" = "你的收货地址为空,是否添加新的收货地址";
+"AddressDetail_fullname_limit" = "收货人姓名不能少于2个字，不能超过15个字";
+"AddressDetail_mobile_limit" = "手机号码格式不对";
+"AddressDetail_post_limit" = "邮政编码 必须由6个数字构成";
+"AddressDetail_deliverId_limit" = "请检查地区信息";
+"AddressDetail_detail_limit" = "请检查详细地址";
+
+////////////////////////////////////////////////////////////////////////////////
+// 电子凭证ETicket类型
+"ETicket_Title" = "使用方式";
+"ETicket_NotChoose" = "未选择";
+"ETicket_ToMe" = "自己用";
+"ETicket_ToFriend" = "送好友";
+"ETicket_MyCellPhone" = "您的手机号：";
+"ETicket_FrientCellPhone" = "好友手机号：";
+"ETicket_Nickname" = "您的姓名/昵称：";
+"ETicket_Bless" = "祝福语";
+"ETicket_ConfirmInfo" = "确认信息";
+"ETicket_Confirm" = "确认";
+"ETicket_Tips_PleaseInputPhoneNumber" = "请输入手机号码。";
+"ETicket_Tips_InvalidPhoneNumber" = "号码无效，请输入正确的手机号码。";
+"ETicket_Tips_PleaseInputMyNickName" = "请输入您的姓名或昵称。";
+"ETicket_Tips_MyNickNameTooLong" = "姓名或昵称超长，请修改后重新输入。";
+"ETicket_Tips_PleaseChooseRecieverType" = "请选择使用方式！";
+
+////////////////////////////////////////////////////////////////////////////////
+//订单详情
+"TradeDetail_title" = "订单详情";
+"TradeDetail_title_itemDetail" = "商品详情";
+"TradeDetail_list_title" = "商品列表";
+"TradeDetail_title_logistics" = "物流信息";
+"TradeDetail_detail_logistics" = "查看物流状态";
+"TradeDetail_No_Result" = "物流公司未返回数据，请到%@官网查询或联系其公示电话";
+"TradeDetail_No_Result2" = "无物流信息";
+"TradeDetail_title_TODTime" = "发货时间";
+"TradeDetail_title_time" = "订单时间  ";
+"TradeDetail_title_Info" = "订单信息";
+"TradeDetail_title_period" = "周期设置";
+"TradeDetail_title_period2" = "到货周期";
+"TradeDetail_title_period3" = "该订单将在%d月%d日到货";
+"TradeDetail_title_periodPhone" = "发货通知号码";
+"TradeDetail_title_cycleMonth" = "周期";
+"TradeDetail_title_cycleInterval" = "配送频率：每%d天";
+"TradeDetail_title_step" = "阶段%d  %@";
+"TradeDetail_title_TaobaoOrderId" = "订单编号";
+"TradeDetail_title_AlipayOrderId" = "支付宝交易号：";
+"TradeDetail_title_PayTime" = "成交时间";
+"TradeDetail_title_ConfirmTime" = "确认时间";
+"TradeDetail_title_SendTime" = "发货时间";
+"TradeDetail_title_CreateTime" = "创建时间";
+"TradeDetail_title_ReceiverName" = "收货人姓名";
+"TradeDetail_title_ReceiverAddress" = "收货人地址";
+"TradeDetail_title_ContactInfo" = "联系方式";
+"TradeDetail_title_SellerNick" = "卖家昵称";
+"TradeDetail_title_SellerName" = "卖家姓名";
+"TradeDetail_title_SellerMobile" = "电话客服";
+"TradeDetail_title_receiverAddress" = "收货信息";
+"TradeDetail_title_other_expenses" = "其它费用";
+"TradeDetail_title_piont" = "积分抵现";
+"TradeDetail_payment_total" = "总金额 ";
+"TradeDetail_payment_first_pay" = "首期支付 ";
+"TradeDetail_payment_total_weight" = "总重量：";
+"TradeDetail_title_notifyDelivery" = "提醒卖家发货";
+"TradeDetail_title_confirm" = "确认收货";
+"TradeDetail_title_address" = "收货地址";
+"TradeDetail_title_post_fee" = "运费";
+"TradeDetail_title_post_code" = "邮编";
+"TradeDetail_btn_cancelOrder" = "取消订单";
+"TradeDetail_btn_viewLogistic" = "查看物流";
+"TradeDetail_cancelOrder_fail" = "取消订单失败";
+"TradeDetail_cancelOrder_success" = "取消订单成功";
+"TradeDetail_get_detail_failed" = "获取订单详情失败";
+"TradeDetail_invalid_for_alipay" = "该订单已失效，请取消后重新购买";
+"TradeDetail_notify_delivery_succss" = "已成功通知卖家";
+"TradeDetail_alipay_failed" = "订单支付失败";
+"TradeDetail_alipay_can_not_pay" = "订单无法付款或确认收货，请确认订单状态。";
+"TradeDetail_alipay_step_not_supported" = "暂不支持天猫预售商品的确认收货，请在PC上确认收货！";
+"TradeDetail_Preorder" = "双十一无线专场订单，在%@以后才可支付";
+"TradeDetail_Preorder2" = "无线专场订单在%@才能付款，请按时付款哦";
+"TradeDetail_Preorder_outdate" = "无线专享预下单订单付款时间已过，现在无法付款";
+"TradeDetail_postpond_success" = "已延长收货时间";
+
+"trade_cancel_reason_wont_buy" = "我不想买了";
+"trade_cancel_reason_info_wrong" = "信息填写错误，重新拍";
+"trade_cancel_reason_out_of_stock" = "卖家缺货";
+"trade_cancel_reason_face_to_face" = "面对面交易";
+"trade_cancel_reason_other" = "其它原因";
+
+
+"trade_phone_call_title_format" = "联系卖家：%@";
+
+"trade_search_placeholder" = "搜索三个月内的订单";
+
+////////////////////////////////////////////////////////////////////////////////
+//物流跟踪详情
+"TransitStep_title" = "物流详情";
+"TransitStep_title_Name" = "物流公司";
+"TransitStep_title_mailNo" = "运单号码";
+"TransitStep_title_logisticNo" = "物流编号";
+
+////////////////////////////////////////////////////////////////////////////////
+//更多
+"More_title" = "更多";
+"More_setting_title" = "设置";
+"More_about_title" = "关于我们";
+"More_feedback_title" = "意见反馈";
+"Feedback_title_problem" = "问题反馈";
+"Feedback_title_suggestion" = "功能建议";
+"Feedback_survey" = "问卷调查";
+"Feedback_problem" = "亲，反馈不能正常使用的功能";
+"Feedback_suggestion" = "亲，告诉我们产品体验上的建议";
+"Feedback_placehold" = "请在此留下您的宝贵意见，让手机天猫不断进步，谢谢！若您对商品活动及交易有所疑问，请拨打免费客服热线4008-608-608 进行咨询。";
+"Clear_cache_finished" = "图片缓存清除成功";
+"More_table_edit" = "编辑";
+"More_table_done" = "完成";
+
+////////////////////////////////////////////////////////////////////////////////
+//注册
+"Register_message_title" = "快速注册天猫";
+"Register_message_detail" = "中国大陆手机用户编辑短信“TB”发送到";
+"Register_phone_num" = "1069099988";
+"Register_send_sms" = "发送短信注册";
+
+////////////////////////////////////////////////////////////////////////////////
+//喜欢
+"MyLike_title" = "我的喜欢";
+"MyLike_empty1" = "您标记喜欢的商品";
+"MyLike_empty2" = "将会出现在这里";
+"MyLike_empty_btnTitle" = "继续逛逛";
+"MyLike_message_quantity" = "库存";
+"MyLike_popularity" = "%d人喜欢";
+"MyLike_website_title" = "收藏商品";
+"MyLike_website_popularity" = "%d人收藏";
+"MyLike_webSite_empty" = "暂无收藏商品";
+"MyLike_webSite_header_title"="查看更多网站收藏夹商品";
+
+////////////////////////////////////////////////////////////////////////////////
+//收藏
+"MyShop_title" = "我的收藏";
+"MyShop_empty1" = "您标记收藏的店铺";
+"MyShop_empty2" = "将会出现在这里";
+"MyShop_empty_btnTitle" = "继续逛逛";
+"MyShop_message_quantity" = "数量";
+
+"MyCollect_website_popularity" = "收藏人气：%d";
+"collect_cny" = "￥%@";
+
+////////////////////////////////////////////////////////////////////////////////
+//优惠劵
+"MyCoupon_title" = "我的优惠券";
+"MyCoupon_current" = "当前";
+"MyCoupon_history" = "历史";
+"MyCoupon_not_start" = "未开始";
+"MyCoupon_immediately_use" = "立即使用";
+"Mycoupon_duration" = "使用期限";
+"MyCounpon_Empty" = "暂无优惠券";
+"Coupon_immediately_apply" = "立即领取";
+"Coupon_applied_done" = "已领取完";
+"no_coupon_can_be_applied" = "呜呜,优惠券被领完了。收藏这个店铺吧,优惠绝不再错过。";
+"no_thanks" = "不了，谢谢";
+"collect_the_shop" = "收藏店铺";
+"coupon_apply_success" = "恭喜您,店铺优惠券领取成功!";
+"coupon_apply_fail" = "呜呜,优惠券被领完了。下次要早点来哦";
+"coupon_limit_arrived" = "该优惠券每人只能领%d张哦,你已成功领取了%d张。";
+"view_my_coupon" = "查看优惠劵";
+"apply_coupon_success" = "恭喜领劵成功!";
+"coupon_applying" = "正在领取...";
+"invalid_coupon" = "该优惠劵无效";
+
+//品牌优惠劵
+"coupon_get" = "领取优惠券";
+"BrandCoupon" = "品牌优惠劵";
+"coupon_floor_down_refresh_normal"     = "下拉浏览上一层楼优惠劵";
+"coupon_floor_down_refresh_pulling"    = "松开浏览上一层楼优惠劵";
+"coupon_floor_down_refresh_loading"    = "正在加载上一层楼优惠劵";
+"coupon_floor_up_refresh_normal"       = "上拉浏览下一层楼优惠劵";
+"coupon_floor_up_refresh_pulling"      = "松开浏览下一层楼优惠劵";
+"coupon_floor_up_refresh_loading"      = "正在加载下一层楼优惠劵";
+
+// 新品
+"new_product_brand" = "品牌上新";
+"new_product_brand_hint" = "无线每日零点上新";
+"new_product_see_more" = "去店铺 >";
+"new_product_counter" = "商场同款";
+"new_product_theme" = "新品流行街";
+"new_product_theme_hint" = "当季流行风向标";
+"new_product_load_fail_tap_reload" = "出错啦，点击重新请求";
+"new_product_more_new" = "更多上新";
+"new_product_new_count_today" = "今日上新%d件";
+"new_product_new_count_recently" = "近期上新%d件";
+"new_product_possibly_like" = "你可能喜欢";
+"new_product_bought" = "我购买过的";
+"new_product_collected" = "我收藏过的";
+"new_product_focused" = "我关注过的";
+"new_product_viewed" = "我浏览过的";
+"new_product_women" = "女装新品";
+"new_product_tag_refresh" = "换一批";
+
+////////////////////////////////////////////////////////////////////////////////
+//权益卡
+"TMCard_Title" = "天猫达人卡";
+"TMCard_ViewMyRights" = "进入我的特权";
+"TMCard_Applying"     = "马上领取";
+"TMCard_Active_Immediate" = "立即激活";
+"TMCard_Activiting" = "正在激活";
+"TMCard_Active_Success" = "恭喜,达人卡激活成功";
+"TMCard_ArriveTodayLimit" = "喵，今天的权益卡已经发完了，明天再来吧";
+"TMCard_NameField"    = "真实姓名";
+"TMCard_CellNumber"   = "手机号";
+"TMCard_Apply_Tip"    = "天猫卡每人限领一张,享受天猫卡特权需以身份证姓名为准,请填写真实姓名和手机号完成激活";
+"TMCard_Cell_Invalid" = "号码无效，请输入正确的手机号码。";
+"TMCard_Name_Invalid" = "权益卡需以身份证姓名为准，请输入有效的身份证姓名。";
+"TMCard_ApplySuccess" = "领卡成功";
+"TMCard_Active"       = "激活";
+"TMCard_RealName_Placehold" = "请输入真实姓名";
+"TMCard_CellPhone_Placehold" = "请输入手机号码";
+"TMCard_Account" = "账号：";
+"TMCard_Password" = "密码：";
+"TMCard_Coupon_Tab" = "名品店优惠券";
+"TMCard_PrivilegeDiscount_Tab" = "会员专享折扣";
+"TMCard_PointChange" = "积分兑换";
+"TMCard_AskApplyCoupon" = "现有%d积分，确认使用%@此优惠券？";
+
+////////////////////////////////////////////////////////////////////////////////
+//内嵌旺旺
+"WW_Send_Item_Link" = "发送宝贝链接";
+"WW_Item_Sold_Recently" = "最近售出:";
+"wangxin_input_tip" = "请输入文字";
+"WW_Nomore_Message" = "没有更多历史记录";
+"WW_Msg_Image_Type" = "[图片]";
+"WW_Msg_GifEmoticon_Type" = "[GIF动画]";
+"WW_Msg_System_Type" = "[系统消息]";
+"WW_Msg_Audio_Type" = "[语音]";
+"WW_Msg_Vedio_Type" = "[视频]";
+"WW_Msg_Location_Type" = "[地理位置]";
+"WW_Msg_Unknown_Type" = "[未知消息类型]";
+"WW_Contact_Search" = "搜索最近联系人";
+"WW_Search_Empty_Result" = "无结果";
+"WW_Empty_Session_List" = "无最近联系人\n 你可以在商品页和店铺页与卖家沟通\n ";
+"WW_Offline" = "旺旺下线通知";
+"WW_Offline_Tip" = "您的旺旺账号在另一客户端登录，您被迫下线，点击确定将自动重新登录";
+"WW_MSG_SUFFIX" = "【该消息来自手机天猫, http://m.tmall.com/p/tmc】";
+"WW_LOGINNING" = "旺旺登录中";
+"WW_SELECT_FROM_CAMERA" = "拍照";
+"WW_SELECT_FROM_PHOTOS" = "照片";
+"WW_SELECT_FROM_CAMERA_SUB" = "您可以选择拍照，使用相机拍照后发送";
+"WW_SELECT_FROM_PHOTOS_SUB" = "您可以选择照片，直接发送手机里的图片";
+"WW_LOCATION" = "位置";
+"WW_LOCATION_SUB" = "您可以选择位置，告诉卖家您的位置";
+"WW_SPEAK" = "请说话";
+"WW_SPEAK_TOO_SHORT" = "时间太短";
+"WW_PUSH_SPEAK" = "请按住说话";
+"WW_RELAESE_SPEAK" = "松开发送";
+
+////////////////////////////////////////////////////////////////////////////////
+//关注品牌
+"MyFocus_Brand_Title" = "关注品牌";
+"MyFocus_Brand_Empty" = "品牌日记";
+"MyFocus_Empty_Tip" = "您关注的品牌将会出现在这里";
+"brand_down_refresh_normal"     = "下拉浏览上一品牌";
+"brand_down_refresh_pulling"    = "松开浏览上一品牌";
+"brand_down_refresh_loading"    = "正在加载上一品牌";
+"brand_down_refresh_no_topic"   = "已经是最新品牌了";
+"brand_up_refresh_normal"       = "上拉浏览下一品牌";
+"brand_up_refresh_pulling"      = "松开浏览下一品牌";
+"brand_up_refresh_loading"      = "正在加载下一品牌";
+"brand_up_refresh_no_topic"     = "没有更多品牌了";
+
+////////////////////////////////////////////////////////////////////////////////
+//反馈
+"Feedback_empty_limit" = "请输入要反馈的内容";
+"Feedback_over_limit" = "你最多可以输入400个字符的内容";
+"Feedback_success" = "感谢你的反馈";
+
+////////////////////////////////////////////////////////////////////////////////
+//特别地理位置
+"Special_HongKong" = "香港";
+"Special_Macao" = "澳门";
+"Special_Taiwan" = "台湾";
+"Special_Outland" = "海外";
+
+////////////////////////////////////////////////////////////////////////////////
+//QRCode 二维码
+"QRResultType_link_title" = "外部链接";
+"QRResultType_text_title" = "文本信息";
+"QRResultType_open_link" = "打开链接";
+"QRResultType_scan_title" = "扫描结果";
+"QRFlash_mode_on" = "打开";
+"QRFlash_mode_off" = "关闭";
+"QRFlash_mode_auto" = "自动";
+"QRRefresh_loading" = "正在扫描条码/二维码...";
+"QRRefresh_search" = "正在搜索扫描结果...";
+"QRResult_search_empty" = "抱歉，没有找到相关扫描结果";
+"QRClearAll_history" = "清空全部结果";
+"QR_history_empty" = "没有历史记录";
+"QR_scan_result_empty" = "没有搜到结果";
+"QR_scan_history_title" = "扫描历史";
+"QR_scan_result_title" = "条码查询";
+
+////////////////////////////////////////////////////////////////////////////////
+// 店铺
+"shop_brief_title"              = "店铺详情";
+"shop_brief_desc_item"          = "件商品";
+"shop_brief_desc_like"          = "人喜欢";
+"shop_brief_score_title"        = "店铺动态评分";
+"shop_brief_score_item"         = "商品与描述相符：";
+"shop_brief_score_service"      = "卖家的服务态度：";
+"shop_brief_score_delivery"     = "卖家的发货速度：";
+"shop_brief_shop_info"          = "店铺信息";
+"shop_brief_location"           = "所在地区：";
+"shop_brief_phone_num"          = "客服电话：";
+"shop_brief_phone_ext"          = "分机：";
+"shop_seg_hotsale"              = "热门商品";
+"shop_seg_moods"                = "人气商品";
+"shop_seg_time"                 = "最新商品";
+"shop_seg_category"             = "商品分类";
+"shop_seg_coupon"               = "店铺优惠劵";
+"shop_itemlist_all"             = "全部商品";
+"shop_seg_no_item"              = "暂无商品";
+"shop_seg_no_category"          = "该店铺没有分类哦，点击按钮查看所有商品";
+"shop_seg_browse_all_item"      = "所有商品";
+"shop_like_items_title"         = "喜欢的商品";
+"shop_like_items_header"        = "大家都喜欢店里的这些商品";
+"shop_like_items_header_fmt"    = "大家都喜欢%@里的这些商品";
+"shop_like_items_blank"         = "大家标记喜欢的店铺商品将会出现在这里";
+"shop_like_items_like"          = "人喜欢";
+"MyShopCollect_title"           = "收藏店铺";
+"MyShopCollect_already"         = "您已经收藏该店铺";
+"MyShopFollow_already"         = "您已经关注该店铺";
+"MyShopFollow_success"         = "关注成功";
+"MyShopUnfollow_success"       = "取消关注成功";
+"MyShopFollow_fail"             = "关注失败";
+"MyShopUnfollow_fail"           = "取消关注失败";
+
+"shop_view_more_item"           = "查看本店更多商品";
+"shop_leave"                    = "离开";
+"shop_follower_number"          = "%d\n关注者";
+"shop_follow_btn_title"         = "关注店铺";
+"shop_add2desktop_btn_title"    = "添加到桌面";
+"shop_collect_btn_title"        = "店铺收藏";
+"shop_vip_btn_title"            = "会员卡";
+"shop_share_btn_title"          = "店铺分享";
+"shop_contact_wangwang"         = "联系卖家";
+"shop_allitem_btn_title"        = "全部商品";
+
+////////////////////////////////////////////////////////////////////////////////
+// 店铺活动
+"shop_activity_down_refresh_normal"     = "下拉浏览上一优惠活动";
+"shop_activity_down_refresh_pulling"    = "松开浏览上一优惠活动";
+"shop_activity_down_refresh_loading"    = "正在加载上一优惠活动";
+"shop_activity_down_refresh_no_banner"   = "已经是最新优惠活动了";
+"shop_activity_up_refresh_normal"       = "上拉浏览下一优惠活动";
+"shop_activity_up_refresh_pulling"      = "松开浏览下一优惠活动";
+"shop_activity_up_refresh_loading"      = "正在加载下一优惠活动";
+"shop_activity_up_refresh_no_banner"     = "没有更多优惠活动了";
+"shop_activity_title"                   = "促销活动";
+"shop_activity_no_data"                  = "暂时没有店铺活动";
+
+////////////////////////////////////////////////////////////////////////////////
+// 品牌主题
+"shop_brand_topic_title"     = "品牌主题";
+"shop_brand_topic_no_data"   = "暂时没有品牌主题";
+
+////////////////////////////////////////////////////////////////////////////////
+
+"MEMBER_CART_ITEM_OVER_MAX_NUM_Format" = "购物车里商品数量过多";
+"CART_ITEM_QUANTITY_LACK" = "没有库存";
+"CART_BUYER_IS_CC" = "对不起，你的帐号存在异常";
+"CART_ADD_FAILED" = "添加到购物车失败";
+"CART_FULL" = "购物车已满，请先清理购物车再添加商品";
+
+"TMURL_UNKNOWN_ERROR" = "未知错误";
+"TMURL_SIGN_ERROR" = "连接内容被修改";
+
+////////////////////////////////////////////////////////////////////////////////
+//去appstore评分
+"goto_appstore_title"      = "亲，觉得天猫不错？";
+"goto_apptore_content"     = "到AppStore为天猫评打个分吧，天猫客户端有你更精彩！";
+"goto_appstore_yes"        = "马上评分";
+"goto_appstore_no"         = "不了，谢谢";
+
+////////////////////////////////////////////////////////////////////////////////
+//新订单
+"order_quantity" = "数量：";
+"order_price" = "价格：";
+"order_postage" = "配送方式";
+"order_promotion_shop" = "店铺优惠";
+"order_promotion_activity" = "活动优惠";
+"order_shop_total" = "店铺合计";
+"order_promotion_total" = "优惠";
+"order_shop_fee" = "含运费";
+"order_detail_expandAll" = "全部展开";
+"order_detail_closedAll" = "全部收起";
+"order_item_subtotal" = "小计：";
+"order_shop_nonpromotion" = "无";
+"order_shop_anonymous" = "匿名购买";
+"order_shop_helpPay" = "朋友代付（不支持运费险）";
+"order_shop_cannotHelpPayWhenBuyingInsure" = "购买运费险后，不支持朋友代付";
+"order_use_point_format" = "可用%lld积分抵%.2f元";
+"order_point_buy_format" = "使用%lld积分";
+"order_ticket_buy" = "使用天猫点券";
+"order_ticket_count" = "可用%d天猫点券抵%.2f元";
+"order_obtain_point" = "本单可获得%lld天猫积分";
+"order_shop_insure" = "运费险";
+"order_shop_insure_no" = "不需要";
+"order_memo" = "给卖家留言";
+"order_preorder_static_hint" = "在无线专场中使用提前入场下单的订单在%@以后才可以开始付款";
+"order_postpond" = "延长收货时间";
+
+////////////////////////////////////////////////////////////////////////////////
+//筛选界面
+"sift_category" = "类别";
+"sift_brand" = "品牌";
+"sift_property" = "属性";
+"sift_location" = "所在地";
+"sift_price" = "价格区间 (元)";
+"sift_all" = "全部";
+"sift_all_loc" = "所有区域";
+"sift_all_category" = "全部分类";
+"sift_all_brand" = "全部品牌";
+"sift_no_status"="未选择";
+"sift_brand_page_title" = "选择品牌";
+"sift_location_page_title" = "选择所在地";
+"sift_price_page_title" = "选择价格区间";
+"sift_status_page_title" = "选择卖家服务";
+"sift_status" = "商品类型";
+"sift_status_wwonline" = "旺旺在线";
+"sift_status_manypoints" = "多倍积分";
+"sift_status_miaosha" = "折扣";
+"sift_status_vip" = "VIP";
+"sift_status_postfee" = "包邮";
+"sift_no_category_line1" = "亲, 没有更多子分类了。";
+"sift_no_category_line2" = "点击“历史”, 可在其它分类间切换。";
+
+////////////////////////////////////////////////////////////////////////////////
+//手机充值
+"mobileRecharge_title" = "手机充值";
+"mobileRecharge_value" = "%d元";
+"mobileRecharge_num" = "  手机号码:";
+"mobileRecharge_next" = "下一步";
+"mobileRecharge_noSelect" = "请选择充值金额";
+"mobileRecharge_noNum" = "请输入手机号码";
+"mobileRecharge_info" = "    充值信息";
+"mobileRecharge_trade" = "    商品信息";
+"mobileRecharge_phoneNum" = "充值号码";
+"mobileRecharge_area" = "归属地";
+"mobileRecharge_charge" = "充值金额";
+"mobileRecharge_taobao" = "淘宝价";
+"mobileRecharge_seller" = "商家名称";
+"mobileRecharge_pay" = "确认付款";
+"mobileRecharge_price" = "售价：";
+"mobileRecharge_price1" = "10元-10.6元";
+"mobileRecharge_price2" = "19.84元-20.8元";
+"mobileRecharge_price3" = "29.58-31.5元";
+"mobileRecharge_price4" = "49.3元-49.9元";
+"mobileRecharge_price5" = "98元-99.6元";
+"mobileRecharge_price6" = "199元-199.5元";
+"mobileRecharge_time" = "（1-10分钟充值到账）";
+"mobileRecharge_inputEnd" = "输入完成";
+
+////////////////////////////////////////////////////////////////////////////////
+//天猫频道
+"channel_title" = "天猫频道";
+"channel_promotion_title" = "活动推荐";
+"channel_promotion_subtitle" = "PROMOTIONS";
+"channel_dailybrand_title" = "品牌日记";
+"channel_dailybrand_subtitle" = "BRAND DIARY";
+"channel_phone_recharge_subtitle" = "PHONE RECHARGE";
+"channel_scan_title" = "扫码";
+"channel_scan_subtitle" = "BARCODE & QRCODE";
+"channel_follow_title" = "推荐关注";
+"channel_follow_subtitle" = "ADD FOLLOWEE";
+"channel_hot_title" = "每日精选";
+"channel_one_week_discover_title" = "壹周新发现";
+
+// 快捷登陆
+"quick_login" = "快捷登陆";
+"login_with_other_account" = "使用其它账号登录";
+"quick_login_fail" = "快捷登录失败，请重新输入账号密码。";
+
+////////////////////////////////////////////////////////////////////////////////
+//天猫俱乐部
+"vip_home_title" = "天猫俱乐部";
+"vip_home_section_coupon_title" = "天猫好券";
+"vip_home_section_coupon_title_more" = "显示全部";
+"vip_home_recieveHotCouponConfirm_message" = "以您当前天猫达人等级，兑换该优惠券需使用积分%@。是否确定兑换？";
+"vip_home_recieveHotCouponConfirm_cancel" = "取消";
+"vip_home_recieveHotCouponConfirm_ok" = "确定兑换";
+"vip_home_recieveCouponConfirm_message" = "以您当前天猫达人等级，兑换该优惠券需使用积分%@。是否确定兑换？";
+"vip_home_recieveCouponConfirm_cancel" = "取消";
+"vip_home_recieveCouponConfirm_ok" = "确定兑换";
+"vip_recieve_success" = "兑换成功！";
+"vip_cannotGetMemberRank" = "无法获取您的天猫达人等级，请重新兑换。";
+"vip_homeItem_orgPrice" = "一口价：￥%@";
+"vip_homeItem_useCondition_validDate" = "%@前，%@";
+"vip_homeItem_useCondition" = "%@前";
+"vip_homeItem_remain" = "剩余%ld件, %@";
+"vip_homeItem_activity_over" = "已结束";
+"vip_homeItme_button_point_recieve" = "%@积分兑换";
+"vip_homeItem_button_imme_recieve" = "立即兑换";
+"vip_homeItem_button_imme_buy" = "立即购买";
+"vip_homeItem_button_notstart" = "未开始";
+"vip_homeItem_button_soldout" = "已售罄";
+"vip_homeItem_button_over" = "已结束";
+"vip_homeItem_detail_coupon" = "￥%@元优惠券";
+"vip_homeItem_detail_moneyAddPoint" = "￥%@+%@积分";
+"vip_homeItem_detail_moneyGetPoint" = "￥%@返%@积分";
+"vip_homeItem_detail_point" = "%@积分";
+"vip_homeItem_time_day_begin" = "%d天后开始";
+"vip_homeItem_time_day_end" = "%d天后结束";
+"vip_homeItem_time_hour_begin" = "%d小时后开始";
+"vip_homeItem_time_hour_end" = "%d小时后结束";
+"vip_homeItem_time_min_begin" = "%d分钟后开始";
+"vip_homeItem_time_min_end" = "%d分钟后结束";
+"vip_couponItem_receiveLabel" = "立即领取";
+"vip_couponItem_pointLabel" = "%@积分兑换";
+"vip_couponItem_detailLabel" = "￥%@";
+"vip_coupon_title" = "天猫好券";
+
+
+////////////////////////////////////////////////////////////////////////////////
+//超市询价
+"priceQuery_hint" = "天猫超市商品暂不支持手机交易，请登录到天猫网站购买";
+"priceQuery_title" = "超市询价";
+"priceQuery_clearHistory" = "确定要清空全部记录吗？";
+"priceQuery_scaning" = "正在进行扫描...";
+"priceQuery_todo" = "请将条形码置于框内";
+
+//分享
+"share_sinaweibo"   = "分享到新浪微博";
+"share_sinaweibo_chooseImage"   = "选择图片";
+"share_sinaweibo_chooseFriend"   = "新浪微博好友";
+"share_txweibo"   = "分享到腾讯微博";
+"share_txweibo_chooseImage"   = "选择图片";
+"share_txweibo_chooseFriend"   = "腾讯微博好友";
+"share_quickly" = "一键分享";
+
+//微信
+"Weixin_Uninstalled" = "手机未安装微信";
+"Weixin_Install_Tips" = "手机未安装微信";
+"Weicin_Immediately_Install" = "立即安装";
+
+//来往
+"Laiwang_Uninstalled" = "手机未安装来往";
+"Laiwang_Install_Tips" = "手机未安装来往";
+"Laiwang_Immediately_Install" = "立即安装";
+
+"hongbao_share_content" = "还想得红包吗？分享你的专属二维码给好友，每1人下载你就能再得1元红包。每天最多可以领5个红包呦~";
+"hongbao_share_tip" = "新手指南:\n1.使用任意工具扫码下载手机天猫\n2.打开手机天猫再次扫码得中奖帮手";
+"qrcode_share_text" = "扫码下载手机天猫，大牌限量优惠券抢先1小时领，还可以得到一个专属二维码，分享必有红包！";
+"qrcode_share_text2" = "扫码下载手机天猫，大牌限量优惠券抢先1小时领，分享二维码必有红包！";
+
+/////////////////////////////////////////////////////////////////////////////
+//个人中心
+"TM_PersonalCenter" = "个人中心";
+"TM_FolloweeList" = "关注管理";
+"TM_GotoFollowee" = "管理";
+"TM_AddFollowee" = "添加关注";
+"TM_AddFollowee2" = "添加关注账号";
+"TM_DeleteFollowee" = "取消关注";
+"TM_Following" = "已关注";
+"TM_Unfollowing" = "关注";
+"TM_FolloweeLoadFromShop" = "从已收藏的店铺添加";
+"TM_FollowByScan" = "扫码关注";
+"TM_BatchFollow" = "关注全部";
+"TM_AddFollowees" = "是否要关注所有推荐?";
+"TM_PCLoginNotice1" = "亲，你还没有登录!";
+"TM_PCLoginNotice2" = "登录后立即开启你的天猫生活";
+"TM_LoginBtn" = "马上登录";
+"TM_FolloweeRefresh" = "下拉换一批";
+"TM_No_Followees" = "您还没有关注账号，快来这里添加关注吧";
+"TM_NO_FOLLOWEE" = "暂时没有账号，去别的地方转转吧";
+"TM_UnFollow_Success" = "取消关注成功";
+"TM_Follow_Success" = "添加关注成功";
+"TM_Followee_No_Desc" = "暂无账号描述";
+"TM_Followee_Info" = "账号信息";
+"TM_Already_Follow" = "您已关注此账号";
+
+"TM_Customize_Interface" = "定制界面";
+
+//js 升级提示
+"Application.update_title" = "新的版本发布了，请立即更新，享受全新购物体验！";
+"Application.update_enter" = "更新";
+"Application.update_cancel" = "取消";
+
+//电台
+"FM_Like_Format" = "%lld";
+"FM_Follow" = "关注";
+"FM_Follow_Yet" = "已关注";
+"FM_Source" = "来自主题";
+"FM_Item_Empty" = "喵! 没有商品哦~";
+"FM_Theme_Empty" = "喵! 没有主题哦~";
+
+//我的天猫控件点
+"EntryCoupon" = "优惠券";
+"EntryHistory" = "浏览历史";
+"EntryShoppingCart" = "购物车";
+"EntryWaitForPayOrder" = "待付款订单";
+"EntryWaitForDeliverOrder" = "待发货订单";
+"EntryWaitForConfirmOrder" = "待收货订单";
+"EntryFinishedOrderName" = "已完成订单";
+"EntryLikeItemName" = "喜欢商品";
+"EntryFavoriteShopName" = "收藏店铺";
+"EntryFocusBrandName" = "关注品牌";
+"EntryWangXin" = "旺信";
+
+//关于管理
+"AboutLegalName" = "版权信息";
+"AboutAgreementName" = "软件许可使用协议";
+"AboutTmalliPhoneName" = "说明";
+"AboutGuideName" = "新功能介绍";
+
+//设置分组名称
+"SettingGroupDisplayName" = "图片显示";
+"SettingGroupPushName" = "消息推送提醒";
+"SettingGroupUIName" = "界面设置";
+"SettingGroupShareName" = "分享设置";
+"SettingGroupSupportName" = "支持天猫";
+
+//设置model名称
+"SettingModelIntelligenceName" = "智能模式";
+"SettingModelHighName" = "高质量(适合WiFi环境)";
+"SettingModelNormalName" = "普通(适合3G或2G环境）";
+
+"SettingModelClearName" = "清除图片缓存";
+
+"SettingModelAutoLoginName" = "自动登录";
+"SettingModelPlaySoundName" = "消息提示音";
+"SettingGroupMessageName"   = "旺旺设置";
+
+"SettingModelReceiveName" = "接收新消息通知";
+"SettingModelReceiveTimeName" = "请选择接收时段";
+
+"SettingModelCustomizeName" = "定制界面";
+"SettingModelResetName" = "一键还原";
+
+"SettingModelSinaName" = "新浪微博";
+"SettingModelTencentName" = "腾讯微博";
+
+"SettingModelAboutName" = "关于我们";
+"SettingModelFeedbackName" = "意见反馈";
+"SettingModelPhoneName" = "客服热线";
+"SettingModelReviewName" = "给天猫评分";
+
+"SettingModelPhoneDetail" = "4008-608-608";
+
+"SettringPushIllustreteText" = "关闭后，您将不会收到来自天猫客户端的消息通知，由于客户端会提示您物流等重要信息，我们建议您开启。";
+///////////////////////////////////////////////////////////////////////////////////
+
+//签到插件文字
+"WhtCouponListNoResultString" = "亲，该卖家还没有优惠券，敬请期待哦！";
+"WhtMyCouponNoResultString" = "亲，你还没有领取过优惠券哦！";
+"WhtCheckinLogNoResultString" = "亲，你还没有签到记录哦，赶快去签到吧！";
+"WhtCheckinInfoNoResultString" = "亲，签到活动没有开始，敬请期待！";
+"WhtNetworkLoadDefaultString" = "抱歉，数据加载失败，请稍候重试。";
+"WhtNetworkConnectErrorString" = "亲，你的网络不给力哦！请检查网络后重试。";
+
+// 母婴类目
+"MuyingSpecialGoodsMore"        = "查看更多专享";
+"MuyingNewDiscoveryTitle"       = "成长新发现";
+"MuyingParentsBuyingTitle"      = "最近30天爸妈都在买的商品榜";
+"MuyingSpecialGoodsTitle"       = "%@成长必备";
+"MuyingBabyInfoTitle"           = "%@，已经%@啦";
+
+// 晒图分享
+"BrandShowPostTitle"            = "分享图片";
+"BrandShowCropTitle"            = "裁剪图片";
+"BrandShowFilterTitle"          = "美化图片";
+"BrandShowTagDefaultText"       = "搜索标签...";
+"BrandShowTextDefaultText"      = "顺便说点什么吧";
+"BrandShowDoPostButtonText"     = "发布";
+
+"LWImagePassthroughFilter"      = "原图";
+"LWImageMatrixVivid"            = "绚丽";
+"LWImageMatrixWhiteBlack"       = "黑白";
+"LWImageMatrixFilmCamera"       = "胶片";
+"LWImageEffectLomo"             = "LOMO";
+"LWImageMatrixOldtime"          = "怀旧";
+"LWImageMatrixSunrise"          = "日出";
+"LWImageMatrixBeauty"           = "雅致";
+"LWImageMatrixExcellent"        = "优美";
+
+// 新关注
+"my_street_main_title"          = "关注";
+"my_street_alreadyfocus"        = "已关注";
+"my_street_brand_subject"       = "品牌专题";
+"my_street_other_brand"         = "其它品牌";
+"my_street_activity"            = "活动";
+"my_street_activity_all"        = "全部活动";
+"my_street_brand_new"           = "品牌新品";
+"my_street_shop_new"            = "店铺新品";
+"my_street_other_shop"          = "其它店铺";
+"my_street_brand_promotion"     = "品牌促销";
+"my_street_shop_promotion"      = "店铺促销";
+"my_street_all_new"             = "全部新品";
+"my_street_all_subjects"        = "全部专题";
+"my_street_all_promotions"      = "全部促销";
+"my_street_empty_hint1"         = "小伙伴，小猫打捞数据失败，先看看其它地方吧！";
+"my_street_empty_hint2"         = "小伙伴，去收藏更多专属你的店铺、品牌吧！";
+"my_street_empty_hint3"         = "暂无其它信息";
+"my_street_activity_self"       = "本店活动";
+"my_street_new_shop_self"       = "本店新品";
+"my_street_new_brand_self"      = "本品牌新品";
+"my_street_promotion_shop_self" = "本店促销";
+"my_street_promotion_brand_self"= "本品牌促销";
+"my_street_subject_self"        = "本品牌专题";
+"my_street_all_items"           = "全部商品";
+"my_street_new_with_count"      = "%d个新品";
+"my_street_promotion_with_count" = "%d个促销";
+"my_street_activity_with_count"  = "%d个活动";
+
+// 服饰摇一摇
+"clothes_shake_more_goods"      = "更多";
+"clothes_shake_loading"         = "请稍候，正在获取折扣中..";
+"clothes_shake_surprise"        = "摇我啊，摇出惊喜！";
+"clothes_shake_T3_info"         = "您是T3尊享用户，可以直接以最低尊享价购买！";
+"clothes_shake_lasttime"        = "商品摇折扣次数已经用完啦！\n明天再来吧！";
+"clothes_shake_lowest_warning"  = "已经摇到最低尊享折扣啦\n再摇可能就没有了哦~";
+"clothes_shake_now"             = "马上摇起来！";
+"clothes_shake_T3_title"        = "您是天猫T3用户，恭喜您已经获得最低尊享价！";
+"clothes_shake_nothing"         = "好可惜啊 \n没有摇到任何折扣...";
+"clothes_shake_discount_invalid"= "[ 折扣已失效 ]";
+"clothes_shake_Detail_T3_Tag"   = "T3摇我底价";
